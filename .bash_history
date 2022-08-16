@@ -63,3 +63,4 @@ git stage -A
 git commit -m "really new"
 git_push
 git push
+usethis::use_git
