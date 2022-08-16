@@ -1,0 +1,593 @@
+{
+    "name": "My Library",
+    "version": 1638813062.0,
+    "key": "1",
+    "parentKey": "",
+    "items": [
+        {
+            "type": "webpage",
+            "accessed": {
+                "raw": "17:43:48",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1"
+            ],
+            "key": "4X9MSCFM",
+            "libraryID": "1",
+            "title": "Polyethylene upcycling to long-chain alkylaromatics by tandem hydrogenolysis/aromatization",
+            "URL": "https://www.science.org/doi/10.1126/science.abc5441"
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1021/jacs.0c11768",
+            "ISSN": "0002-7863",
+            "abstract": "Phosphorus-modified siliceous zeolites, or P-zeosils, catalyze the selective dehydration of biomass derivatives to platform chemicals such as p-xylene and 1,3-butadiene. Water generated during these reactions is a critical factor in catalytic activity, but the effects of hydrolysis on the structure, acidity, and distribution of the active sites are largely unknown. In this study, the P-sites in an all-silica self-pillared pentasil (P-SPP) with a low P-loading (Si/P = 27) were identified by solid-state 31P NMR using frequency-selective detection. This technique resolves overlapping signals for P-sites that are covalently bound to the solid phase, as well as oligomers confined in the zeolite but not attached to the zeolite. Dynamic Nuclear Polarization provides the sensitivity necessary to conduct 29Si-filtered 31P detection and 31P–31P correlation experiments. The aforementioned techniques allow us to distinguish sites with P–O–Si linkages from those with P–O–P linkages. The spectra reveal a previously unappreciated diversity of P-sites, including evidence for surface-bound oligomers. In the dry P-zeosil, essentially all P-sites are anchored to the solid phase, including mononuclear sites and dinuclear sites containing the [Si–O–P–O–P–O–Si] motif. The fully-condensed sites evolve rapidly when exposed to humidity, even at room temperature. Partially hydrolyzed species have a wide range of acidities, inferred from their calculated LUMO energies. Initial cleavage of some P–O–Si linkages results in an evolving mixture of surface-bound mono- and oligonuclear P-sites with increased acidity. Subsequent P–O–P cleavage leads to a decrease in acidity as the P-sites are eventually converted to H3PO4. The ability to identify acidic sites in P-zeosils and to describe their structure and stability will play an important role in controlling the activity of microporous catalysts by regulating their water content.",
+            "accessed": {
+                "raw": "17:50:13",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "3K9DSET3"
+            ],
+            "issued": {
+                "raw": "2021-02-03",
+                "date-parts": [
+                    [
+                        2021,
+                        2,
+                        3
+                    ]
+                ]
+            },
+            "note": "Publisher: American Chemical Society",
+            "issue": "4",
+            "container-title-short": "J. Am. Chem. Soc.",
+            "key": "D7P3ZHLA",
+            "source": "ACS Publications",
+            "libraryID": "1",
+            "page": "1968-1983",
+            "container-title": "Journal of the American Chemical Society",
+            "title": "P-Site Structural Diversity and Evolution in a Zeosil Catalyst",
+            "URL": "https://doi.org/10.1021/jacs.0c11768",
+            "volume": "143",
+            "author": [
+                {
+                    "given": "Sheetal K.",
+                    "family": "Jain"
+                },
+                {
+                    "given": "Tarnuma",
+                    "family": "Tabassum"
+                },
+                {
+                    "given": "Li",
+                    "family": "Li"
+                },
+                {
+                    "given": "Limin",
+                    "family": "Ren"
+                },
+                {
+                    "given": "Wei",
+                    "family": "Fan"
+                },
+                {
+                    "given": "Michael",
+                    "family": "Tsapatsis"
+                },
+                {
+                    "given": "Stavros",
+                    "family": "Caratzoulas"
+                },
+                {
+                    "given": "Songi",
+                    "family": "Han"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                }
+            ],
+            "Publisher": "American"
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1039/D0SC00168F",
+            "ISSN": "2041-6539",
+            "abstract": "Surface polarity plays a key role in controlling molecular adsorption at solid–liquid interfaces, with major implications for reactions and separations. In this study, the chemical composition of periodic mesoporous organosilicas (PMOs) was varied by co-condensing Si(OEt)4 with organodisilanes, to create a homologous series of materials with similar surface areas, pore volumes, and hydroxyl contents. Their relative surface polarities, obtained by measuring the fluorescence of a solvatochromic dye, cover a wide range. In this series of PMO materials, EPR spectra of tethered nitroxide radicals show monotonically decreasing mobility as larger fractions of the radicals interact strongly with increasingly non-polar surfaces. The surface properties of the materials also correlate with their affinities for organic molecules dissolved in various solvents. The most polar PMO has negligible affinity for phenol, p-cresol, or furfural when these molecules are dissolved in water. However, stronger solute–surface interactions and favor adsorption as the surface polarity decreases. The trend is reversed for furfural in benzene, where weaker solvent–surface interactions result in higher adsorption on polar surfaces. In DMSO, furfural adsorption is suppressed due to the similar strengths of solute-surface and solvent–surface interactions. Thus, the polarity of the surface relative to the solvent is critical for molecular adsorption. These findings show how adsorption/desorption can be precisely and systematically tuned by appropriate choice of both solvent and surface, and contribute to a predictive strategy for the design of catalytic and separations processes.",
+            "accessed": {
+                "raw": "17:49:23",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "3K9DSET3"
+            ],
+            "issued": {
+                "raw": "2020-04-08",
+                "date-parts": [
+                    [
+                        2020,
+                        4,
+                        8
+                    ]
+                ]
+            },
+            "note": "Publisher: The Royal Society of Chemistry",
+            "issue": "14",
+            "container-title-short": "Chem. Sci.",
+            "key": "FDKC2SR7",
+            "language": "en",
+            "source": "pubs.rsc.org",
+            "libraryID": "1",
+            "page": "3702-3712",
+            "container-title": "Chemical Science",
+            "title": "Tuning molecular adsorption in SBA-15-type periodic mesoporous organosilicas by systematic variation of their surface polarity",
+            "URL": "https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc00168f",
+            "volume": "11",
+            "author": [
+                {
+                    "given": "Hyunjin",
+                    "family": "Moon"
+                },
+                {
+                    "given": "Songi",
+                    "family": "Han"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                }
+            ],
+            "Publisher": "The"
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1021/acssuschemeng.9b06635",
+            "abstract": "Plastic waste is currently generated at a rate approaching 400 Mt year–1. The amount of plastics accumulating in the environment is growing rapidly, yet our understanding of its persistence is very limited. This Perspective summarizes the existing literature on environmental degradation rates and pathways for the major types of thermoplastic polymers. A metric to harmonize disparate types of measurements, the specific surface degradation rate (SSDR), is implemented and used to extrapolate half-lives. SSDR values cover a very wide range, with some of the variability arising due to degradation studies conducted in different natural environments. SSDRs for high density polyethylene (HDPE) in the marine environment range from practically 0 to approximately 11 μm year–1. This approach yields a number of interesting insights. Using a mean SSDR for HDPE in the marine environment, linear extrapolation leads to estimated half-lives ranging from 58 years (bottles) to 1200 years (pipes). For example, SSDRs for HDPE and polylactic acid (PLA) are surprisingly similar in the marine environment, although PLA degrades approximately 20 times faster than HDPE on land. Our study highlights the need for better experimental studies under well-defined reaction conditions, standardized reporting of rates, and methods to simulate polymer degradation using.",
+            "accessed": {
+                "raw": "17:45:29",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "6WWSG8CE"
+            ],
+            "issued": {
+                "raw": "2020-03-09",
+                "date-parts": [
+                    [
+                        2020,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "note": "Publisher: American Chemical Society",
+            "issue": "9",
+            "container-title-short": "ACS Sustainable Chem. Eng.",
+            "key": "HGVRWNNP",
+            "source": "ACS Publications",
+            "libraryID": "1",
+            "page": "3494-3511",
+            "container-title": "ACS Sustainable Chemistry & Engineering",
+            "title": "Degradation Rates of Plastics in the Environment",
+            "URL": "https://doi.org/10.1021/acssuschemeng.9b06635",
+            "volume": "8",
+            "author": [
+                {
+                    "given": "Ali",
+                    "family": "Chamas"
+                },
+                {
+                    "given": "Hyunjin",
+                    "family": "Moon"
+                },
+                {
+                    "given": "Jiajia",
+                    "family": "Zheng"
+                },
+                {
+                    "given": "Yang",
+                    "family": "Qiu"
+                },
+                {
+                    "given": "Tarnuma",
+                    "family": "Tabassum"
+                },
+                {
+                    "given": "Jun Hee",
+                    "family": "Jang"
+                },
+                {
+                    "given": "Mahdi",
+                    "family": "Abu-Omar"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                },
+                {
+                    "given": "Sangwon",
+                    "family": "Suh"
+                }
+            ],
+            "Publisher": "American"
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1126/science.abc5441",
+            "accessed": {
+                "raw": "17:43:54",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "6WWSG8CE"
+            ],
+            "issued": {
+                "raw": "October 23, 2020",
+                "date-parts": [
+                    [
+                        2020,
+                        10,
+                        23
+                    ]
+                ]
+            },
+            "note": "Publisher: American Association for the Advancement of Science",
+            "issue": "6515",
+            "key": "IZ6MI8M3",
+            "source": "science.org (Atypon)",
+            "libraryID": "1",
+            "page": "437-441",
+            "container-title": "Science",
+            "title": "Polyethylene upcycling to long-chain alkylaromatics by tandem hydrogenolysis/aromatization",
+            "URL": "https://www.science.org/doi/10.1126/science.abc5441",
+            "volume": "370",
+            "author": [
+                {
+                    "given": "Fan",
+                    "family": "Zhang"
+                },
+                {
+                    "given": "Manhao",
+                    "family": "Zeng"
+                },
+                {
+                    "given": "Ryan D.",
+                    "family": "Yappert"
+                },
+                {
+                    "given": "Jiakai",
+                    "family": "Sun"
+                },
+                {
+                    "given": "Yu-Hsuan",
+                    "family": "Lee"
+                },
+                {
+                    "given": "Anne M.",
+                    "family": "LaPointe"
+                },
+                {
+                    "given": "Baron",
+                    "family": "Peters"
+                },
+                {
+                    "given": "Mahdi M.",
+                    "family": "Abu-Omar"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                }
+            ],
+            "Publisher": "American"
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1002/anie.202001332",
+            "ISSN": "1433-7851",
+            "abstract": "Phosphorus-modified all-silica zeolites exhibit activity and selectivity in certain Brønsted acid catalyzed reactions for biomass conversion. In an effort to achieve similar performance with catalysts having well-defined sites, we report the incorporation of Brønsted acidity to metal–organic frameworks with the UiO-66 topology, achieved by attaching phosphonic acid to the 1,4-benzenedicarboxylate ligand and using it to form UiO-66-PO3H2 by post-synthesis modification. Characterization reveals that UiO-66-PO3H2 retains stability similar to UiO-66, and exhibits weak Brønsted acidity, as demonstrated by titrations, alcohol dehydration, and dehydra-decyclization of 2-methyltetrahydrofuran (2-MTHF). For the later reaction, the reported catalyst exhibits site-time yields and selectivity approaching that of phosphoric acid on all-silica zeolites. Using solid-state NMR and deprotonation energy calculations, the chemical environments of P and the corresponding acidities are determined.",
+            "accessed": {
+                "raw": "17:51:02",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "3K9DSET3"
+            ],
+            "issued": {
+                "raw": "2020-08-03",
+                "date-parts": [
+                    [
+                        2020,
+                        8,
+                        3
+                    ]
+                ]
+            },
+            "issue": "32",
+            "key": "J8C44V2S",
+            "source": "Experts@Minnesota",
+            "libraryID": "1",
+            "page": "13260-13266",
+            "container-title": "Angewandte Chemie - International Edition",
+            "title": "Phosphonate-Modified UiO-66 Brønsted Acid Catalyst and Its Use in Dehydra-Decyclization of 2-Methyltetrahydrofuran to Pentadienes",
+            "URL": "http://www.scopus.com/inward/record.url?scp=85085759116&partnerID=8YFLogxK",
+            "volume": "59",
+            "author": [
+                {
+                    "given": "Matheus",
+                    "family": "Dorneles de Mello"
+                },
+                {
+                    "given": "Gaurav",
+                    "family": "Kumar"
+                },
+                {
+                    "given": "Tarnuma",
+                    "family": "Tabassum"
+                },
+                {
+                    "given": "Sheetal K.",
+                    "family": "Jain"
+                },
+                {
+                    "given": "Tso Hsuan",
+                    "family": "Chen"
+                },
+                {
+                    "given": "Stavros",
+                    "family": "Caratzoulas"
+                },
+                {
+                    "given": "Xinyu",
+                    "family": "Li"
+                },
+                {
+                    "given": "Dionisios G.",
+                    "family": "Vlachos"
+                },
+                {
+                    "given": "Songi I.",
+                    "family": "Han"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                },
+                {
+                    "given": "Paul",
+                    "family": "Dauenhauer"
+                },
+                {
+                    "given": "Michael",
+                    "family": "Tsapatsis"
+                }
+            ]
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1021/acssuschemeng.1c05272",
+            "abstract": "Today, only 9% of plastic waste is recycled worldwide, with polyethylene being one of the most frequently discarded plastics. In this work, a new route to chemically recycle polyethylene is demonstrated. Polyethylenes of two different molecular weights (Mn = 1.5 kg/mol and Mn = 6.6 kg/mol) were upgraded to value-added α,ω-divinyl-functionalized oligomers with shorter, tunable chain lengths via a sequence of bromination, dehydrobromination, and olefin metathesis reactions. Brominated polyethylene (BPE) was isolated in good yields (up to 86 wt %, based on PE) by direct bromination of polyethylene in air, without oxidative cleavage side-reactions. Elimination of bromide resulted in complete conversion of BPE to vinylene polyethylene (VPE) in high yields (up to 91 wt %, based on BPE). Ethenolysis of VPE afforded α,ω-divinyl-functionalized oligomers, also in high yields (up to 97 wt %, based on VPE), with carbon numbers significantly lower than those of the starting PE. Preliminary techno-economic assessments demonstrate that this three-step process could be economically viable on an industrial scale for upcycling PE into value-added chemicals that can be used in the synthesis of lubricants, as well as transformed into new commodity polymers such as polyolefins, polyethers, polyesters, and polyamides.",
+            "accessed": {
+                "raw": "17:45:11",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "6WWSG8CE"
+            ],
+            "issued": {
+                "raw": "2021-10-18",
+                "date-parts": [
+                    [
+                        2021,
+                        10,
+                        18
+                    ]
+                ]
+            },
+            "note": "Publisher: American Chemical Society",
+            "issue": "41",
+            "container-title-short": "ACS Sustainable Chem. Eng.",
+            "key": "XBVHGXNK",
+            "source": "ACS Publications",
+            "libraryID": "1",
+            "page": "13926-13936",
+            "container-title": "ACS Sustainable Chemistry & Engineering",
+            "title": "Chemical Upcycling of Polyethylene to Value-Added α,ω-Divinyl-Functionalized Oligomers",
+            "URL": "https://doi.org/10.1021/acssuschemeng.1c05272",
+            "volume": "9",
+            "author": [
+                {
+                    "given": "Manhao",
+                    "family": "Zeng"
+                },
+                {
+                    "given": "Yu-Hsuan",
+                    "family": "Lee"
+                },
+                {
+                    "given": "Garrett",
+                    "family": "Strong"
+                },
+                {
+                    "given": "Anne M.",
+                    "family": "LaPointe"
+                },
+                {
+                    "given": "Andrew L.",
+                    "family": "Kocen"
+                },
+                {
+                    "given": "Zhiqiang",
+                    "family": "Qu"
+                },
+                {
+                    "given": "Geoffrey W.",
+                    "family": "Coates"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                },
+                {
+                    "given": "Mahdi M.",
+                    "family": "Abu-Omar"
+                }
+            ],
+            "Publisher": "American"
+        },
+        {
+            "type": "article-journal",
+            "DOI": "10.1021/acscentsci.9b00722",
+            "ISSN": "2374-7943",
+            "abstract": "Our civilization relies on synthetic polymers for all aspects of modern life; yet, inefficient recycling and extremely slow environmental degradation of plastics are causing increasing concern about their widespread use. After a single use, many of these materials are currently treated as waste, underutilizing their inherent chemical and energy value. In this study, energy-rich polyethylene (PE) macromolecules are catalytically transformed into value-added products by hydrogenolysis using well-dispersed Pt nanoparticles (NPs) supported on SrTiO3 perovskite nanocuboids by atomic layer deposition. Pt/SrTiO3 completely converts PE (Mn = 8000–158,000 Da) or a single-use plastic bag (Mn = 31,000 Da) into high-quality liquid products, such as lubricants and waxes, characterized by a narrow distribution of oligomeric chains, at 170 psi H2 and 300 °C under solvent-free conditions for reaction durations up to 96 h. The binding of PE onto the catalyst surface contributes to the number averaged molecular weight (Mn) and the narrow polydispersity (Đ) of the final liquid product. Solid-state nuclear magnetic resonance of 13C-enriched PE adsorption studies and density functional theory computations suggest that PE adsorption is more favorable on Pt sites than that on the SrTiO3 support. Smaller Pt NPs with higher concentrations of undercoordinated Pt sites over-hydrogenolyzed PE to undesired light hydrocarbons.",
+            "accessed": {
+                "raw": "17:46:20",
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        6
+                    ]
+                ]
+            },
+            "collectionKeys": [
+                "1",
+                "6WWSG8CE"
+            ],
+            "issued": {
+                "raw": "2019-11-27",
+                "date-parts": [
+                    [
+                        2019,
+                        11,
+                        27
+                    ]
+                ]
+            },
+            "note": "Publisher: American Chemical Society",
+            "issue": "11",
+            "container-title-short": "ACS Cent. Sci.",
+            "key": "Y5CKEJKL",
+            "source": "ACS Publications",
+            "libraryID": "1",
+            "page": "1795-1803",
+            "container-title": "ACS Central Science",
+            "title": "Upcycling Single-Use Polyethylene into High-Quality Liquid Products",
+            "URL": "https://doi.org/10.1021/acscentsci.9b00722",
+            "volume": "5",
+            "author": [
+                {
+                    "given": "Gokhan",
+                    "family": "Celik"
+                },
+                {
+                    "given": "Robert M.",
+                    "family": "Kennedy"
+                },
+                {
+                    "given": "Ryan A.",
+                    "family": "Hackler"
+                },
+                {
+                    "given": "Magali",
+                    "family": "Ferrandon"
+                },
+                {
+                    "given": "Akalanka",
+                    "family": "Tennakoon"
+                },
+                {
+                    "given": "Smita",
+                    "family": "Patnaik"
+                },
+                {
+                    "given": "Anne M.",
+                    "family": "LaPointe"
+                },
+                {
+                    "given": "Salai C.",
+                    "family": "Ammal"
+                },
+                {
+                    "given": "Andreas",
+                    "family": "Heyden"
+                },
+                {
+                    "given": "Frédéric A.",
+                    "family": "Perras"
+                },
+                {
+                    "given": "Marek",
+                    "family": "Pruski"
+                },
+                {
+                    "given": "Susannah L.",
+                    "family": "Scott"
+                },
+                {
+                    "given": "Kenneth R.",
+                    "family": "Poeppelmeier"
+                },
+                {
+                    "given": "Aaron D.",
+                    "family": "Sadow"
+                },
+                {
+                    "given": "Massimiliano",
+                    "family": "Delferro"
+                }
+            ],
+            "Publisher": "American"
+        }
+    ]
+}

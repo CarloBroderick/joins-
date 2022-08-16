@@ -1,0 +1,16 @@
+{
+    "initial_working_directory": "~",
+    "editor_theme": "Cobalt",
+    "posix_terminal_shell": "bash",
+    "save_workspace": "never",
+    "load_workspace": false,
+    "soft_wrap_r_files": true,
+    "rainbow_parentheses": true,
+    "font_size_points": 12,
+    "jobs_tab_visibility": "shown",
+    "default_project_location": "~/Desktop/EDS 222",
+    "rmd_auto_date": true,
+    "document_author": "Carlo Broderick",
+    "rmd_chunk_output_inline": false,
+    "insert_native_pipe_operator": true
+}

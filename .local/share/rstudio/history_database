@@ -1,0 +1,3761 @@
+1659377939395:teddy <- 10
+1659377959305:fred <- 1
+1659377977113:fred + teddy
+1659378204880:2 * (3 + 4) - 6
+1659378714828:greg <- 1/5(teddy)
+1659378946933:knitr::opts_chunk$set(echo = TRUE)
+1659378947958:knitr::opts_chunk$set(echo = TRUE)
+1659378948566:knitr::opts_chunk$set(echo = TRUE)
+1659378949182:knitr::opts_chunk$set(echo = TRUE)
+1659378950137:knitr::opts_chunk$set(echo = TRUE)
+1659379202543:knitr::opts_chunk$set(echo = TRUE)
+1659379202548:summary(cars)
+1659379209934:knitr::opts_chunk$set(echo = TRUE)
+1659379210976:knitr::opts_chunk$set(echo = TRUE)
+1659379211683:knitr::opts_chunk$set(echo = TRUE)
+1659379213013:summary(cars)
+1659379221750:knitr::opts_chunk$set(echo = TRUE)
+1659379222653:knitr::opts_chunk$set(echo = TRUE)
+1659379529243:plot(cars)
+1659379933691:plot(cars)
+1659379935302:plot(cars)
+1659379936352:plot(cars)
+1659380310197:}
+1659380361256:convert_units <- function(value_g_cm3) {
+1659380361258:valude_kg_ft3 = value_g_cm3 * (1/1000) * (1 / 3.351e-5)
+1659380361259:print(valude_kg_ft3)
+1659380361259:}
+1659380393470:View(convert_units)
+1659380563867:convert_units(1000)
+1659380750370:View(convert_units)
+1659380757148:View(convert_units)
+1659380840901:}
+1659380859271:convert_units_kg_ft3 -  <- function(value_g_cm3) {
+1659380874634:value_kg_ft3 = value_g_cm3 * (1/1000) * (1 / 3.351e-5)
+1659380886326:convert_units <- function(value_g_cm3) {
+1659380886327:value_kg_ft3 = value_g_cm3 * (1/1000) * (1 / 3.351e-5)
+1659380886328:print(valude_kg_ft3)
+1659380886329:}
+1659380907933:convert_units_q <- function(value_g_cm3) {
+1659380907935:value_kg_ft3 = value_g_cm3 * (1/1000) * (1 / 3.351e-5)
+1659380907936:print(valude_kg_ft3)
+1659380907936:}
+1659380913570:View(convert_units_q)
+1659380927919:convert_units_q(1000)
+1659380946772:View(convert_units)
+1659380949535:View(convert_units_q)
+1659391221723:---
+1659391331482:save.image("~/eds_2012_day1b/eds_20012_day1b.RData")
+1659391557832:knitr::opts_chunk$set(echo = TRUE)
+1659391557894:seq(from = 2, to = 18, by = 0.5)
+1659391641439:seq(from = 2, to = 18, by = 0.5)
+1659391844741:volcano <- 5
+1659391892764:values =
+1659392494630:}
+1659392502934:capacity / (1 + ((capacity - initial_population) / initial_population) *
+1659392502935:exp(-rate * time_year))
+1659392542704:capacity / (1 + ((capacity - initial_population) / initial_population) *
+1659392542705:exp(-rate * time_year))
+1659392628179:capacity / (1 + ((capacity - initial_population) / initial_population) *
+1659392628181:exp(-rate * time_year))
+1659392662235:population_logistic <- function(capacity, initial_population, rate, time_year) {capacity / (1 + ((capacity - initial_population) / initial_population) *
+1659392662236:exp(-rate * time_year))
+1659392662237:}
+1659392722766:population_logistic(capacity = 2.3, initial_population = 2000, rate = 0.14, time_year = 6.2)
+1659392817558:plot(population_logistic(capacity = 2.3, rate = 0.14, time_year = x))
+1659392836886:plot(population_logistic(capacity = 2.3, rate = 0.14, time_year = x,initial_population = 1))
+1659392913418:time_vector <- seq(from = 0, to 20, by 0.5)
+1659392931379:time_vector <- seq(from = 0, to = 20, by 0.5)
+1659392950991:time_vector <- seq(from = 0, to = 20, by =0.5)
+1659393070690:chipmunk_population <- population_logistic(capacity = 2580, initial_population = 230, rate = 0.32, time_year = time_vector)
+1659393234221:View(chipmunk_population)
+1659393252192:chipmunk_data_frame <- data.frame(time_vector, chipmunk_population)
+1659393435670:install.packages("tidyverse")
+1659393475560:### Attach the tidyverse! ###
+1659393475562:library(tidyverse)
+1659393974515:ggplot(data = chipmunk_df, aes(x = time_vector, y = chipmunk_population)) +
+1659393974516:geom_point()
+1659393979822:ggplot(data = chipmunk_df, aes(x = time_vector, y = chipmunk_population)) +
+1659393979823:geom_point()
+1659394007302:ggplot(data = chipmunk_data_frame, aes(x = time_vector, y = chipmunk_population)) +
+1659394007303:geom_point()
+1659394039930:ggplot(data = chipmunk_data_frame, aes(x = time_vector, y = chipmunk_population)) +
+1659394039931:geom_bar()
+1659394056167:ggplot(data = chipmunk_data_frame, aes(x = time_vector, y = chipmunk_population)) +
+1659394056169:geom_point()
+1659394075054:ggplot(data = chipmunk_data_frame, aes(x = time_vector, y = chipmunk_population)) +
+1659394075056:geom_curve()
+1659394081556:ggplot(data = chipmunk_data_frame, aes(x = time_vector, y = chipmunk_population)) +
+1659394081557:geom_point()
+1659394756334:3.1 * (1 - 4.2)e2 + 0.06 * 2.5
+1659394781024:3.1 * (1 - 4.2)^2 + 0.06 * 2.5
+1659395016623:692 * .94
+1659395093851:18.1 / 42
+1659395159503:650.48 / 158.987
+1659395191134:5.3 + 4.09 + 0.43
+1659395325048:692 - 650.48
+1659395350137:41.52 * (1/158.989)
+1659395543100:802 - 432
+1659395556466:370 / 14
+1659395826299:library(tidyverse)
+1659396529192:}
+1659396538113:fish_standard_weight = a * fish_length^b
+1659396573400:a * fish_length^b
+1659396583465:a * fish_length^b
+1659396588637:}
+1659396596897:a * fish_length^b}
+1659396614662:a * fish_length^b
+1659396620536:a * fish_length^b
+1659396627404:fish_standard_weight <- function(a, b, fish_length){
+1659396627404:a * fish_length^b
+1659396627405:}
+1659396653240:fish_standard_weight <- function(a, b, fish_length){
+1659396653240:a * fish_length^b
+1659396653241:}
+1659396781615:fish_standard_weight(a = 0.0905, b = 2.52, fish_length = 60)
+1659396855528:fish_standard_weight(a = 0.0353, b = 3.05, fish_length = 60)
+1659396857809:fish_standard_weight(a = 0.0181, b = 3.27, fish_length = 60)
+1659396957656:fish_length_sequence <- sequence(from = 0, to = 200, by 1)
+1659396969998:fish_length_sequence <- sequence(from = 0, to = 200, by = 1)
+1659396990325:fish_length_sequence <- seq(from = 0, to = 200, by = 1)
+1659397136720:barracuda_weight <- fish_standard_weight(a = 0.0181, b = 3.27, fish_length = fish_length_sequence)
+1659397188100:data_frame(barracuda_weight)
+1659397228708:ggplot(barracuda_weight)
+1659397254307:data_frame(barracuda_weight)
+1659397305017:ggplot(data_frame(barracuda_weight))
+1659397381425:barracuda_data_frame <- data_frame(fish_length_sequence, barracuda_weight)
+1659397396742:ggplot(barracuda_data_frame)
+1659397413201:View(barracuda_data_frame)
+1659397413438:View(barracuda_data_frame)
+1659397529559:ggplot(barracuda_data_frame, x = fish_length_sequence, y = barracuda_weight)
+1659397580761:ggplot(barracuda_data_frame, aes( x = fish_length_sequence, y = barracuda_weight))
+1659397611293:ggplot(barracuda_data_frame, aes( x = fish_length_sequence, y = barracuda_weight)) + geom_point()
+1659397794923:ggplot(barracuda_data_frame, aes( x = fish_length_sequence, y = barracuda_weight)) + geom_point() +
+1659397794924:xlab("Fish Length in cm") +
+1659397794925:ylab("Monster Length")
+1659397815474:ggplot(barracuda_data_frame, aes( x = fish_length_sequence, y = barracuda_weight)) + geom_point() +
+1659397815476:xlab("Fish Length in cm") +
+1659397815476:ylab("Monster Weight")
+1659397871927:ggplot(barracuda_data_frame, aes( x = fish_length_sequence, y = barracuda_weight)) + geom_point() +
+1659397871928:xlab("Fish Length in cm") +
+1659397871928:ylab("Monster Weight in grams")
+1659463124053:knitr::opts_chunk$set(echo = TRUE)
+1659463124114:example_1 <- expression(5 * x ^ 2)
+1659463175190:my_derivitive <- deriv(example_1)
+1659463190432:my_derivitive <- deriv(example_1, "x")
+1659463230435:my_derivitive
+1659463302870:x <- 2.8
+1659463315665:eval(my_derivitive)
+1659463352491:eval(my_derivitive)
+1659463559137:eval(my_derivitive)
+1659463559940:eval(my_derivitive)
+1659463561669:eval(my_derivitive)
+1659463750395:?deriv
+1659463877484:gz <- expression(2 * z^3 - 10.5 * z^2 +4.1)
+1659463924268:dg_dz
+1659463929913:dg_dz <- D(gz, 'z')
+1659463932221:dg_dz
+1659464010442:z <- seq(from = -3, to = 4, by = 0.5)
+1659464026489:eval(dg_dz)
+1659465141130:install.packages("usethis")
+1659465219907:usethis::use_git()
+1659465326373:usethis::use_git()
+1659465588071:usethis::use_git()
+1659465897168:usethis::use_git()
+1659466113033:usethis::use_git()
+1659466167976:usethis::use_github()
+1659466211455:usethis::create_github_token()
+1659466271913:gitcreds::gitcreds_set()
+1659466297863:usethis::git_sitrep()
+1659466319505:usethis::use_github()
+1659466903089:usethis::use_github()
+1659466915496:usethis::use_git()
+1659466981407:usethis::use_github()
+1659476138876:usethis:use_git
+1659476155015:usethis::use_git
+1659476188692:usethis::git_default_branch_rename()
+1659476207028:usethis::use_git()
+1659476235755:usethis::use_github()
+1659476251493:usethis::git_default_branch_rename()
+1659477863858:knitr::opts_chunk$set(echo = TRUE)
+1659477863908:library(tidyverse)
+1659477962799:install.packages("palmerpenguins")
+1659477989007:library(palmerpenguins)
+1659478010509:library(palmerpenguins)
+1659478022558:library(palmerpenguins)
+1659478070760:?iris
+1659478131945:?palmerpenguins
+1659478207237:view(penguins)
+1659478659882:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659478659883:geom_point()
+1659478691396:?ggplot
+1659478835998:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659478835999:geom_point(aes(color = species))
+1659478958738:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659478958739:geom_point(aes(color = species, sex = size))
+1659478967842:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659478967843:geom_point(aes(color = species))
+1659479216329:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479216330:geom_point(aes(color = species))
+1659479266623:?ggplot
+1659479343159:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479343159:geom_point(aes(color = species)) +
+1659479343159:facet_wrap(~islands)
+1659479363568:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479363569:geom_point(aes(color = species)) +
+1659479363569:facet_wrap(~islands)
+1659479372988:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479372989:geom_point(aes(color = species)) +
+1659479372989:facet_wrap(~island)
+1659479396817:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479396818:geom_point(aes(color = species)) +
+1659479396818:facet_wrap(~island) +
+1659479396819:theme_miimal()
+1659479412103:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479412105:geom_point(aes(color = species)) +
+1659479412105:facet_wrap(~island) +
+1659479412106:theme_minimal()
+1659479460451:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479460452:geom_point(aes(color = species)) +
+1659479460452:facet_wrap(~island) +
+1659479460452:theme_minimal() +
+1659479460452:labs(x = "Bodymass (g)"
+1659479460452:y = "flipper length (mm)")
+1659479463200:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479463200:geom_point(aes(color = species)) +
+1659479463201:facet_wrap(~island) +
+1659479463201:theme_minimal() +
+1659479463201:labs(x = "Bodymass (g)"
+1659479463201:y = "flipper length (mm)")
+1659479475870:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479475870:geom_point(aes(color = species)) +
+1659479475870:facet_wrap(~island) +
+1659479475871:theme_minimal() +
+1659479475871:labs(x = "Bodymass (g)",
+1659479475871:y = "flipper length (mm)")
+1659479498997:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479498999:geom_point(aes(color = species)) +
+1659479499000:facet_wrap(~island) +
+1659479499000:theme_minimal() +
+1659479499000:labs(x = "Bodymass (g)",
+1659479499000:y = "Flipper length (mm)")
+1659479648555:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479648557:geom_point(aes(color = species)) +
+1659479648557:facet_wrap(~island) +
+1659479648557:theme_dark() +
+1659479648557:labs(x = "Bodymass (g)",
+1659479648558:y = "Flipper length (mm)")
+1659479727891:?ggplot
+1659479889124:facet_wrap(~island) +
+1659479889125:theme_dark() +
+1659479889126:labs(x = "Bodymass (g)",
+1659479889126:y = "Flipper length (mm)")
+1659479930914:ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+1659479930915:geom_point(aes(color = species)) +
+1659479930916:geom_smooth(aes(color = species))
+1659481069679:library(palmerpenguins)
+1659481119079:library(tidyverse)
+1659481125846:ibrary(palmerpenguins)
+1659481133563:library(palmerpenguins)
+1659481149587:?`palmerpenguins-package`
+1659481227169:usethis::git
+1659481254595:usethis::use_git()
+1659481284884:usethis::use_github()
+1659481295620:1
+1659481303955:usethis::use_github()
+1659481644038:example_1 <- expression(x^2)
+1659481646096:derivitive_1 <- D(example_1)
+1659481649117:derivitive_1 <- D(example_1)
+1659481665389:derivitive_1 <- D(example_1, "x")
+1659481681541:derivitive_1
+1659481698215:x <- 3
+1659481719609:eval(derivitive_1)
+1659481849707:example_2 <- expression(2 * ((3 * a) + 2)^4 -5)
+1659481923307:derivitive_2 <- D(example_2, "a")
+1659481936619:derivitive_2
+1659482014087:a <- 1.2
+1659482028417:eval(derivitive_2)
+1659482210481:example_3 <- expression((-4 * t)/((t^2 + 1)^3)
+1659482221161:example_3 <- expression((-4 * t)/((t^2 + 1)^3))
+1659482253211:example_3 <- expression((-4 * t)/(t^2 + 1)^3)
+1659482316547:derivitive_3 <- D(example_3, "t")
+1659482329655:derivitive_3
+1659482347202:t <- 0
+1659482363802:eval(derivitive_3)
+1659482782685:view(palmerpenguins)
+1659482809410:View(palmerpenguins)
+1659482839354:library(palmerpenguins)
+1659482854959:View(palmerpenguins)
+1659482868779:view(palmerpenguins)
+1659482883171:view(palmerpenguin)
+1659482894129:View(penguins)
+1659482925042:?`palmerpenguins-package`
+1659482980959:?palmerpenguins
+1659482999293:?penguins
+1659483085181:?`palmerpenguins-package`
+1659483291008:ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm))
+1659483308077:loibrary(ggplot)
+1659483319752:library(ggplot2)
+1659483484837:ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm))
+1659483516131:ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) +
+1659483516132:geom_point(aes(color = species))
+1659483602639:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659483602640:geom_point(aes(color = species))
+1659483694566:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659483694567:geom_jitter(aes(color = species)) +
+1659483694568:```
+1659483698833:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659483698833:geom_jitter(aes(color = species))
+1659483804179:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659483804180:geom_jitter(aes(color = species))
+1659483810181:ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) +
+1659483810181:geom_point(aes(color = species))
+1659483814405:eval(derivitive_3)
+1659483919337:library(tidyverse)
+1659484011088:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659484011090:geom_jitter(aes(color = species))
+1659552372241:library(deSolve)
+1659552400370:install.packages(deSolve)
+1659552418980:install.packages(deSolve)
+1659552427920:instal(deSolve)
+1659552440107:library(deSolve)
+1659552443966:installibrary(kableExtra)
+1659552450342:library(kableExtra)
+1659552604994:install.packages("dsolve")
+1659552632478:kableExtra
+1659552647169:install.packages("kableExtra")
+1659552680111:install.packages("deSolve")
+1659553037781:usethis::use_github
+1659553055886:usethis::use_github()
+1659553156912:usethis::use_git()
+1659561952737:usethis::use_git()
+1659561986722:usethis::use_github()
+1659562789436:library(tidyverse)
+1659562800772:library(palmerpenguins)
+1659562812194:library(palmerpenguins)
+1659562812717:library(palmerpenguins)
+1659562813219:library(palmerpenguins)
+1659562818798:library(palmerpenguins)
+1659562974819:marmots <- c("blue", "green", 4, "yellow")
+1659563024736:marmots
+1659563146591:# Check the class
+1659563146593:class(marmots)
+1659563161315:# Check the class
+1659563161315:class(marmots)
+1659563316903:pika <- c(12.4, 6.8, 2.9, 8.8, 8.5)
+1659563325380:class(pika)
+1659563439214:5.2 * pike
+1659563440806:5.2 * pike
+1659563447408:5.2 * pika
+1659563477750:scaler pika <- 5.2 * pika
+1659563491741:scaler_pika <- 5.2 * pika
+1659563514757:scaler_pika
+1659563552921:scaler_pika
+1659563590196:bananas <- c(1, 2, 3)
+1659563620934:apples <- c(6, 7, 8)
+1659563632992:bananas + apples
+1659563645924:bananas - apples
+1659563709613:bananas %*% apples
+1659564173905:my_values <- seq(from = 1, to = 10)
+1659564184488:my values
+1659564199062:my_values
+1659564211982:count(my_values)
+1659564238939:my_values <- seq(from = 1, to = 10)
+1659564241455:my_values <- seq(from = 1, to = 10)
+1659564245009:my_values <- seq(from = 1, to = 10)
+1659564401036:class()
+1659564404638:?count
+1659564551745:my_matrix <- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+1659564563204:my_matrix
+1659564680553:my_matrix * 5
+1659564740314:class(my_matrix)
+1659564779049:glimpse(my_matrix)
+1659564811364:glimpse(penguins)
+1659566450382:usethis::use_git()
+1659566481790:usethis::use_github()
+1659566567697:vec_a <- c(1, 6)
+1659566584259:vec_b <- c(2, 4)
+1659566613432:vec_a + vec_b
+1659566641427:vec_b - vec_a
+1659566669759:4 * vec_a
+1659566687213:vec_a * vec_b
+1659566872471:# Chunk 1: setup
+1659566872471:knitr::opts_chunk$set(echo = TRUE)
+1659566872472:library(tidyverse)
+1659566873501:library(deSolve)
+1659566873523:# Chunk 2
+1659566873523:### Specify parameters
+1659566873523:## Proportion in each compartment: Susceptible 0.999999, Infected 0.000001, Recovered 0 (these are directly from the example linked above)
+1659566873523:init <- c(S = 1-1e-6, I = 1e-6, R = 0.0)
+1659566873524:## beta: infection parameter; gamma: recovery parameter
+1659566873524:parameters <- c(beta = 2.316, gamma = 0.261)
+1659566873524:## Time frame
+1659566873524:times      <- seq(0, 100, by = 0.5)
+1659566873525:# Chunk 3
+1659566873525:## Build the function with all
+1659566873525:sir <- function(time, init, parameters) {
+1659566873525:with(as.list(c(init, parameters)), {
+1659566873525:dS <- -beta * S * I
+1659566873525:dI <-  beta * S * I - gamma * I
+1659566873526:dR <-  gamma * I
+1659566873526:return(list(c(dS, dI, dR)))
+1659566873526:})
+1659566873526:}
+1659566873526:# Chunk 4
+1659566873526:## Solve using `deSolve::ode()`
+1659566873527:approximation <- ode(y = init, times = times, func = sir, parms = parameters)
+1659566873541:# Chunk 5
+1659566873541:## Get output into a data frame
+1659566873541:approx_df <- as.data.frame(approximation)
+1659566873541:## Pivot longer so R will do the work for us:
+1659566873541:approx_long <- approx_df %>%
+1659566873541:pivot_longer(cols = S:R, names_to = "population", values_to = "proportion")
+1659566873553:# Chunk 6
+1659566873553:ggplot(data = approx_long, aes(x = time, y = proportion)) +
+1659566873553:geom_line(aes(color = population))
+1659633785275:usethis::use_git()
+1659633801715:usethis::use_github()
+1659633853801:usethis::git_default_branch_rename()
+1659633885730:usethis::git_default_branch_rename()
+1659634485921:insect_leslie <- matrix(c(0, 0, 600, 0.2, 0, 0, 0, 0.08, 0),
+1659634485923:nrow = 3, ncol = 3, byrow = TRUE)
+1659634560175:insect_leslie
+1659634791599:insect_y0 <- c(12000, 700, 500)
+1659634815660:insect_y0 <- c(12000, 700, 500)
+1659634825545:class(insect_y0)
+1659634922590:insect_y1 <-insect_leslie %*% insect_y0
+1659634933997:insect_y1
+1659635039302:insect_y2 <- insect_leslie %*% insect_y1
+1659635051794:insect_y2
+1659635088958:insect_y3 <- insect_leslie %*% insect_y2
+1659635095156:insect_y3
+1659649932602:library(tidyverse)
+1659649939794:library(palmerpenguins)
+1659649955366:library(GGally)
+1659649964271:library(skimr)
+1659649978062:library(skimr)
+1659649990170:install.packages(GGally)
+1659650002843:install.packages(skimr)
+1659650022294:find(skimr)
+1659650028425:?skimr
+1659650051787:install.packages(GGally)
+1659650079534:install.packages("GGally")
+1659650104300:install.packages("skimr")
+1659650150170:library(GGally)
+1659650152546:library(skimr)
+1659650158796:library(skimr)
+1659650174822:view(penguins)
+1659650254985:# Tell me the column names
+1659650254985:names(penguins)
+1659650280751:```{r}
+1659650331908:# Tell me the column names
+1659650331909:names(penguins)
+1659650333057:# Tell me the column names
+1659650333057:names(penguins)
+1659650333870:# Tell me the column names
+1659650333870:names(penguins)
+1659650334578:# Tell me the column names
+1659650334578:names(penguins)
+1659650335260:# Tell me the column names
+1659650335260:names(penguins)
+1659650383440:names(penguins)
+1659650476581:# Chunk 1
+1659650476581:library(tidyverse)
+1659650476582:library(palmerpenguins)
+1659650476582:library(GGally)
+1659650476582:library(skimr)
+1659650477165:# Chunk 1
+1659650477166:library(tidyverse)
+1659650477166:library(palmerpenguins)
+1659650477166:library(GGally)
+1659650477166:library(skimr)
+1659650477796:# Chunk 1
+1659650477796:library(tidyverse)
+1659650477796:library(palmerpenguins)
+1659650477796:library(GGally)
+1659650477797:library(skimr)
+1659650478450:# Chunk 1
+1659650478450:library(tidyverse)
+1659650478451:library(palmerpenguins)
+1659650478451:library(GGally)
+1659650478451:library(skimr)
+1659650603776:# Last six lines
+1659650603777:tail(penguins)
+1659650606147:# Fist Six Lines
+1659650606147:head(penguins)
+1659650608355:# Dimensions
+1659650608355:dim(penguinse)
+1659650618333:# Dimensions
+1659650618334:dim(penguins)
+1659651360426:skim(penguins)
+1659651526273:#even more exploration of data
+1659651526274:GGally::ggpairs(penguins)
+1659651957308:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659651957310:geom_jitter()
+1659651981748:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659651981749:geom_jitter()
+1659652006609:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659652006610:geom_jitter()
+1659652023688:library(GGally)
+1659652028526:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659652028527:geom_jitter()
+1659652143557:library(tidyverse)
+1659652145548:library(palmerpenguins)
+1659652147177:library(GGally)
+1659652148835:library(skimr)
+1659652152518:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659652152519:geom_jitter(width = 0.2
+1659652152519:alpha = 0.5,
+1659652163268:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659652163269:geom_jitter(width = 0.2,
+1659652163269:alpha = 0.5,
+1659652163269:aes(color = species)) +
+1659652163269:theme_light()
+1659652213611:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659652213613:geom_jitter(width = 0.2,
+1659652213613:alpha = 0.5,
+1659652213613:aes(color = species)) +
+1659652213614:theme_light()
+1659652228738:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) =
+1659652228739:geom_jitter(width = 0.2,
+1659652228740:alpha = 0.5,
+1659652228740:aes(color = species)) +
+1659652228740:theme_light()
+1659652250928:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659652250929:geom_jitter(width = 0.2,
+1659652250929:alpha = 0.5,
+1659652250929:aes(color = species)) +
+1659652250929:theme_light()
+1659652288311:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659652288312:geom_jitter(width = 0.2,
+1659652288312:alpha = 0.5,
+1659652288312:aes(color = species)) +
+1659652288312:theme_light() +
+1659652288312:scale_color_manual()
+1659652347265:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")
+1659652349585:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")
+1659652354554:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")
+1659652361790:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659652544848:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659652544850:geom_jitter(width = 0.2,
+1659652544850:alpha = 0.5,
+1659652544850:aes(color = species)) +
+1659652544850:theme_light() +
+1659652544850:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")) +
+1659652544850:labs(x = "Pengine Species")
+1659652654171:theme_light() +
+1659652654172:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")) +
+1659652654172:labs(x = "Pengine Species",
+1659652654172:y = "Flipper Length",
+1659652654172:title = "Palmer Archipelago Penguin Flippers")
+1659652661453:theme_light() +
+1659652661453:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")) +
+1659652661454:labs(x = "Pengine Species",
+1659652661454:y = "Flipper Length",
+1659652661454:title = "Palmer Archipelago Penguin Flippers")
+1659652663923:theme_light() +
+1659652663924:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")) +
+1659652663924:labs(x = "Pengine Species",
+1659652663924:y = "Flipper Length",
+1659652663924:title = "Palmer Archipelago Penguin Flippers")
+1659652664731:theme_light() +
+1659652664731:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")) +
+1659652664732:labs(x = "Pengine Species",
+1659652664732:y = "Flipper Length",
+1659652664732:title = "Palmer Archipelago Penguin Flippers")
+1659652694228:ggplot(data = penguins, aes(x = species, y = flipper_length_mm)) +
+1659652694229:geom_jitter(width = 0.2,
+1659652694229:alpha = 0.5,
+1659652694230:aes(color = species)) +
+1659652694230:geom_boxplot(fill = NA) +
+1659652694230:theme_light() +
+1659652694230:scale_color_manual(values = c("darkorchid4", "cyan4", "goldenrod")) +
+1659652694230:labs(x = "Pengine Species",
+1659652694230:y = "Flipper Length",
+1659652694230:title = "Palmer Archipelago Penguin Flippers")
+1659652765625:ggplot(data = penguins, aes(x = bill_length_mm)) +
+1659652765626:geom_histogram() +
+1659652765626:facet_wrap(species, ncol = 1)
+1659652784341:ggplot(data = penguins, aes(x = bill_length_mm)) +
+1659652784341:geom_histogram() +
+1659652784341:facet_wrap(~species, ncol = 1)
+1659652865739:ggplot(data = penguins, aes(x = bill_length_mm)) +
+1659652865740:geom_histogram(aes(fill = species),color = "magenta") +
+1659652865740:facet_wrap(~species, ncol = 1)
+1659654196461:# Make the Leslie Matrix:
+1659654196461:fish_leslie <- matrix(c(0, 0, 0, 600, 0.25, 0, 0, 0, 0, 0.10, 0, 0, 0, 0, 0.4, 0.8), nrow = 4, ncol = 4, byrow = TRUE)
+1659654203192:# Check it out:
+1659654203192:fish_leslie
+1659654386163:fish_year4
+1659654582330:fish_year4
+1659654588024:fish_year4
+1659654592263:## ADD YOUR CODE TO PROJECT FOR YEARS 4, 5 & 6 HERE:
+1659654592263:fish_year4 <- fish_leslie %*% fish_year3
+1659654596823:fish_year3
+1659654600595:# Population structure in year 1:
+1659654600595:fish_year1 <- fish_leslie %*% fish_year0
+1659654616151:fish_year5
+1659654643039:fish_year4
+1659654651660:fish_year4
+1659654670133:# Chunk 1: setup
+1659654670134:knitr::opts_chunk$set(echo = TRUE)
+1659654670134:# Chunk 2
+1659654670135:# Make the Leslie Matrix:
+1659654670135:fish_leslie <- matrix(c(0, 0, 0, 600, 0.25, 0, 0, 0, 0, 0.10, 0, 0, 0, 0, 0.4, 0.8), nrow = 4, ncol = 4, byrow = TRUE)
+1659654670135:# Check it out:
+1659654670135:fish_leslie
+1659654670135:# Chunk 3
+1659654670135:# Initial population structure (R, F, J, A):
+1659654670135:fish_year0 <- c(0, 40000, 600, 450)
+1659654670136:# Chunk 4
+1659654670136:# Population structure in year 1:
+1659654670136:fish_year1 <- fish_leslie %*% fish_year0
+1659654670136:fish_year1
+1659654670136:# Population structure in year 2:
+1659654670136:fish_year2 <- fish_leslie %*% fish_year1
+1659654670136:fish_year2
+1659654670136:# Population structure in year 3:
+1659654670136:fish_year3 <- fish_leslie %*% fish_year2
+1659654670137:fish_year3
+1659654670137:## ADD YOUR CODE TO PROJECT FOR YEARS 4, 5 & 6 HERE:
+1659654670137:fish_year4 <- fish_leslie %*% fish_year3
+1659654670137:fish_year4
+1659654670137:fish_year5 <- fish_leslie %*% fish_year4
+1659654670137:fish_year5
+1659654674817:fish_year5
+1659654696408:fish_year5 <- fish_leslie %*% fish_year4
+1659654698296:fish_year6 <- fish_leslie %*% fish_year5
+1659655009645:library(tidyverse)
+1659655020010:library(skimr)
+1659655024595:library(skimr)
+1659655040817:library(GGally)
+1659655054420:library(GGally)
+1659655090933:view(dimonds)
+1659655101590:view(diamonds)
+1659655134740:view(diamonds)
+1659655191080:names(diamonds)
+1659655194231:dim(diamonds)
+1659655204199:summary(diamonds)
+1659655233130:summary(diamonds)
+1659655238078:head(diamonds)
+1659655242270:tail(diamonds)
+1659655245163:skimr::skim(diamonds)
+1659655281353:ggpairs(diamonds)
+1659655327926:skimr::skim(diamonds)
+1659655328210:skimr::skim(diamonds)
+1659655623887:ggplot(data = diamonds, aes(x = carat, y = price))
+1659655624228:ggplot(data = diamonds, aes(x = carat, y = price))
+1659655624365:ggplot(data = diamonds, aes(x = carat, y = price))
+1659655624498:ggplot(data = diamonds, aes(x = carat, y = price))
+1659655624620:ggplot(data = diamonds, aes(x = carat, y = price))
+1659655652270:ggplot(data = diamonds, aes(x = carat, y = price)+
+1659655652271:geom_point)
+1659655663035:ggplot(data = diamonds, aes(x = carat, y = price)+
+1659655663036:geom_point())
+1659655680993:ggplot(data = diamonds, aes(x = carat, y = price) +
+1659655680995:geom_point())
+1659655709774:ggplot(data = diamonds, aes(x = carat, y = price) +
+1659655709775:geom_point())
+1659655742618:ggplot?
+1659655748886:ggplot?
+1659655757822:ggplot
+1659655764700:?ggplot
+1659655812149:ggplot(data = diamonds, aes(x = carat, y = price) +
+1659655812151:geom_point())
+1659655830797:geom_point())
+1659655842039:ggplot(data = diamonds, aes(x = carat, y = price) +
+1659655842039:geom_point())
+1659655871280:ggplot(data = diamonds, aes(x = carat, y = price)) +
+1659655871282:geom_point()
+1659655941680:ggplot(data = diamonds, aes(x = carat)) +
+1659655941681:geom_histogram()
+1659655971797:ggplot(data = diamonds, aes(x = carat)) +
+1659655971798:geom_histogram()
+1659655978741:ggplot(data = diamonds, aes(x = carat)) +
+1659655978741:geom_histogram(binwidth = 2)
+1659655984455:ggplot(data = diamonds, aes(x = carat)) +
+1659655984455:geom_histogram(binwidth = .5)
+1659656126008:ggplot(data = diamonds, aes(x = clarity, y = price)) +
+1659656126009:geom_jitter()
+1659718950755:lines(shark_down)
+1659718959367:# Chunk 1
+1659718959368:library(palmerpenguins)
+1659718959377:shark_top <- c(1, 6, 2, 4, 3)
+1659718959377:shark_down <- c(-1, -3, -2, -3, 2)
+1659718959377:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659718960327:lines(shark_down)
+1659719160567:lines(shark_down)
+1659719163396:lines(shark_down)
+1659719164466:shark_fin_1 <- c(5, 0)
+1659719166141:lines(shark_down)
+1659719173642:lines(shark_down)
+1659719176790:# Chunk 1
+1659719176791:library(palmerpenguins)
+1659719176791:shark_top <- c(1, 6, 2, 4, 3)
+1659719176791:shark_down <- c(-1, -3, -2, -3, 2)
+1659719176791:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659719176813:lines(shark_down)
+1659719176813:shark_fin_1 <- c(-5, 0)
+1659719176813:plot(shark_fin_1, type="o", col="Green", ylim=c(-10,10))
+1659719176836:lines(shark_down)
+1659719176837:shark_fin_1 <- c(5, 0)
+1659719222177:lines(shark_down, shark_fin_1)
+1659719333455:lines(shark_down)
+1659719340802:lines(shark_down)
+1659719479916:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659719487363:plot(shark_top, col="blue", ylim=c(-10,10))
+1659719496230:plot(shark_top, type="1", col="blue", ylim=c(-10,10))
+1659719501298:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659719505699:plot(shark_top, type="-", col="blue", ylim=c(-10,10))
+1659719511509:plot(shark_top, type="--", col="blue", ylim=c(-10,10))
+1659719514056:plot(shark_top, type="--", col="blue", ylim=c(-10,10))
+1659719518391:plot(shark_top, type="", col="blue", ylim=c(-10,10))
+1659719523972:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659719720626:title(main="Autos", col.main="red", font.main=4)
+1659719759243:plot(shark_top, type="o", col="blue", ylim=c(-10,10)) +
+1659719759244:title(main="Autos", col.main="red", font.main=4)
+1659719777054:title(main="Autos", col.main="green", font.main=4)
+1659723378638:usethis::use_git()
+1659723469345:usethis::use_github
+1659723485923:usethis::use_github()
+1659723601635:usethis::git_default_branch_rename()
+1659725009396:usethis::use_bit
+1659725015052:usethis:use_git
+1659725025133:usethis::use_git()
+1659725056467:usethis::use_github()
+1659725114976:usethis::git_default_branch_rename()
+1659725500357:lines(shark_down)
+1659725549844:# Chunk 1
+1659725549845:library(palmerpenguins)
+1659725549853:shark_top <- c(1, 6, 2, 4, 3)
+1659725549853:shark_down <- c(-1, -3, -2, -3, 2)
+1659725549854:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659725550813:lines(shark_down)
+1659725582142:shark_top <- c(1, 6, 7, 6, 3)
+1659725584899:lines(shark_down)
+1659725589074:# Chunk 1
+1659725589075:library(palmerpenguins)
+1659725589075:shark_top <- c(1, 6, 7, 6, 3)
+1659725589075:shark_down <- c(-1, -3, -2, -3, 2)
+1659725589075:plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+1659725589097:lines(shark_down)
+1659725651371:shark_fin_2 <- c(-5, 2)
+1659725653722:shark_fin_1 <- c(5, 2)
+1659725682601:lines(shark_down)
+1659725704124:lines(shark_down)
+1659725713027:lines(shark_down)
+1659725716482:lines(shark_down)
+1659725720238:lines(shark_down)
+1659725756217:# Chunk 1
+1659725756217:library(palmerpenguins)
+1659725756218:shark_top <- c(1, 6, 7, 6, 3)
+1659725756218:shark_down <- c(-1, -3, -2, -3, 2)
+1659725756218:shark_fin_1 <- c(5, 2)
+1659725756218:shark_fin_2 <- c(-5, 2)
+1659725756218:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725756242:lines(shark_down)
+1659725806966:# Chunk 1
+1659725806967:library(palmerpenguins)
+1659725806967:shark_top <- c(1, 6, 7, 6, 3)
+1659725806967:shark_down <- c(-1, -3, -2, -3, 2)
+1659725806968:shark_fin_1 <- c(5, 2)
+1659725806968:shark_fin_2 <- c(-5, 2)
+1659725806968:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725806991:lines(shark_down)
+1659725806991:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659725821205:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659725865833:# Chunk 1
+1659725865833:library(palmerpenguins)
+1659725865834:shark_top <- c("NA", 6, 7, 6, 3)
+1659725865834:shark_down <- c("NA", -3, -2, -3, 2)
+1659725865834:shark_fin_1 <- c(5, 2)
+1659725865834:shark_fin_2 <- c(-5, 2)
+1659725865835:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725865857:lines(shark_down)
+1659725865858:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659725865858:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659725881857:# Chunk 1
+1659725881857:library(palmerpenguins)
+1659725881858:shark_top <- c("NA", 2, 7, 6, 3)
+1659725881858:shark_down <- c("NA", -2, -2, -3, 2)
+1659725881858:shark_fin_1 <- c(5, 2)
+1659725881858:shark_fin_2 <- c(-5, 2)
+1659725881858:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725881881:lines(shark_down)
+1659725881881:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659725881882:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659725906033:# Chunk 1
+1659725906034:library(palmerpenguins)
+1659725906034:shark_top <- c("NA", 2, 7, 6, 6, 3)
+1659725906034:shark_down <- c("NA", -2, -2, -3, -3, 2)
+1659725906035:shark_fin_1 <- c(5, 2)
+1659725906035:shark_fin_2 <- c(-5, 2)
+1659725906035:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725906059:lines(shark_down)
+1659725906059:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659725906059:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659725914181:# Chunk 1
+1659725914182:library(palmerpenguins)
+1659725914183:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659725914183:shark_down <- c("NA", -2, -2, -3, -3, 2)
+1659725914183:shark_fin_1 <- c(5, 2)
+1659725914183:shark_fin_2 <- c(-5, 2)
+1659725914184:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725914206:lines(shark_down)
+1659725914206:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659725914206:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659725927799:# Chunk 1
+1659725927799:library(palmerpenguins)
+1659725927800:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659725927800:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659725927800:shark_fin_1 <- c(5, 2)
+1659725927800:shark_fin_2 <- c(-5, 2)
+1659725927801:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659725927823:lines(shark_down)
+1659725927824:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659725927824:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659726017394:# Chunk 1
+1659726017395:library(palmerpenguins)
+1659726017396:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659726017396:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659726017396:shark_fin_1 <- c(5, 2)
+1659726017396:shark_fin_2 <- c(-5, 2)
+1659726017396:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659726017428:lines(shark_down)
+1659726017429:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659726017429:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659726017429:# Create a title with a red, bold/italic font
+1659726017430:title(main="Sharky", col.main="red", font.main=4)
+1659726054511:# Chunk 1
+1659726054511:library(palmerpenguins)
+1659726054512:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659726054512:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659726054512:shark_fin_1 <- c(5, 2)
+1659726054512:shark_fin_2 <- c(-5, 2)
+1659726054512:# Plot dat shark
+1659726054513:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659726054536:lines(shark_down)
+1659726054537:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659726054537:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659726054537:# Create a title with a red, bold/italic font
+1659726054538:title(main="Sharky", col.main="red", font.main=4)
+1659726618755:# Chunk 1
+1659726618756:library(palmerpenguins)
+1659726618757:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659726618757:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659726618757:shark_fin_1 <- c(5, 2)
+1659726618757:shark_fin_2 <- c(-5, 2)
+1659726618757:# Plot dat shark
+1659726618757:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659726618781:lines(shark_down)
+1659726618782:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659726618782:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659726618783:# Create a title with a red, bold/italic font
+1659726618783:title(main="Sharky", col.main="red", font.main=4)
+1659726618784:# Chunk 2
+1659726618784:shark_x_2 <- c(1,1,2,5,6,6.5,6.5,10,12,11,12,10,7,6,5,1)
+1659726618784:shark_y_2 <- c(0,1,2,2,5,5,2,2,5,1,-1,0,0,-2,0,0)
+1659726618784:plot(shark_x_2, shark_y_2)
+1659726633873:plot(shark_x_2, shark_y_2, type="o")
+1659726701803:line(shark_eye)
+1659726757185:line(shark_eye_x, shark_eye_y)
+1659726776055:# Chunk 1
+1659726776055:library(palmerpenguins)
+1659726776056:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659726776056:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659726776056:shark_fin_1 <- c(5, 2)
+1659726776056:shark_fin_2 <- c(-5, 2)
+1659726776057:# Plot dat shark
+1659726776057:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659726776080:lines(shark_down)
+1659726776080:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659726776080:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659726776081:# Create a title with a red, bold/italic font
+1659726776081:title(main="Sharky", col.main="red", font.main=4)
+1659726776081:# Chunk 2
+1659726776082:shark_x_2 <- c(1,1,2,5,6,6.5,6.5,10,12,11,12,10,7,6,5,1)
+1659726776082:shark_y_2 <- c(0,1,2,2,5,5,2,2,5,1,-1,0,0,-2,0,0)
+1659726776082:shark_eye_x <- c(1)
+1659726776082:shark_eye_y <- c(1)
+1659726776082:plot(shark_x_2, shark_y_2, type="o")
+1659726776107:line(shark_eye_x, shark_eye_y)
+1659735930835:pika == 2
+1659735933262:pika <- c(1, 2, 4, 7, 7, 99)
+1659735935276:pika == 2
+1659735953962:pika == 2 | pika < 7
+1659735980858:is.numeric(pika)
+1659735998761:is.na(pika)
+1659736087269:is.na(pika)
+1659736094553:pika <- c(1, 2, 4, 7, 7, NA, 99)
+1659736097855:is.na(pika)
+1659736132812:# Chunk 1
+1659736132813:library(palmerpenguins)
+1659736132813:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659736132813:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659736132813:shark_fin_1 <- c(5, 2)
+1659736132814:shark_fin_2 <- c(-5, 2)
+1659736132814:# Plot dat shark
+1659736132814:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659736133560:lines(shark_down)
+1659736133561:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659736133561:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659736133562:# Create a title with a red, bold/italic font
+1659736133562:title(main="Sharky", col.main="red", font.main=4)
+1659736133564:# Chunk 2
+1659736133564:shark_x_2 <- c(1,1,2,5,6,6.5,6.5,10,12,11,12,10,7,6,5,1)
+1659736133564:shark_y_2 <- c(0,1,2,2,5,5,2,2,5,1,-1,0,0,-2,0,0)
+1659736133564:shark_eye_x <- c(1)
+1659736133564:shark_eye_y <- c(1)
+1659736133565:plot(shark_x_2, shark_y_2, type="o")
+1659736133591:line(shark_eye_x, shark_eye_y)
+1659736144096:# Chunk 1
+1659736144097:library(palmerpenguins)
+1659736144097:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659736144097:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659736144097:shark_fin_1 <- c(5, 2)
+1659736144097:shark_fin_2 <- c(-5, 2)
+1659736144097:# Plot dat shark
+1659736144097:plot(shark_top, type="o", col="red", ylim=c(-10,10))
+1659736144120:lines(shark_down)
+1659736144121:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659736144121:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659736144121:# Create a title with a red, bold/italic font
+1659736144121:title(main="Sharky", col.main="red", font.main=4)
+1659736144122:# Chunk 2
+1659736144122:shark_x_2 <- c(1,1,2,5,6,6.5,6.5,10,12,11,12,10,7,6,5,1)
+1659736144122:shark_y_2 <- c(0,1,2,2,5,5,2,2,5,1,-1,0,0,-2,0,0)
+1659736144123:shark_eye_x <- c(1)
+1659736144123:shark_eye_y <- c(1)
+1659736144123:plot(shark_x_2, shark_y_2, type="o")
+1659736144146:line(shark_eye_x, shark_eye_y)
+1659736187677:shark_top <- c("NA", 2, 7, 7, 6, 3)
+1659736190052:shark_down <- c("NA", -1, -2, -3, -3, 2)
+1659736191600:shark_fin_1 <- c(5, 2)
+1659736193105:shark_fin_2 <- c(-5, 2)
+1659736195518:lines(shark_down)
+1659736201024:lines(shark_fin_1, type="o", pch=22, lty=2, col="red")
+1659736203484:lines(shark_fin_2, type="o", pch=22, lty=2, col="red")
+1659736210867:# Create a title with a red, bold/italic font
+1659736210867:title(main="Sharky", col.main="red", font.main=4)
+1659737871605:5 == 1
+1659737901060:"cat" == "dog"
+1659737947988:meds == 3
+1659737951884:meds <- c(1, 2, 3, 4, 5)
+1659737953691:meds == 3
+1659737986518:meds == 1 | meds > 3
+1659738073412:teddy <- 5
+1659738073413:banjo <- 7
+1659738073413:tallie <- 4
+1659738122592:teddy <= banjo
+1659993860079:usethis::use_git()
+1659993881894:usethis::use_github()
+1659994311193:# Chunk 1: setup
+1659994311194:knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+1659994311195:library(tidyverse)
+1659994313371:library(here)
+1659994313382:library(janitor)
+1659994313391:library(skimr)
+1659994313396:# Chunk 2
+1659994313396:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659994314015:# Chunk 3
+1659994314015:# An overview:
+1659994314015:skimr::skim(toolik_weather)
+1659994314169:# A few other things to explore
+1659994314169:dim(toolik_weather)
+1659994314169:names(toolik_weather)
+1659994314169:# Chunk 4
+1659994314169:toolik_weather <- toolik_weather %>% clean_names() # What does this do? Say it in words.
+1659994314200:# What is this %>% thing? Meet the pipe operator! Also, as of a couple months ago, |> is a native pipe operator (versus %>%, which comes along with the tidyverse)
+1659994314200:# Now what are the column names?
+1659994314200:# Chunk 5
+1659994314200:names(toolik_weather)
+1659994314200:# Chunk 6
+1659994314200:toolik_temp_plot <- ggplot(data = toolik_weather, aes(x = as.factor(month), y = daily_air_temp_mean_c)) +
+1659994314201:geom_jitter(aes(color = daily_air_temp_mean_c), show.legend = FALSE) +
+1659994314201:scale_color_gradient(low = "blue", high = "orange") +
+1659994314201:theme_minimal() +
+1659994314201:labs(title = "Toolik Station daily air temperature",
+1659994314201:x = "Month",
+1659994314201:y = "Daily mean air temperatures (Celsius)")
+1659994314370:toolik_temp_plot
+1659994315465:# Chunk 7
+1659994315465:ggsave(here::here("figs", "toolik_temp_plot.png"), height = 6, width = 7)
+1659994500171:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659994516328:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659994521304:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659994537455:problems()
+1659994561612:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659994602352:view(toolik_weather)
+1659994639026:glance(toolik_weather)
+1659994662674:glance(toolik_weather)
+1659994700391:skim(toolik_weather)
+1659994805136:problems()
+1659994890142:readr: na = "#N/A"
+1659994958111:glimpse(toolik_weather)
+1659995607427:toolik_weather <- toolik_weather %>% clean_names() # What does this do? Say it in words.
+1659995618901:# Now what are the column names?
+1659995618901:```
+1659995622993:toolik_weather <- toolik_weather %>% clean_names() # What does this do? Say it in words.
+1659995626049:# Now what are the column names?
+1659995626050:```
+1659995634637:names(toolik_weather)
+1659995657043:names(toolik_weather)
+1659995693576:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659995704129:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659995728053:view(toolik_weather)
+1659995796440:toolik_temp_plot
+1659995799786:toolik_temp_plot <- ggplot(data = toolik_weather, aes(x = as.factor(month), y = daily_air_temp_mean_c)) +
+1659995799786:geom_jitter(aes(color = daily_air_temp_mean_c), show.legend = FALSE) +
+1659995799787:scale_color_gradient(low = "blue", high = "yellow") +
+1659995799787:theme_minimal() +
+1659995799787:labs(title = "Toolik Station daily air temperature",
+1659995799787:x = "Month",
+1659995799787:y = "Daily mean air temperatures (Celsius)")
+1659995806089:toolik_temp_plot <- ggplot(data = toolik_weather, aes(x = as.factor(month), y = daily_air_temp_mean_c)) +
+1659995806090:geom_jitter(aes(color = daily_air_temp_mean_c), show.legend = FALSE) +
+1659995806090:scale_color_gradient(low = "blue", high = "yellow") +
+1659995806090:theme_minimal() +
+1659995806090:labs(title = "Toolik Station daily air temperature",
+1659995806091:x = "Month",
+1659995806091:y = "Daily mean air temperatures (Celsius)")
+1659995822367:# Chunk 1: setup
+1659995822367:knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+1659995822367:library(tidyverse)
+1659995822368:library(here)
+1659995822368:library(janitor)
+1659995822368:library(skimr)
+1659995822368:# Chunk 2
+1659995822368:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1659995822410:# Chunk 3
+1659995822410:# An overview:
+1659995822410:skimr::skim(toolik_weather)
+1659995822543:# A few other things to explore
+1659995822543:dim(toolik_weather)
+1659995822544:names(toolik_weather)
+1659995822544:# Chunk 4
+1659995822544:toolik_weather <- toolik_weather %>% clean_names() # What does this do? Say it in words.
+1659995822552:# What is this %>% thing? Meet the pipe operator! Also, as of a couple months ago, |> is a native pipe operator (versus %>%, which comes along with the tidyverse)
+1659995822552:# Now what are the column names?
+1659995822552:# Chunk 5
+1659995822552:names(toolik_weather)
+1659995822552:# Chunk 6
+1659995822552:toolik_temp_plot <- ggplot(data = toolik_weather, aes(x = as.factor(month), y = daily_air_temp_mean_c)) +
+1659995822552:geom_jitter(aes(color = daily_air_temp_mean_c), show.legend = FALSE) +
+1659995822553:scale_color_gradient(low = "blue", high = "yellow") +
+1659995822553:theme_minimal() +
+1659995822553:labs(title = "Toolik Station daily air temperature",
+1659995822553:x = "Month",
+1659995822553:y = "Daily mean air temperatures (Celsius)")
+1659995822555:toolik_temp_plot
+1659995822804:# Chunk 7
+1659995822804:ggsave(here::here("figs", "toolik_temp_plot.png"), height = 6, width = 7)
+1659996409605:library(tidyverse)
+1659996410915:library(janitor)
+1659996412230:library(here)
+1659996447028:here()
+1659996648151:toolik_chlorphyll <- read_csv(here::here("data",
+1659996648152:"data-raw",
+1659996648152:"toolik_chlorophyll.csv"))
+1659996672070:glimpse(toolik_chlorphyll)
+1659996696972:view(toolik_chlorphyll)
+1659996715953:clean(toolik_chlorphyll)
+1659996733410:clean_names(toolik_chlorphyll)
+1659996788625:toolik_chlorphyll <- read_csv(here::here("data",
+1659996788625:"data-raw",
+1659996788625:"toolik_chlorophyll.csv")) <|
+1659996847939:view(toolik_chlorphyll)
+1659996862879:view(toolik_chlorphyll)
+1659996871325:toolik_chlorphyll <- read_csv(here::here("data",
+1659996871327:"data-raw",
+1659996871327:"toolik_chlorophyll.csv")) %<%
+1659996871327:clean_names()
+1659996891086:toolik_chlorphyll <- read_csv(here::here("data",
+1659996891087:"data-raw",
+1659996891087:"toolik_chlorophyll.csv")) %<%
+1659996891087:clean_names() %<%
+1659996891088:view ()
+1659996914658:toolik_chlorphyll <- read_csv(here::here("data",
+1659996914659:"data-raw",
+1659996914659:"toolik_chlorophyll.csv")) %<%
+1659996914659:clean_names() %<%
+1659996914660:view ()
+1659996961550:?%<%
+1659996976941:toolik_chlorphyll <- read_csv(here::here("data",
+1659996976941:"data-raw",
+1659996976941:"toolik_chlorophyll.csv")) %>%
+1659996976941:clean_names() %>%?
+1659996976942:view ()
+1659996989528:toolik_chlorphyll <- read_csv(here::here("data",
+1659996989528:"data-raw",
+1659996989528:"toolik_chlorophyll.csv")) %>%
+1659996989529:clean_names()
+1659996995971:view(toolik_chlorphyll)
+1659997048717:toolik_chlorphyll <- read_csv(here::here("data",
+1659997048719:"data-raw",
+1659997048719:"toolik_chlorophyll.csv"),
+1659997048719:na = c(".")) %>%
+1659997048719:clean_names()
+1659997054206:view(toolik_chlorphyll)
+1659997077169:toolik_chlorphyll <- read_csv(here::here("data",
+1659997077170:"data-raw",
+1659997077170:"toolik_chlorophyll.csv"),
+1659997077170:na = c(".")) |>
+1659997077170:clean_names()
+1659997090516:skim(toolik_chlorphyll)
+1659997399501:chlorophyll_pprod_graph <- ggplot(data = toolik_chlorphyll,
+1659997399501:aes(x = active_chl_a_ug_l,
+1659997399501:y = pprod_mg_available_c_m3_d)) +
+1659997399501:geom_point()
+1659997409953:chlorophyll_pprod_graph
+1659997655838:# Export the plot
+1659997655840:ggsave(plot = chlorophyll_pprod_graph, here("figs", "my_awsome_graph.jpg",
+1659997655840:width = 8,
+1659997655840:height = 8,
+1659997655840:dpi = 200))
+1659997700338:library(skimr)
+1659997792771:# Export the plot
+1659997792772:ggsave(plot = chlorophyll_pprod_graph, here("figs", "my_awsome_graph.jpg"),
+1659997792772:width = 8,
+1659997792773:height = 8,
+1659997792773:dpi = 200))
+1659997800226:# Export the plot
+1659997800226:ggsave(plot = chlorophyll_pprod_graph, here("figs", "my_awsome_graph.jpg"),
+1659997800227:width = 8,
+1659997800227:height = 8,
+1659997800227:dpi = 200)
+1659997805432:# Export the plot
+1659997805433:ggsave(plot = chlorophyll_pprod_graph, here("figs", "my_awsome_graph.jpg"),
+1659997805434:width = 8,
+1659997805434:height = 8,
+1659997805434:dpi = 200)
+1659998230982:usethis::use_git()
+1659998271031:usethis::use_github()
+1659998585688:library(here)
+1659998587538:library(tidyverse)
+1659998588983:library(janitor)
+1659998598487:library(here)
+1659998600055:library(tidyverse)
+1659998601411:library(janitor)
+1659998644878:?read.csv
+1659998672532:stl_lead <- read.csv(here("data", "stl_blood_lead.csv", sep = ";"))
+1659998710439:stl_lead <- read.csv(here("data", "stl_blood_lead.csv", sep = ";"))
+1659998722268:stl_lead <- read.csv(here::here("data", "stl_blood_lead.csv", sep = ";"))
+1659998722898:stl_lead <- read.csv(here::here("data", "stl_blood_lead.csv", sep = ";"))
+1659998746172:stl_lead <- read.csv2(here::here("data", "stl_blood_lead.csv", sep = ";"))
+1659998822029:?read.csv
+1659998909382:stl_lead <- read.csv2("data", "stl_blood_lead.csv", sep = ";")
+1659998942785:?read_delim
+1659998970122:stl_lead <- read_delim("data", "stl_blood_lead.csv", delim = ;)
+1659998985858:stl_lead <- read_delim("data", "stl_blood_lead.csv")
+1659999012406:stl_lead <- read_delim("data", "stl_blood_lead.csv")
+1659999039717:stl_lead <- read_delim(here::here("data", "stl_blood_lead.csv"))
+1659999094061:?read_delim
+1659999175280:?read_csv
+1659999191128:?read_csv
+1659999218541:?read_csv()
+1659999274213:stl_lead <- read_delim(here::here("data", "stl_blood_lead.csv"))
+1659999297346:janitor::clean_names(stl_lead)
+1659999305193:view(stl_lead)
+1659999321312:glimpse(stl_lead)
+1659999331320:glimpse(stl_lead)
+1659999386404:names(stl_lead)
+1659999497478:stl_lead_prop <- dplyr::mutate(stl_lead)
+1659999502598:?dplyr::mutate
+1659999760122:name(stl_lead)
+1659999773653:names(stl_lead)
+1659999804086:stl_lead_prop <- stl_lead |> dplyr::mutate(prop_white = totalPop / white)
+1659999820680:view(stl_lead_prop)
+1659999915316:stl_lead_prop <- stl_lead |> dplyr::mutate(prop_white =
+1659999915318:(totalPop / white) * 100)
+1659999917653:view(stl_lead_prop)
+1659999948383:stl_lead_prop <- stl_lead |> dplyr::mutate(prop_white =
+1659999948384:(white / totalPop) * 100)
+1659999952855:view(stl_lead_prop)
+1660000127216:ggplot
+1660000132273:names(stl_lead_prop)
+1660000141810:# Chunk 1
+1660000141810:library(here)
+1660000141810:library(tidyverse)
+1660000141811:library(janitor)
+1660000141811:# Chunk 2
+1660000141811:stl_lead <- read_delim(here::here("data", "stl_blood_lead.csv"))
+1660000141856:janitor::clean_names(stl_lead)
+1660000141899:view(stl_lead)
+1660000141902:glimpse(stl_lead)
+1660000141905:names(stl_lead)
+1660000141906:# Chunk 3
+1660000141906:stl_lead_prop <- stl_lead |> dplyr::mutate(prop_white =
+1660000141906:(white / totalPop) * 100)
+1660000141908:view(stl_lead_prop)
+1660000146533:ggplot(data = stl_lead_prop, aes())
+1660000148009:ggplot(data = stl_lead_prop, aes())
+1660000148730:ggplot(data = stl_lead_prop, aes())
+1660000217415:names(stl_lead_prop)
+1660000428017:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white) +
+1660000428017:geom_plot)
+1660000450757:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white) +
+1660000450758:geom_point())
+1660000508344:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000508345:geom_point()
+1660000724673:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000724674:geom_point() +
+1660000724674:labs(title = "Proportion White by Proportion with Elevated Lead")
+1660000749882:# Chunk 1: setup
+1660000749882:knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+1660000749883:library(tidyverse)
+1660000750425:library(here)
+1660000750430:library(janitor)
+1660000750441:library(skimr)
+1660000750445:# Chunk 2
+1660000750445:toolik_weather <- read_csv(here::here("data", "data-raw", "toolik_weather.csv"))
+1660000750595:# Chunk 3
+1660000750595:# An overview:
+1660000750595:skimr::skim(toolik_weather)
+1660000750736:# A few other things to explore
+1660000750737:dim(toolik_weather)
+1660000750737:names(toolik_weather)
+1660000750737:# Chunk 4
+1660000750737:toolik_weather <- toolik_weather %>% clean_names() # What does this do? Say it in words.
+1660000750768:# What is this %>% thing? Meet the pipe operator! Also, as of a couple months ago, |> is a native pipe operator (versus %>%, which comes along with the tidyverse)
+1660000750768:# Now what are the column names?
+1660000750768:# Chunk 5
+1660000750768:names(toolik_weather)
+1660000750769:# Chunk 6
+1660000750769:toolik_temp_plot <- ggplot(data = toolik_weather, aes(x = as.factor(month), y = daily_air_temp_mean_c)) +
+1660000750769:geom_jitter(aes(color = daily_air_temp_mean_c), show.legend = FALSE) +
+1660000750769:scale_color_gradient(low = "blue", high = "yellow") +
+1660000750769:theme_minimal() +
+1660000750769:labs(title = "Toolik Station daily air temperature",
+1660000750769:x = "Month",
+1660000750769:y = "Daily mean air temperatures (Celsius)")
+1660000750783:toolik_temp_plot
+1660000751026:# Chunk 7
+1660000751026:ggsave(here::here("figs", "toolik_temp_plot.png"), height = 6, width = 7)
+1660000781828:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000781829:geom_point() +
+1660000781829:labs(title = "Proportion White by Proportion with Elevated Lead") +
+1660000781830:scale_color_gradient(low = "blue", high = "yellow")
+1660000786729:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000786729:geom_point() +
+1660000786730:labs(title = "Proportion White by Proportion with Elevated Lead") +
+1660000786730:scale_color_gradient(low = "blue", high = "yellow")
+1660000839023:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000839024:geom_point(aes(color = prop_white)) +
+1660000839024:labs(title = "Proportion White by Proportion with Elevated Lead") +
+1660000839024:scale_color_gradient(low = "blue", high = "yellow")
+1660000875610:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000875611:geom_point(aes(color = pctElevated)) +
+1660000875612:labs(title = "Proportion White by Proportion with Elevated Lead") +
+1660000875612:scale_color_gradient(low = "blue", high = "yellow")
+1660000882312:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000882313:geom_point(aes(color = pctElevated)) +
+1660000882313:labs(title = "Proportion White by Proportion with Elevated Lead") +
+1660000882313:scale_color_gradient(low = "blue", high = "yellow")
+1660000906926:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660000906926:geom_point(aes(color = prop_white)) +
+1660000906926:labs(title = "Proportion White by Proportion with Elevated Lead") +
+1660000906927:scale_color_gradient(low = "blue", high = "yellow")
+1660001029588:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001029588:x = "Proportion with Elevated Lead",
+1660001029589:y = "Proportion White")
+1660001035438:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001035438:x = "Proportion with Elevated Lead",
+1660001035438:y = "Proportion White")
+1660001043393:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001043394:x = "Proportion with Elevated Lead",
+1660001043394:y = "Proportion White")
+1660001053723:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001053724:x = "Proportion with Elevated Lead",
+1660001053724:y = "Proportion White")
+1660001078796:ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660001078797:geom_point(aes(color = prop_white)) +
+1660001078797:scale_color_gradient(low = "blue", high = "yellow") +
+1660001078797:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001078798:x = "Proportion with Elevated Lead",
+1660001078798:y = "Proportion White")
+1660001102619:?transmute
+1660001123417:?transmute
+1660001194434:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660001194436:geom_point(aes(color = prop_white)) +
+1660001194436:scale_color_gradient(low = "blue", high = "yellow") +
+1660001194436:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001194436:x = "Proportion with Elevated Lead",
+1660001194436:y = "Proportion White")
+1660001250178:?figs
+1660001256939:??figs
+1660001365614:ggsave(stl_lead_plot, here("figs"))
+1660001375219:?ggsave
+1660001470655:ggsave("prop_white_by_prop_high", plot = stl_lead_plot, here("figs"))
+1660001530906:ggsave("prop_white_by_prop_high.png", plot = stl_lead_plot, here("figs"))
+1660001544037:ggsave("prop_white_by_prop_high.png")
+1660001577671:ggsave("prop_white_by_prop_high.png", here("figs"))
+1660001589792:ggsave("prop_white_by_prop_high.png", here::here("figs"))
+1660001606852:ggsave("prop_white_by_prop_high.png", here::here("figs"))
+1660001612758:ggsave("prop_white_by_prop_high.png")
+1660001647619:?ggsave
+1660001691307:ggsave(here::here("figs","prop_white_by_prop_high.png"))
+1660001752929:ggsave(here::here("figs","prop_white_by_prop_high.png"),
+1660001752929:width = 8,
+1660001752929:height = 8,
+1660001752929:dpi = 200)
+1660001830231:?ggplot
+1660001907168:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white), height = 10, width = 20) +
+1660001907169:geom_point(aes(color = prop_white)) +
+1660001907169:scale_color_gradient(low = "blue", high = "yellow") +
+1660001907169:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001907169:x = "Proportion with Elevated Lead",
+1660001907169:y = "Proportion White")
+1660001915595:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white), height = 10, width = 20) +
+1660001915596:geom_point(aes(color = prop_white)) +
+1660001915596:scale_color_gradient(low = "blue", high = "yellow") +
+1660001915596:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660001915596:x = "Proportion with Elevated Lead",
+1660001915596:y = "Proportion White")
+1660001948760:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white), fig-height = 10, fig-width = 20) +
+1660002082328:#|fig-height:3
+1660002082329:#|fig-width: 10
+1660002082329:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002082329:geom_point(aes(color = prop_white)) +
+1660002082329:scale_color_gradient(low = "blue", high = "yellow") +
+1660002082329:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002082329:x = "Proportion with Elevated Lead",
+1660002082329:y = "Proportion White")
+1660002084544:#|fig-height:3
+1660002084545:#|fig-width: 10
+1660002084545:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002084545:geom_point(aes(color = prop_white)) +
+1660002084545:scale_color_gradient(low = "blue", high = "yellow") +
+1660002084545:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002084545:x = "Proportion with Elevated Lead",
+1660002084545:y = "Proportion White")
+1660002092732:stl_lead_plot
+1660002103054:stl_lead_plot
+1660002119219:#|fig-height:15
+1660002119220:#|fig-width: 3
+1660002119220:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002119221:geom_point(aes(color = prop_white)) +
+1660002119221:scale_color_gradient(low = "blue", high = "yellow") +
+1660002119221:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002119221:x = "Proportion with Elevated Lead",
+1660002119221:y = "Proportion White")
+1660002120530:stl_lead_plot
+1660002138533:#|fig-height:20
+1660002138533:#|fig-width: 3
+1660002138534:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002138534:geom_point(aes(color = prop_white)) +
+1660002138534:scale_color_gradient(low = "blue", high = "yellow") +
+1660002138534:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002138534:x = "Proportion with Elevated Lead",
+1660002138534:y = "Proportion White")
+1660002141119:stl_lead_plot
+1660002151050:#|fig-height:20
+1660002151052:#|fig-width: 1
+1660002151052:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002151052:geom_point(aes(color = prop_white)) +
+1660002151052:scale_color_gradient(low = "blue", high = "yellow") +
+1660002151052:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002151052:x = "Proportion with Elevated Lead",
+1660002151052:y = "Proportion White")
+1660002153481:#|fig-height:20
+1660002153482:#|fig-width: 1
+1660002153482:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002153482:geom_point(aes(color = prop_white)) +
+1660002153482:scale_color_gradient(low = "blue", high = "yellow") +
+1660002153482:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002153483:x = "Proportion with Elevated Lead",
+1660002153483:y = "Proportion White")
+1660002153486:stl_lead_plot
+1660002418922:# Chunk 1
+1660002418923:library(tidyverse)
+1660002418923:library(janitor)
+1660002418923:library(here)
+1660002418923:library(skimr)
+1660002418923:# Chunk 2
+1660002418923:toolik_chlorphyll <- read_csv(here::here("data",
+1660002418923:"data-raw",
+1660002418924:"toolik_chlorophyll.csv"),
+1660002418924:na = c(".")) |>
+1660002418924:clean_names()
+1660002418984:glimpse(toolik_chlorphyll)
+1660002418987:view(toolik_chlorphyll)
+1660002418996:skim(toolik_chlorphyll)
+1660002419064:clean_names(toolik_chlorphyll)
+1660002419081:names(toolik_chlorphyll)
+1660002419081:# Chunk 3
+1660002419082:chlorophyll_pprod_graph <- ggplot(data = toolik_chlorphyll,
+1660002419082:aes(x = active_chl_a_ug_l,
+1660002419082:y = pprod_mg_available_c_m3_d)) +
+1660002419082:geom_point()
+1660002419083:chlorophyll_pprod_graph
+1660002419165:# Chunk 4
+1660002419165:# Export the plot
+1660002419165:ggsave(plot = chlorophyll_pprod_graph, here("figs", "my_awsome_graph.jpg"),
+1660002419165:width = 8,
+1660002419165:height = 8,
+1660002419165:dpi = 200)
+1660002446002:# Chunk 1
+1660002446003:library(here)
+1660002446003:library(tidyverse)
+1660002446003:library(janitor)
+1660002446004:# Chunk 2
+1660002446004:stl_lead <- read_delim(here::here("data", "stl_blood_lead.csv"))
+1660002446057:janitor::clean_names(stl_lead)
+1660002446106:view(stl_lead)
+1660002446111:glimpse(stl_lead)
+1660002446116:names(stl_lead)
+1660002446116:# Chunk 3
+1660002446116:stl_lead_prop <- stl_lead |> dplyr::mutate(prop_white =
+1660002446116:(white / totalPop) * 100)
+1660002446119:view(stl_lead_prop)
+1660002446124:# Chunk 4
+1660002446124:#|fig-height:20
+1660002446124:#|fig-width: 1
+1660002446124:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002446124:geom_point(aes(color = prop_white)) +
+1660002446124:scale_color_gradient(low = "blue", high = "yellow") +
+1660002446125:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002446125:x = "Proportion with Elevated Lead",
+1660002446125:y = "Proportion White")
+1660002446128:stl_lead_plot
+1660002446280:# Chunk 5
+1660002446280:ggsave(here::here("figs","prop_white_by_prop_high.png"),
+1660002446280:width = 8,
+1660002446280:height = 8,
+1660002446280:dpi = 200)
+1660002480143:#|fig-height:20
+1660002480144:#|fig-width: 1
+1660002480144:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002480144:geom_point(aes(color = stl_lead_prop)) +
+1660002480144:scale_color_gradient(low = "blue", high = "yellow") +
+1660002480144:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002480144:x = "Proportion with Elevated Lead",
+1660002480144:y = "Proportion White")
+1660002482686:stl_lead_plot
+1660002502351:#|fig-height:20
+1660002502351:#|fig-width: 1
+1660002502351:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002502351:geom_point(aes(color = prop_white)) +
+1660002502351:scale_color_gradient(low = "blue", high = "yellow") +
+1660002502352:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002502352:x = "Proportion with Elevated Lead",
+1660002502352:y = "Proportion White")
+1660002504322:stl_lead_plot
+1660002565820:toolik_temp_plot <- ggplot(data = toolik_weather, aes(x = as.factor(month), y = daily_air_temp_mean_c)) +
+1660002565820:geom_jitter(aes(color = daily_air_temp_mean_c), show.legend = FALSE) +
+1660002565820:scale_color_gradient(low = "blue", high = "yellow") +
+1660002565820:theme_minimal() +
+1660002565821:labs(title = "Toolik Station daily air temperature",
+1660002565821:x = "Month",
+1660002565821:y = "Daily mean air temperatures (Celsius)")
+1660002567077:toolik_temp_plot
+1660002649725:#|fig-height:20
+1660002649726:#|fig-width: 1
+1660002649726:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002649726:geom_point(aes(color = pctElevated)) +
+1660002649726:scale_color_gradient(low = "blue", high = "yellow") +
+1660002649727:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002649727:x = "Proportion with Elevated Lead",
+1660002649727:y = "Proportion White")
+1660002651919:stl_lead_plot
+1660002750919:#|fig-height:20
+1660002750920:#|fig-width: 1
+1660002750920:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660002750921:geom_point(aes(color = pctElevated)) +
+1660002750921:scale_color_gradient(low = "blue", high = "red") +
+1660002750921:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660002750921:x = "Proportion with Elevated Lead",
+1660002750921:y = "Proportion White")
+1660002752212:stl_lead_plot
+1660003006327:names(stl_lead)
+1660006065868:geom_point(aes(color = pctElevated)) +
+1660006065870:scale_color_gradient(low = "blue", high = "red") +
+1660006065870:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660006065870:x = "Proportion with Elevated Lead",
+1660006065870:y = "Proportion White")
+1660006081465:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660006081466:geom_smooth()+
+1660006081466:geom_point(aes(color = pctElevated)) +
+1660006081466:scale_color_gradient(low = "blue", high = "red") +
+1660006081466:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660006081466:x = "Proportion with Elevated Lead",
+1660006081467:y = "Proportion White")
+1660006091188:stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pctElevated, y = prop_white)) +
+1660006091189:geom_smooth()+
+1660006091190:geom_point(aes(color = pctElevated)) +
+1660006091190:scale_color_gradient(low = "blue", high = "red") +
+1660006091190:labs(title = "Proportion White by Proportion with Elevated Lead",
+1660006091190:x = "Proportion with Elevated Lead",
+1660006091190:y = "Proportion White")
+1660006098623:stl_lead_plot
+1660006259189:ggplot(data = stl_lead_prop) +
+1660006259190:geom_histogram()
+1660006264445:ggplot(data = stl_lead_prop) +
+1660006264445:geom_histogram()
+1660006293005:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006293006:geom_histogram()
+1660006315240:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006315241:geom_histogram() +
+1660006315241:binwidth = 50
+1660006328388:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006328389:geom_histogram(binwidth = 50)
+1660006337076:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006337076:geom_histogram(binwidth = 1)
+1660006344344:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006344345:geom_histogram(binwidth = 5)
+1660006352100:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006352101:geom_histogram(binwidth = .5)
+1660006408118:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006408119:geom_histogram(binwidth = .5, aes(color = pctElevated)) +
+1660006408119:scale_color_gradient(low = "blue", high = "red")
+1660006413047:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006413047:geom_histogram(binwidth = .5, aes(color = pctElevated)) +
+1660006413047:scale_color_gradient(low = "blue", high = "red")
+1660006420609:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006420611:geom_histogram(binwidth = .5, aes(color = pctElevated)) +
+1660006420611:scale_color_gradient(low = "blue", high = "red")
+1660006538837:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006538838:geom_histogram(binwidth = .5, aes(color = pctElevated)) +
+1660006538838:scale_color_gradient(pctElevated < 10 = "blue", pctElevated > 10 = "red")
+1660006541039:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006541039:geom_histogram(binwidth = .5, aes(color = pctElevated)) +
+1660006541039:scale_color_gradient(pctElevated < 10 = "blue", pctElevated > 10 = "red")
+1660006571259:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006571259:geom_histogram(binwidth = .5, aes(color = pctElevated))
+1660006590040:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006590040:geom_histogram(binwidth = .5, aes(color = 3))
+1660006597802:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006597802:geom_histogram(binwidth = .5, aes(color = Blue))
+1660006600647:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006600647:geom_histogram(binwidth = .5, aes(color = Blue))
+1660006608775:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006608775:geom_histogram(binwidth = .5, aes(color = "Blue"))
+1660006614184:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006614184:geom_histogram(binwidth = .5, aes(color = "Blue"))
+1660006799665:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006799668:geom_histogram(binwidth = .5, aes(color = "red"))
+1660006882724:ggplot(data = stl_lead_prop, aes(x = pctElevated)) +
+1660006882726:geom_histogram(binwidth = .5, aes(pctElevated = "red"))
+1660013846972:?waiting
+1660013866943:?geom_histogram
+1660014907047:?`stats-density
+1660014917716:?stat_density
+1660014929087:?stat_density
+1660015305529:packages <- c(
+1660015305530:'ggplot2',
+1660015305530:'ggrepel',
+1660015305530:'patchwork',
+1660015305530:'ggraph',
+1660015305530:'dplyr',
+1660015305531:'gganimate',
+1660015305531:'gifski',
+1660015305531:'ggforce',
+1660015305531:'ggthemes',
+1660015305531:'maps',
+1660015305531:'sf',
+1660015305531:'tidyr',
+1660015305531:'concaveman',
+1660015305531:'remotes'
+1660015305532:)
+1660015308905:# Uncomment the next lines (remove the first #) to install the packages
+1660015308905:# install.packages(packages)
+1660015308905:# remotes::install_github("hrbrmstr/hrbrthemes")
+1660015308905:# Load standard packages
+1660015308906:library(ggplot2)
+1660015325130:?geom_jitter
+1660065705173:save.image("~/Desktop/EDS 222/ggplot2_workshop/online ggplot.RData")
+1660065873360:var1 <- 1, 3, 4, 5, 7, 9, 11
+1660065882782:var1 <- c(1, 3, 4, 5, 7, 9, 11)
+1660065909983:var2 <- c(1, 4, 4, 5, 7, 9, 13)
+1660065941903:?data.frame()
+1660066005404:data.frame(x = var1, y = var2)
+1660066007500:data.frame(x = var1, y = var2)
+1660066028718:data_frame_1 <- data.frame(x = var1, y = var2)
+1660066092496:ggplot2::ggplot(data = data_frame_1) +
+1660066092497:geom_jitter
+1660066102015:ggplot2::ggplot(data = data_frame_1)
+1660066118040:geom_jitter
+1660066261113:ggplot2::ggplot(data = data_frame_1) +
+1660066261114:ggplot2::geom_plot(mapping = aes(x = var1, y = var2))
+1660066340691:# create a vector
+1660066340692:dogs <- c("teddy", "khora", "waffle", "banjo", "tallie")
+1660066359655:# check the class
+1660066359656:class(dogs)
+1660066454248:cats <- c("creamsicle worlf", 14.2, 3L)
+1660066462413:class(cats)
+1660066569370:library(tidyverse)
+1660066577970:library(ggplot2)
+1660066580527:ggplot2::ggplot(data = data_frame_1) +
+1660066580527:ggplot2::geom_plot(mapping = aes(x = var1, y = var2))
+1660066596464:ggplot2::ggplot(data = data_frame_1) +
+1660066596465:geom_point(mapping = aes(x = var1, y = var2))
+1660066645266:geom_point(mapping = aes(x = var1, y = var2, color < 3)
+1660066647821:geom_point(mapping = aes(x = var1, y = var2, color < 3)
+1660066656676:ggplot2::ggplot(data = data_frame_1) +
+1660066656676:geom_point(mapping = aes(x = var1, y = var2, color < 3))
+1660066699094:class(cats)
+1660066704437:cat_age <- cats[3]
+1660066708731:cat_age
+1660066732320:cat_name <- cats[1]
+1660066735885:cat_name
+1660066743637:cats <- c("creamsicle wolf", 14.2, 3L)
+1660066750166:cat_name
+1660066756327:cats <- c("creamsicle wolf", 14.2, 3L)
+1660066758558:class(cats)
+1660066772255:class(cats)
+1660066774487:cat_name <- cats[1]
+1660066778446:class(cats)
+1660066783066:cat_name
+1660066821995:years <- c(20, 40, 16, 2)
+1660066824313:class(years)
+1660066831272:typeof(years)
+1660066869638:ggplot2::ggplot(data = data_frame_1) +
+1660066869639:geom_point(mapping = aes(x = var1, y = var2,) color = "blue steel")
+1660066980221:is.numeric(years)
+1660067008104:is.character(years)
+1660067104691:dog_food <- c(teddy - "purina", khora = "alpo", waffle = "fancy feast")
+1660067115072:dog_food <- c(teddy = "purina", khora = "alpo", waffle = "fancy feast")
+1660067120638:dog_food
+1660067131711:dog_food[2]
+1660067152219:dog_food[alpo]
+1660067160627:dog_food[khora]
+1660067177299:dog_food[alpo]
+1660067193090:dog_food["khora"]
+1660067606939:data_frame_1 <- data.frame(x = var1, y = var2, color = var1)
+1660067630980:ggplot2::ggplot(data = data_frame_1) +
+1660067630982:geom_point(mapping = aes(x = var1, y = var2,) color = "blue steel")
+1660067640583:ggplot2::ggplot(data = data_frame_1) +
+1660067640585:geom_point(mapping = aes(x = var1, y = var2,))
+1660067659196:ggplot2::ggplot(data = data_frame_1) +
+1660067659197:geom_point(mapping = aes(x = var1, y = var2, color = var1))
+1660067979880:ggplot2::ggplot(data = data_frame_1) +
+1660067979881:geom_point(mapping = aes(x = var1, y = var2, color = var1 > 2))
+1660068031875:ggplot2::ggplot(data = data_frame_1) +
+1660068031876:geom_point(mapping = aes(x = var1, y = var2) color = "steelblue")
+1660068042175:ggplot2::ggplot(data = data_frame_1) +
+1660068042175:geom_point(mapping = aes(x = var1, y = var2) colour = "steelblue")
+1660068054369:ggplot2::ggplot(data = data_frame_1) +
+1660068054370:geom_point(mapping = aes(x = var1, y = var2), color = "steelblue")
+1660068059745:ggplot2::ggplot(data = data_frame_1) +
+1660068059745:geom_point(mapping = aes(x = var1, y = var2), color = "red")
+1660068105154:ggplot2::ggplot(data = data_frame_1) +
+1660068105155:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068105155:geom_density2d(aes(x = var1, y = var2))
+1660068128519:ggplot2::ggplot(data = data_frame_1) +
+1660068128520:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068128521:geom_density2d(aes(x = var1, y = var2), fill = "green")
+1660068138794:ggplot2::ggplot(data = data_frame_1) +
+1660068138795:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068138795:geom_density2d(aes(x = var1, y = var2), color = "green")
+1660068159428:ggplot2::ggplot(data = data_frame_1) +
+1660068159429:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068159429:geom_density2d(aes(x = var1, y = var2, color = var1))
+1660068167751:ggplot2::ggplot(data = data_frame_1) +
+1660068167752:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068167752:geom_density2d(aes(x = var1, y = var2, color = var2))
+1660068171807:ggplot2::ggplot(data = data_frame_1) +
+1660068171807:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068171808:geom_density2d(aes(x = var1, y = var2, color = var2))
+1660068188173:ggplot2::ggplot(data = data_frame_1) +
+1660068188175:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068188175:geom_density2d_filled(aes(x = var1, y = var2, color = var2))
+1660068210039:ggplot2::ggplot(data = data_frame_1) +
+1660068210040:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068210040:geom_density2d_filled(aes(x = var1, y = var2, color = var2), alpha = .2)
+1660068219436:ggplot2::ggplot(data = data_frame_1) +
+1660068219437:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068219437:geom_density2d_filled(aes(x = var1, y = var2, color = var1), alpha = .2)
+1660068234275:ggplot2::ggplot(data = data_frame_1) +
+1660068234276:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068234277:geom_density2d_filled(aes(x = var1, y = var2, color = var1 > 2), alpha = .2)
+1660068239368:ggplot2::ggplot(data = data_frame_1) +
+1660068239368:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068239369:geom_density2d_filled(aes(x = var1, y = var2, color = var1 > 2), alpha = .2)
+1660068271589:geom_density2d_filled(aes(x = var1, y = var2, color = var1, alpha = .2)
+1660068273060:geom_density2d_filled(aes(x = var1, y = var2, color = var1, alpha = .2)
+1660068275256:geom_density2d_filled(aes(x = var1, y = var2, color = var1, alpha = .2)
+1660068285548:geom_density2d_filled(aes(x = var1, y = var2, color = var1, alpha = .2)
+1660068301025:ggplot2::ggplot(data = data_frame_1) +
+1660068304530:ggplot2::ggplot(data = data_frame_1) +
+1660068304530:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068304531:geom_density2d_filled(aes(x = var1, y = var2) color = var1, alpha = .2)
+1660068402478:ggplot2::ggplot(data = data_frame_1,) +
+1660068402478:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660068402479:scale_colour_brewer(type = 'qual')
+1660068413779:ggplot(mpg) +
+1660068413779:geom_point(aes(x = displ, y = hwy, colour = class)) +
+1660068413779:scale_colour_brewer(type = 'qual')
+1660068421606:# Chunk 1: setup
+1660068421606:knitr::opts_chunk$set(echo = TRUE)
+1660068421607:# Chunk 2
+1660068421607:packages <- c(
+1660068421607:'ggplot2',
+1660068421607:'ggrepel',
+1660068421607:'patchwork',
+1660068421607:'ggraph',
+1660068421607:'dplyr',
+1660068421607:'gganimate',
+1660068421607:'gifski',
+1660068421607:'ggforce',
+1660068421607:'ggthemes',
+1660068421608:'maps',
+1660068421608:'sf',
+1660068421608:'tidyr',
+1660068421608:'concaveman',
+1660068421608:'remotes'
+1660068421608:)
+1660068421608:# Uncomment the next lines (remove the first #) to install the packages
+1660068421608:# install.packages(packages)
+1660068421608:# remotes::install_github("hrbrmstr/hrbrthemes")
+1660068421608:# Load standard packages
+1660068421608:library(ggplot2)
+1660068421679:# Chunk 3
+1660068421679:data("faithful")
+1660068421681:# Basic scatterplot
+1660068421681:ggplot(data = faithful,
+1660068421681:mapping = aes(x = eruptions, y = waiting)) +
+1660068421681:geom_point()
+1660068422142:# Data and mapping can be given both as global (in ggplot()) or per layer
+1660068422143:ggplot() +
+1660068422143:geom_point(mapping = aes(x = eruptions, y = waiting),
+1660068422143:data = faithful)
+1660068422250:# Chunk 4
+1660068422250:ggplot(faithful) +
+1660068422250:geom_point(aes(x = eruptions, y = waiting, colour = eruptions < 3))
+1660068422399:# Chunk 5
+1660068422400:ggplot(faithful) +
+1660068422400:geom_point(aes(x = eruptions, y = waiting),
+1660068422400:colour = 'steelblue')
+1660068422538:# Chunk 6
+1660068422539:ggplot(faithful) +
+1660068422539:geom_histogram(aes(x = eruptions))
+1660068422654:# Chunk 7
+1660068422654:ggplot(faithful, aes(x = eruptions, y = waiting)) +
+1660068422654:geom_density_2d() +
+1660068422654:geom_point()
+1660068422810:# Chunk 8
+1660068422810:ggplot(faithful) +
+1660068422810:geom_point(aes(x = eruptions, y = waiting))
+1660068422931:# Chunk 9
+1660068422931:ggplot(faithful) +
+1660068422932:geom_histogram(aes(x = eruptions))
+1660068423050:# Chunk 10
+1660068423050:ggplot(faithful) +
+1660068423051:geom_histogram(aes(x = eruptions))
+1660068423158:# Chunk 11
+1660068423158:ggplot(faithful) +
+1660068423158:geom_point(aes(x = eruptions, y = waiting))
+1660068423258:# Chunk 12
+1660068423258:data("mpg")
+1660068423259:ggplot(mpg) +
+1660068423259:geom_bar(aes(x = class))
+1660068423376:# Chunk 13
+1660068423376:library(dplyr)
+1660068423390:mpg_counted <- mpg %>%
+1660068423390:count(class, name = 'count')
+1660068423404:ggplot(mpg_counted) +
+1660068423405:geom_bar(aes(x = class, y = count), stat = 'identity')
+1660068423520:# Chunk 14
+1660068423520:ggplot(mpg_counted) +
+1660068423521:geom_col(aes(x = class, y = count))
+1660068423630:# Chunk 15
+1660068423630:ggplot(mpg) +
+1660068423630:geom_bar(aes(x = class, y = after_stat(100 * count / sum(count))))
+1660068423737:# Chunk 16
+1660068423737:ggplot(mpg) +
+1660068423738:geom_density(aes(x = hwy))
+1660068423842:# Chunk 17
+1660068423843:ggplot(mpg) +
+1660068423843:geom_density(aes(x = hwy, y = after_stat(scaled)))
+1660068423959:# Chunk 18
+1660068423959:ggplot(mpg) +
+1660068423959:geom_bar(aes(x = class))
+1660068424068:# Chunk 19
+1660068424069:ggplot(mpg) +
+1660068424069:geom_jitter(aes(x = class, y = hwy), width = 0.2)
+1660068424178:# Chunk 20
+1660068424178:ggplot(mpg) +
+1660068424178:geom_point(aes(x = displ, y = hwy, colour = class))
+1660068424374:# Chunk 21
+1660068424375:ggplot(mpg) +
+1660068424375:geom_point(aes(x = displ, y = hwy, colour = class)) +
+1660068424375:scale_colour_brewer(type = 'qual')
+1660068424661:# Chunk 22
+1660068424661:ggplot(mpg) +
+1660068424661:geom_point(aes(x = displ, y = hwy)) +
+1660068424661:scale_x_continuous(breaks = c(3, 5, 6)) +
+1660068424661:scale_y_continuous(trans = 'log10')
+1660068424841:# Chunk 23
+1660068424842:ggplot(mpg) +
+1660068424842:geom_point(aes(x = displ, y = hwy, colour = class)) +
+1660068424842:scale_colour_brewer(type = 'qual')
+1660068425043:# Chunk 24
+1660068425043:ggplot(mpg) +
+1660068425043:geom_point(aes(x = displ, y = hwy, colour = class)) +
+1660068425044:scale_colour_brewer(type = 'qual')
+1660068425322:# Chunk 25
+1660068425323:ggplot(mpg) +
+1660068425323:geom_point(aes(x = displ, y = hwy, colour = class, size = cty))
+1660068425672:# Chunk 26
+1660068425673:ggplot(mpg) +
+1660068425673:geom_point(aes(x = displ, y = hwy, colour = cty, size = cty))
+1660068426048:# Chunk 27
+1660068426048:ggplot(mpg) +
+1660068426049:geom_point(aes(x = displ, y = hwy)) +
+1660068426049:facet_wrap(~ class)
+1660068426405:# Chunk 28
+1660068426405:ggplot(mpg) +
+1660068426405:geom_point(aes(x = displ, y = hwy)) +
+1660068426405:facet_grid(year ~ drv)
+1660068426705:# Chunk 29
+1660068426705:ggplot(mpg) +
+1660068426706:geom_point(aes(x = displ, y = hwy)) +
+1660068426706:facet_wrap(~ drv)
+1660068426925:# Chunk 30
+1660068426925:ggplot(mpg) +
+1660068426926:geom_bar(aes(y = manufacturer)) +
+1660068426926:facet_grid(class ~ .)
+1660068427377:# Chunk 31
+1660068427378:ggplot(mpg) +
+1660068427378:geom_point(aes(x = displ, y = hwy)) +
+1660068427378:facet_grid(year ~ drv)
+1660068427661:# Chunk 32
+1660068427661:ggplot(mpg) +
+1660068427661:geom_bar(aes(x = class)) +
+1660068427661:coord_polar()
+1660068427809:# Chunk 33
+1660068427809:ggplot(mpg) +
+1660068427809:geom_bar(aes(x = class)) +
+1660068427809:coord_polar(theta = 'y') +
+1660068427809:expand_limits(y = 70)
+1660068427922:# Chunk 34
+1660068427922:ggplot(mpg) +
+1660068427923:geom_bar(aes(x = class)) +
+1660068427923:scale_y_continuous(limits = c(0, 40))
+1660068428045:# Chunk 35
+1660068428045:ggplot(mpg) +
+1660068428045:geom_bar(aes(x = class)) +
+1660068428045:coord_cartesian(ylim = c(0, 40))
+1660068428165:# Chunk 36
+1660068428165:ggplot(mpg) +
+1660068428165:geom_point(aes(x = hwy, y = displ))
+1660068428264:# Chunk 37
+1660068428264:# Get the borders of all countries
+1660068428264:world <- sf::st_as_sf(maps::map('world', plot = FALSE, fill = TRUE))
+1660068428361:world <- sf::st_wrap_dateline(world,
+1660068428361:options = c("WRAPDATELINE=YES", "DATELINEOFFSET=180"),
+1660068428361:quiet = TRUE)
+1660068428524:# Plot code
+1660068428524:ggplot(world) +
+1660068428524:geom_sf() +
+1660068428524:coord_sf(crs = "+proj=moll")
+1660068429739:# Chunk 38
+1660068429740:ggplot(mpg) +
+1660068429740:geom_bar(aes(y = class)) +
+1660068429740:facet_wrap(~year) +
+1660068429740:theme_minimal()
+1660068429977:# Chunk 39
+1660068429977:ggplot(mpg) +
+1660068429977:geom_bar(aes(y = class)) +
+1660068429977:facet_wrap(~year) +
+1660068429977:labs(title = "Number of car models per class",
+1660068429977:caption = "source: http://fueleconomy.gov",
+1660068429977:x = NULL,
+1660068429977:y = NULL) +
+1660068429978:scale_x_continuous(expand = c(0, NA)) +
+1660068429978:theme_minimal() +
+1660068429978:theme(
+1660068429978:text = element_text('Avenir Next Condensed'),
+1660068429978:strip.text = element_text(face = 'bold', hjust = 0),
+1660068429978:plot.caption = element_text(face = 'italic'),
+1660068429978:panel.grid.major = element_line('white', size = 0.5),
+1660068429978:panel.grid.minor = element_blank(),
+1660068429978:panel.grid.major.y = element_blank(),
+1660068429978:panel.ontop = TRUE
+1660068429978:)
+1660068430281:# Chunk 40
+1660068430281:ggplot(mpg) +
+1660068430281:geom_bar(aes(y = class, fill = drv)) +
+1660068430281:facet_wrap(~year) +
+1660068430281:labs(title = "Number of car models per class",
+1660068430281:caption = "source: http://fueleconomy.gov",
+1660068430281:x = 'Number of cars',
+1660068430281:y = NULL)
+1660068430507:# Chunk 41
+1660068430507:p1 <- ggplot(msleep) +
+1660068430508:geom_boxplot(aes(x = sleep_total, y = vore, fill = vore))
+1660068430510:p1
+1660068430771:# Chunk 42
+1660068430771:p2 <- ggplot(msleep) +
+1660068430772:geom_bar(aes(y = vore, fill = vore))
+1660068430773:p2
+1660068431041:# Chunk 43
+1660068431041:p3 <- ggplot(msleep) +
+1660068431041:geom_point(aes(x = bodywt, y = sleep_total, colour = vore)) +
+1660068431041:scale_x_log10()
+1660068431042:p3
+1660068431281:# Chunk 44
+1660068431282:library(patchwork)
+1660068431295:p1 + p2 + p3
+1660068431816:(p1 | p2) /
+1660068431816:p3
+1660068432416:p_all <- (p1 | p2) /
+1660068432416:p3
+1660068432417:p_all + plot_layout(guides = 'collect')
+1660068433088:p_all & theme(legend.position = 'none')
+1660068433594:p_all <- p_all & theme(legend.position = 'none')
+1660068433594:p_all + plot_annotation(
+1660068433594:title = 'Mammalian sleep patterns',
+1660068433594:tag_levels = 'A'
+1660068433594:)
+1660068433891:# Chunk 45
+1660068433891:p <- ggplot(mtcars) +
+1660068433891:geom_point(aes(x = disp, y = mpg))
+1660068433892:p + p + p
+1660068434176:# Chunk 46
+1660068434176:p1 <- ggplot(mtcars[mtcars$gear == 3,]) +
+1660068434177:geom_point(aes(x = disp, y = mpg))
+1660068434178:p2 <- ggplot(mtcars[mtcars$gear == 4,]) +
+1660068434178:geom_point(aes(x = disp, y = mpg))
+1660068434178:p1 + p2
+1660068434361:# Chunk 47
+1660068434361:p1 <- ggplot(mtcars) +
+1660068434361:geom_point(aes(x = disp, y = mpg))
+1660068434362:p2 <- ggplot(mtcars) +
+1660068434362:geom_bar(aes(x = factor(gear)))
+1660068434363:p3 <- ggplot(mtcars) +
+1660068434363:geom_boxplot(aes(x = factor(gear), y = mpg))
+1660068434364:layout <- '
+1660068434364:AA#
+1660068434364:#BB
+1660068434364:C##
+1660068434364:'
+1660068434364:p1 + p2 + p3 + plot_layout(design = layout)
+1660068434600:# Chunk 48
+1660068434601:ggplot(economics) +
+1660068434601:geom_line(aes(x = date, y = unemploy))
+1660068434747:library(gganimate)
+1660068434798:ggplot(economics) +
+1660068434798:geom_line(aes(x = date, y = unemploy)) +
+1660068434798:transition_reveal(along = date)
+1660068439747:# Chunk 49
+1660068439748:ggplot(mpg) +
+1660068439748:geom_bar(aes(x = factor(cyl)))
+1660068439826:ggplot(mpg) +
+1660068439827:geom_bar(aes(x = factor(cyl))) +
+1660068439827:labs(title = 'Number of cars in {closest_state} by number of cylinders') +
+1660068439827:transition_states(states = year) +
+1660068439827:enter_grow() +
+1660068439827:exit_fade()
+1660068444806:# Chunk 50
+1660068444806:ggplot(mpg) +
+1660068444806:geom_point(aes(x = displ, y = hwy)) +
+1660068444806:ggtitle("Cars with {closest_state} cylinders") +
+1660068444806:transition_states(factor(cyl))
+1660068449646:# Chunk 51
+1660068449646:ggplot(mpg) +
+1660068449646:geom_point(aes(x = displ, y = hwy, colour = factor(cyl))) +
+1660068449646:ggtitle("Cars with {closest_state} cylinders") +
+1660068449646:transition_states(factor(cyl))
+1660068460212:# Chunk 52
+1660068460213:mpg2 <- tidyr::pivot_longer(mpg, c(cty,hwy))
+1660068460219:ggplot(mpg2) +
+1660068460219:geom_point(aes(x = displ, y = value)) +
+1660068460220:ggtitle("{if (closest_state == 'cty') 'Efficiency in city' else 'Efficiency on highway'}") +
+1660068460220:transition_states(name)
+1660068465455:# Chunk 53
+1660068465455:ggplot(mtcars, aes(x = disp, y = mpg)) +
+1660068465455:geom_point() +
+1660068465455:geom_text(aes(label = row.names(mtcars)))
+1660068465553:# Chunk 54
+1660068465553:library(ggrepel)
+1660068465572:ggplot(mtcars, aes(x = disp, y = mpg)) +
+1660068465572:geom_point() +
+1660068465572:geom_text_repel(aes(label = row.names(mtcars)))
+1660068465895:# Chunk 55
+1660068465895:library(ggforce)
+1660068465925:ggplot(mtcars, aes(x = disp, y = mpg)) +
+1660068465925:geom_point() +
+1660068465925:geom_mark_ellipse(aes(filter = gear == 4,
+1660068465925:label = '4 gear cars',
+1660068465925:description = 'Cars with fewer gears tend to both have higher yield and lower displacement'))
+1660068466083:# Chunk 56
+1660068466083:mtcars2 <- mtcars
+1660068466083:mtcars2$label <- rownames(mtcars2)
+1660068466083:points_to_label <- sample(nrow(mtcars), 10)
+1660068466083:ggplot(mtcars2, aes(x = disp, y = mpg)) +
+1660068466084:geom_point() +
+1660068466084:geom_text_repel(aes(label = label))
+1660068466392:# Chunk 57
+1660068466393:mtcars2$label <- ""
+1660068466393:mtcars2$label[1:10] <- rownames(mtcars2)[1:10]
+1660068466393:ggplot(mtcars2, aes(x = disp, y = mpg)) +
+1660068466393:geom_point() +
+1660068466393:geom_text_repel(aes(label = label))
+1660068466569:# Chunk 58
+1660068466569:ggplot(mtcars, aes(x = disp, y = mpg)) +
+1660068466569:geom_point() +
+1660068466569:geom_mark_ellipse(aes(filter = gear == 4,
+1660068466569:label = '4 gear cars'))
+1660068466711:# Chunk 59
+1660068466711:library(ggraph)
+1660068467048:library(tidygraph)
+1660068467054:graph <- create_notable('zachary') %>%
+1660068467054:mutate(clique = as.factor(group_infomap()))
+1660068467065:ggraph(graph) +
+1660068467065:geom_mark_hull(aes(x, y, fill = clique)) +
+1660068467065:geom_edge_link() +
+1660068467065:geom_node_point(size = 2)
+1660068467188:# Chunk 60
+1660068467189:iris_clust <- hclust(dist(iris[, 1:4]))
+1660068467190:ggraph(iris_clust) +
+1660068467190:geom_edge_bend() +
+1660068467190:geom_node_point(aes(filter = leaf))
+1660068467499:# Chunk 61
+1660068467499:ggraph(graph) +
+1660068467499:geom_edge_link() +
+1660068467499:geom_node_point(aes(colour = clique), size = 3)
+1660068467662:# Chunk 62
+1660068467663:highschool_gr <- as_tbl_graph(highschool)
+1660068467665:ggraph(highschool_gr) +
+1660068467665:geom_edge_link() +
+1660068467665:geom_node_point()
+1660068468104:# Chunk 63
+1660068468104:ggraph(highschool_gr) +
+1660068468104:geom_edge_fan() +
+1660068468104:geom_node_point()
+1660068468409:# Chunk 64
+1660068468409:p <- ggplot(mtcars, aes(mpg, wt)) +
+1660068468410:geom_point(aes(color = factor(carb))) +
+1660068468410:labs(
+1660068468410:x = 'Fuel efficiency (mpg)',
+1660068468410:y = 'Weight (tons)',
+1660068468410:title = 'Seminal ggplot2 example',
+1660068468410:subtitle = 'A plot to show off different themes',
+1660068468410:caption = 'Source: It’s mtcars — everyone uses it'
+1660068468410:)
+1660068468411:library(hrbrthemes)
+1660068468789:p +
+1660068468789:scale_colour_ipsum() +
+1660068468789:theme_ipsum()
+1660068468981:# Chunk 65
+1660068468982:library(ggthemes)
+1660068468996:p +
+1660068468997:scale_colour_excel() +
+1660068468997:theme_excel()
+1660068469329:# Chunk 66
+1660068469329:states <- c(
+1660068469329:'eaten', "eaten but said you didn\'t", 'cat took it', 'for tonight',
+1660068469329:'will decompose slowly'
+1660068469329:)
+1660068469329:pie <- data.frame(
+1660068469329:state = factor(states, levels = states),
+1660068469329:amount = c(4, 3, 1, 1.5, 6),
+1660068469329:stringsAsFactors = FALSE
+1660068469329:)
+1660068469330:ggplot(pie) +
+1660068469330:geom_col(aes(x = 0, y = amount, fill = state))
+1660068469627:# Chunk 67
+1660068469627:ggplot(pie) +
+1660068469628:geom_col(aes(x = 0, y = amount, fill = state)) +
+1660068469628:coord_polar(theta = 'y')
+1660068469848:# Chunk 68
+1660068469848:ggplot(pie) +
+1660068469848:geom_col(aes(x = 0, y = amount, fill = state)) +
+1660068469848:coord_polar(theta = 'y') +
+1660068469848:scale_fill_tableau(name = NULL,
+1660068469849:guide = guide_legend(ncol = 2)) +
+1660068469849:theme_void() +
+1660068469849:theme(legend.position = 'top',
+1660068469849:legend.justification = 'left')
+1660068470032:# Chunk 69
+1660068470032:ggplot(pie) +
+1660068470032:geom_arc_bar(aes(x0 = 0, y0 = 0, r0 = 0, r = 1, amount = amount, fill = state), stat = 'pie') +
+1660068470032:coord_fixed()
+1660068470222:# Chunk 70
+1660068470222:ggplot(pie) +
+1660068470222:geom_arc_bar(aes(x0 = 0, y0 = 0, r0 = 0, r = 1, amount = amount, fill = state), stat = 'pie') +
+1660068470222:coord_fixed() +
+1660068470222:scale_fill_tableau(name = NULL,
+1660068470222:guide = guide_legend(ncol = 2)) +
+1660068470223:theme_void() +
+1660068470223:theme(legend.position = 'top',
+1660068470223:legend.justification = 'left')
+1660068470409:# Chunk 71
+1660068470409:ggplot(mpg) +
+1660068470409:# geom_bar(aes(x = hwy), stat = 'bin')
+1660068470410:geom_histogram(aes(x = hwy))
+1660068470523:# Chunk 72
+1660068470523:ggplot(mpg) +
+1660068470524:geom_bar(aes(x = hwy)) +
+1660068470524:scale_x_binned(n.breaks = 30, guide = guide_axis(n.dodge = 2))
+1660068475426:ggplot(mpg) +
+1660068475427:geom_point(aes(x = displ, y = hwy, colour = class)) +
+1660068475427:scale_colour_brewer(type = 'qual')
+1660076291749:cars <- c("blue", "orange", "white")
+1660076308549:cars[1]
+1660076362177:cars[i]
+1660076366962:i <- 3
+1660076368537:cars[i]
+1660076399624:mpg <- c(23, 33, 24)
+1660076427792:data_frame(x = cars, y = mpg)
+1660076457528:i <- seq(1:2)
+1660076459482:cars[i]
+1660076469237:i <- seq(1:3)
+1660076470674:cars[i]
+1660076505535:cars[3] <- "yellow"
+1660076533309:data_frame_2 <- data_frame(x = cars, y = mpg)
+1660076535490:data_frame_2 <- data_frame(x = cars, y = mpg)
+1660076627764:fish_size <- matrix(c(12, 14, 18, 20), ncol = 2, nrow = 2, byrow = FALSE)
+1660076634969:fish_size
+1660076665113:data_frame_2
+1660076678171:ggplot(data = data_frame_2)
+1660076706994:class(fish_size)
+1660076738607:# example of indexing
+1660076738608:fish_size[1,1]
+1660076746233:fish_size[1,]
+1660076755532:fish_size[,]
+1660076771582:fish_size[,2]
+1660076806076:ggplot(data = data_frame_2) +
+1660076806077:geom_point(mapping = aes(x = cars, y = mpg))
+1660076835298:typeof(fish_size)
+1660076845625:ggplot(data = data_frame_2) +
+1660076845626:geom_bar(mapping = aes(x = cars, y = mpg))
+1660076847725:ggplot(data = data_frame_2) +
+1660076847725:geom_bar(mapping = aes(x = cars, y = mpg))
+1660076853660:rlang::last_error()
+1660076864772:ggplot(data = data_frame_2) +
+1660076864772:geom_bar(mapping = aes(x = cars, y = mpg))
+1660076873783:ggplot(data = data_frame_2) +
+1660076873783:geom_bar(mapping = aes(x = class, y = mpg))
+1660076898658:ggplot(data = data_frame_2) +
+1660076898659:geom_line(mapping = aes(x = class, y = mpg))
+1660076901077:ggplot(data = data_frame_2) +
+1660076901077:geom_line(mapping = aes(x = class, y = mpg))
+1660076957390:fish_type <- matrix(c(12, "trout", 18, 13L),
+1660076957392:ncol = 2,
+1660076957392:nrow = 2,
+1660076957392:byrow = FALSE)
+1660076967752:fish_type
+1660076973596:class(type)
+1660076981059:class(fish_type)
+1660076995129:type_of(fish_type)
+1660076999056:type_of(fish_type)
+1660076999275:type_of(fish_type)
+1660077005677:typeof(fish_type)
+1660077023065:ggplot(data = data_frame_2) +
+1660077023066:geom_point(mapping = aes(x = class, y = mpg))
+1660077037613:ggplot(data = data_frame_2) +
+1660077037613:geom_point(mapping = aes(x = cars, y = mpg))
+1660077048313:ggplot(data = data_frame_2) +
+1660077048314:geom_bar(mapping = aes(x = cars, y = mpg))
+1660077078414:fish_size[2,0]
+1660077082013:fish_size[2,0]
+1660077097497:fish_size[2,]
+1660077147112:?geom_bar
+1660077186261:ggplot(data = data_frame_2) +
+1660077186262:geom_bar(mapping = aes(class))
+1660077278277:urchins <- list("blue", c(1, 2, 3), c("a cat", "a dog"), 5L)
+1660077287497:urchins
+1660077334619:urchins matrix <- matrix(urchins,
+1660077348982:urchins_matrix <- matrix(urchins,
+1660077348983:ncol = 2,
+1660077348983:nrow = 2,
+1660077348983:byrow = FALSE)
+1660077358329:urchins_matrix
+1660077407982:urchins[2]
+1660077428485:urchins[[2]]
+1660077483316:urchins_matrix
+1660077498766:urchins_matrix[1,2]
+1660077516929:urchins_matrix <- matrix(urchins,
+1660077516930:ncol = 2,
+1660077516930:nrow = 2,
+1660077516930:byrow = TRUE)
+1660077521250:urchins_matrix[1,2]
+1660077527698:urchins_matrix[1,3]
+1660077542820:urchins_matrix[2,1]
+1660077564253:urchins <- list("blue", c(1, 2, 3), c("a cat", "a dog"), 5L, 5)
+1660077566910:urchins_matrix <- matrix(urchins,
+1660077566910:ncol = 2,
+1660077566910:nrow = 2,
+1660077566911:byrow = TRUE)
+1660077576782:urchins <- list("blue", c(1, 2, 3), c("a cat", "a dog"), 5L,)
+1660077582991:urchins <- list("blue", c(1, 2, 3), c("a cat", "a dog"), 5L)
+1660077788414:tacos <- list(topping = c("onion", "cilantro", "guacamole"),
+1660077788416:filling = c("beans", "murder meet", "veggies")
+1660077788417:price = c(6.75, 8.25, 9.50))
+1660077803249:tacos <- list(topping = c("onion", "cilantro", "guacamole"),
+1660077803250:filling = c("beans", "murder meet", "veggies"),
+1660077803250:price = c(6.75, 8.25, 9.50))
+1660077810514:tacos
+1660077895659:# index list elements by name
+1660077895661:tacos$filling
+1660078091951:# index list elements by name
+1660078091951:tacos$filling[2]
+1660078164143:a <- c(1,2,3)
+1660078173063:b <- c(3,4,5)
+1660078196258:t.test(x = a, y = b)
+1660078247556:my_t_test <- t.test(a, b)
+1660078256694:my_t_test
+1660078319300:class(my_t_test)
+1660078371210:my_t_test$p.value
+1660078410899:my_t_test$statistic
+1660078500296:my_list <- list(cats = c(1,2,3), dogs = c(11,22,33))
+1660078513784:my_list <- list(cats = c(1,2,3), dogs = c(11,22,33))
+1660078840541:topping <- c("onion", "cilantro", "guacamole")
+1660078843028:topping <- c("onion", "cilantro", "guacamole")
+1660078891996:topping <- c("onion", "cilantro", "guacamole")
+1660078893157:filling <- c("beans", "murder meet", "veggies")
+1660078894425:price <- c(6.75, 8.25, 9.50)
+1660078924795:data_frame_3 <1 data.frame(topping, filling, price)
+1660078932061:data_frame_3 <- data.frame(topping, filling, price)
+1660078938447:data_frame_3
+1660078949392:topping <- c("onion", "cilantro", "guacamole")
+1660078949393:filling <- c("beans", "murder meet", "veggies")
+1660078949393:price <- c(6.75, 8.25, 9.50)
+1660078951922:data_frame_3 <- data.frame(topping, filling, price)
+1660078954846:topping <- c("onion", "cilantro", "guacamole")
+1660078954846:filling <- c("beans", "murder meet", "veggies")
+1660078954847:price <- c(6.75, 8.25, 9.50)
+1660078961496:topping <- c("onion", "cilantro", "guacamole")
+1660078961498:filling <- c("beans", "murder meet", "veggies")
+1660078961498:price <- c(6.75, 8.25)
+1660078963063:data_frame_3 <- data.frame(topping, filling, price)
+1660078968348:topping <- c("onion", "cilantro", "guacamole")
+1660078968348:filling <- c("beans", "murder meet", "veggies")
+1660078968349:price <- c(6.75, 8.25, 9.50)
+1660078970365:data_frame_3 <- data.frame(topping, filling, price)
+1660078973180:data_frame_3
+1660078980718:class(data_fame)
+1660078988423:class(data_fame_3)
+1660078994076:data_frame_3 <- data.frame(topping, filling, price)
+1660078996731:class(data_fame_3)
+1660079005042:class(data_frame_3)
+1660079119839:data_frame_4 <- data.frame(topping_1 = c("sour cream", "salsa", "cheese"),
+1660079119840:filling_2 = c("chicken", "cheese", "cabbage"),
+1660079119840:price)
+1660079132042:data_frame_4
+1660079144375:library(tidy)
+1660079150496:library(tidyver)
+1660079160950:library(tidyver)
+1660079210799:data_frame_4
+1660079219585:data_frame_4[2,2]
+1660079246251:ggplot2::ggplot(data = data_frame_1,) +
+1660079246252:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660079246252:scale_colour_brewer(type = 'qual')
+1660079250384:ggplot2::ggplot(data = data_frame_1,) +
+1660079250385:geom_point(mapping = aes(x = var1, y = var2), color = "red") +
+1660079250386:scale_colour_brewer(type = 'qual')
+1660079258678:ggplot2::ggplot(data = data_frame_1,) +
+1660079258679:geom_point(mapping = aes(x = var1, y = var2), color = "qual") +
+1660079258679:scale_colour_brewer(type = 'qual')
+1660079263535:ggplot2::ggplot(data = data_frame_1,) +
+1660079263535:geom_point(mapping = aes(x = var1, y = var2), color = "qual") +
+1660079263535:scale_colour_brewer(type = 'qual')
+1660079279330:ggplot2::ggplot(data = data_frame_1,) +
+1660079279331:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660079279331:scale_colour_brewer(type = 'qual')
+1660079395468:data_frame_5 <- tribble(
+1660079395469:-topping, ~filling, ~price,
+1660079395470:"avacado", "steak", 13.23,
+1660079395470:"rashish", "fish", 10.40,
+1660079395470:"salsa", "veggies", 9.75
+1660079395470:)
+1660079421518:data_frame_5 <- tribble(
+1660079421519:~topping, ~filling, ~price,
+1660079421519:"avacado", "steak", 13.23,
+1660079421520:"rashish", "fish", 10.40,
+1660079421520:"salsa", "veggies", 9.75
+1660079421520:)
+1660079430989:data_frame$
+1660079430990:```
+1660079435789:data_frame$topping
+1660079443131:data_frame
+1660079450478:data_frame_5
+1660079469564:data_frame_5[2,]
+1660079545616:data_frame_5
+1660079554976:date_frame_5$price
+1660079560063:data_frame_5 <- tribble(
+1660079560063:~topping, ~filling, ~price,
+1660079560063:"avacado", "steak", 13.23,
+1660079560063:"rashish", "fish", 10.40,
+1660079560063:"salsa", "veggies", 9.75
+1660079560063:)
+1660079583576:data_frame_5$price
+1660079596668:data_frame_5$price[2]
+1660082196828:coolish_code <- c(1,2,3)
+1660082210333:git_status
+1660082215135:gitstatus
+1660082220513:git.status
+1660082960925:# Chunk 1
+1660082960925:library(tidyverse)
+1660082961605:library(ggplot2)
+1660082961605:library(tidyver)
+1660082973259:# Chunk 1
+1660082973259:library(tidyverse)
+1660082973260:library(ggplot2)
+1660082973260:# Chunk 2
+1660082973260:var1 <- c(1, 3, 4, 5, 7, 9, 11)
+1660082973260:var2 <- c(1, 4, 4, 5, 7, 9, 13)
+1660082973260:data_frame_1 <- data.frame(x = var1, y = var2)
+1660082973261:ggplot2::ggplot(data = data_frame_1,) +
+1660082973261:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660082973261:scale_colour_brewer(type = 'qual')
+1660083021519:ggplot2::ggplot(data = data_frame_1,) +
+1660083021520:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083021520:geom_density2d_filled(aes(x = var1, y = var2)
+1660083021520:color = var1,
+1660083031623:ggplot2::ggplot(data = data_frame_1,) +
+1660083031623:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083031624:geom_density2d_filled(aes(x = var1, y = var2),
+1660083031624:color = var1,
+1660083031624:alpha = .2)
+1660083043799:ggplot2::ggplot(data = data_frame_1,) +
+1660083043800:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083043800:geom_density2d_filled(aes(x = var1, y = var2),
+1660083043800:alpha = .2)
+1660083056492:ggplot2::ggplot(data = data_frame_1,) +
+1660083056492:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083056493:geom_density2d_filled(aes(x = var1, y = var2),
+1660083056493:alpha = .2)
+1660083060133:data_frame_1 <- data.frame(x = var1, y = var2)
+1660083064878:ggplot2::ggplot(data = data_frame_1,) +
+1660083064879:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083064879:geom_density2d_filled(aes(x = var1, y = var2),
+1660083064879:alpha = .2)
+1660083072255:ggplot2::ggplot(data = data_frame_1) +
+1660083072255:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083072255:geom_density2d_filled(aes(x = var1, y = var2),
+1660083072255:alpha = .2)
+1660083089406:ggplot(data = data_frame_1) +
+1660083089407:geom_point(mapping = aes(x = var1, y = var2), color = class) +
+1660083089407:geom_density2d_filled(aes(x = var1, y = var2),
+1660083089407:alpha = .2)
+1660083137781:ggplot(data = data_frame_1) +
+1660083137782:geom_point(mapping = aes(x = var1, y = var2)), color = class) +
+1660083152043:ggplot(data = data_frame_1) +
+1660083152044:geom_point(mapping = aes(x = var1, y = var2)), color = class) +
+1660083175092:ggplot(data = data_frame_1) +
+1660083175093:geom_point(mapping = aes(x = var1, y = var2)) +
+1660083175093:geom_density2d_filled(aes(x = var1, y = var2),
+1660083175093:alpha = .2)
+1660083220412:ggplot(data = data_frame_1) +
+1660083220414:geom_point(mapping = aes(x = var1, y = var2)) +
+1660083220414:geom_density2d_filled(aes(x = var1, y = var2), alpha = .2)
+1660083227253:ggplot(data = data_frame_1) +
+1660083227254:geom_point(mapping = aes(x = var1, y = var2)) +
+1660083227254:geom_density2d_filled(aes(x = var1, y = var2), alpha = .4)
+1660084875409:vec_1 <- c(2, 5, 9, 10, 8, 12, 1, 0)
+1660084887774:vec_1 <- c(2, 5, 9, 10, 8, 12, 1, 0)
+1660084908033:class(vec_1)
+1660085008235:class(vec_1)
+1660085025186:typeof(vec_1)
+1660085057006:vec_1_e3 <- vec_1[3]
+1660085063339:vec_1_e3
+1660085090055:vec_1_e1 <- vec_1[1]
+1660085092623:vec_1_e1
+1660085129878:vec_1_e5to7 <- vec_1[5 - 7]
+1660085136508:vec_1_e5to7
+1660085160560:vec_1_e5to7 <- vec_1[5:7]
+1660085162474:vec_1_e5to7
+1660085208392:vec_1_char <- as.character(vec_1)
+1660085215092:vec_1_char
+1660085262647:vec_2 <- c(town = "Santa Barbara", location = "Rincon", swell = "south")
+1660085266303:vec_2
+1660085282661:class(vec_2)
+1660085292694:typeof(vec_2)
+1660085317715:dim(vec_2)
+1660085326355:length(vec_2)
+1660085357104:vec_2_e2 <- vec_2[location]
+1660085368342:vec_2_e2 <- vec_2[Rincon]
+1660085378856:vec_2_e2 <- vec_2[Rincon]
+1660085383150:vec_2_e2 <- vec_2[location]
+1660085414518:vec_2_e2 <- vec_2$location
+1660085476842:vec_2_e2 <- vec_2["location"]
+1660085489156:vec_2_e2
+1660085771562:c("B", "great white", 2)
+1660085787959:df_1 <- data.frame(c("region", "species", "count"),
+1660085787960:c("A","otter", 12),
+1660085787960:c("B", "great white", 2),
+1660085787961:c(),
+1660085787961:c())
+1660085836167:df_1 <- data.frame(c("region", "species", "count"),
+1660085836167:c("A","otter", 12),
+1660085836167:c("B", "great white", 2),
+1660085836168:c("A", "sea lion", 36),
+1660085836168:c("D", "gray whale", 6))
+1660085840979:df_1
+1660085865707:df_1
+1660085870223:df_1
+1660086063796:region <- c("A", "B", "A", "D")
+1660086117629:species <- c("great white", "sea lion", "gray whale")
+1660086138216:count <- c(2, 36, 6)
+1660086162099:df_1 <- data.frame(region, species, count)
+1660086228846:df_1 <- data.frame(region, species, count)
+1660086239774:region <- c("A", "B", "A", "D")
+1660086241253:species <- c("otter", "great white", "sea lion", "gray whale")
+1660086242612:count <- c(12, 2, 36, 6)
+1660086244564:df_1 <- data.frame(region, species, count)
+1660086249969:df_1
+1660086267216:class(df_1)
+1660086286591:class(df_1$species)
+1660086324858:max_count(df_1$count)
+1660086329911:max(df_1$count)
+1660086355982:max_count <- max(df_1$count)
+1660086622517:view(here::here("data","AS00601"))
+1660086633506:glimpse(here::here("data","AS00601"))
+1660086648077:open(here::here("data","AS00601"))
+1660086664852:library(readr)
+1660086664858:AS00601 <- read_csv("data/AS00601.csv")
+1660086665092:View(AS00601)
+1660086693995:read.csv(here::here("data","AS00601"))
+1660086698254:read.csv(here::here("data","AS00601"))
+1660086731246:read.csv(here::here("data","AS00601.csv"))
+1660086754811:glimpse(here::here("data","AS00601.csv"))
+1660086775720:library(tidyverse)
+1660086781280:glimpse(here::here("data","AS00601.csv"))
+1660086786439:glimpse(here::here("data","AS00601.csv"))
+1660086790177:glimpse(here::here("data","AS00601.csv"))
+1660086816766:glimpse(data)
+1660086822044:glimpse(data)
+1660086901298:data <- read.csv(here::here("data","AS00601.csv"))
+1660086911012:data
+1660086921526:view(data)
+1660086933224:glimpse(data)
+1660086945087:glimpse(data)
+1660087002391:glimpse(slimey_data)
+1660087005938:slimey_data <- read.csv(here::here("data","AS00601.csv"))
+1660087007595:slimey_data
+1660087009879:glimpse(slimey_data)
+1660087061048:library(here)
+1660087066893:library(janitor)
+1660087198377:mack_verts <- read.csv(here::here("data","AS00601.csv"))
+1660087198547:mack_verts
+1660087198553:glimpse(mack_verts)
+1660087279294:janitor::clean_names(mack_verts)
+1660087322863:janitor::clean_names(mack_verts)
+1660087340900:mack_verts <- janitor::clean_names(mack_verts)
+1660087355313:glimpse(mack_verts)
+1660087909375:mc_wt_5 <- mack_verts[weight:5]
+1660087946987:mc_wt_5 <- mack_verts$weight$5
+1660087949209:mc_wt_5 <- mack_verts$weight$
+1660087949209:```
+1660087950735:mc_wt_5 <- mack_verts$weight
+1660087963424:mc_wt_5 <- mack_verts$weight[5]
+1660087970225:mc_wt_5
+1660088010703:mc_length_8_20 <- mack_verts$length1[8:20]
+1660088016153:mc_length_8_20
+1660088042842:mc_dates <- mack_verts$sampledate
+1660088048385:mc_dates
+1660088253938:mc_salamanders <- mack_verts |>
+1660088253939:filter(species == "DITE")
+1660088263191:mc_salamanders
+1660088367824:ggplot(mc_salamanders)
+1660088428982:names(mc_salamanders)
+1660088457214:ggplot(data = mc_salamanders) +
+1660088457214:geom_point(mapping = aes(x = length1, y = grams))
+1660088466584:ggplot(data = mc_salamanders) +
+1660088466585:geom_point(mapping = aes(x = length1, y = weight))
+1660088602501:ggplot(data = mc_salamanders) +
+1660088602502:geom_point(mapping = aes(x = length1, y = weight)) +
+1660088602502:labs(x = "Snoot Lenth in mm", y = "Wight in mm")
+1660088613168:ggplot(data = mc_salamanders) +
+1660088613169:geom_point(mapping = aes(x = length1, y = weight)) +
+1660088613169:labs(x = "Snoot Lenth in mm", y = "Wight in grams")
+1660088654942:ggplot(data = mc_salamanders) +
+1660088654943:geom_point(mapping = aes(x = length1, y = weight)) +
+1660088654943:labs(x = "Snoot Lenth in mm",
+1660088654943:y = "Wight in grams",
+1660088654943:title = "Giant Salamander Snoot by Weight")
+1660088782719:ggsave(here("figs"), "Giant_Salamander_Snoot_by_Weight")
+1660088787622:ggsave(here("figs"), "Giant_Salamander_Snoot_by_Weight.png")
+1660088792793:ggsave(here("figs"), "Giant_Salamander_Snoot_by_Weight.png")
+1660088808335:ggplot(data = mc_salamanders) +
+1660088808336:geom_point(mapping = aes(x = length1, y = weight)) +
+1660088808336:labs(x = "Snoot Lenth in mm",
+1660088808337:y = "Wight in grams",
+1660088808337:title = "Giant Salamander Snoot by Weight")
+1660088811709:ggsave(here("figs"), "Giant_Salamander_Snoot_by_Weight.png")
+1660088820213:ggsave(here("figs"), "Giant_Salamander_Snoot_by_Weight.png")
+1660088823986:?ggsave
+1660088850829:ggsave(here("figs", "Giant_Salamander_Snoot_by_Weight.png"))
+1660096054224:mc_trout <- mack_verts |>
+1660096054225:filter(species == "ONCL")
+1660096056586:mc_salamanders
+1660096079188:mc_trout <- mack_verts |>
+1660096079189:filter(species == "ONCL")
+1660096091058:mc_trout
+1660096094148:mc_trout
+1660096108111:glimpse(mc_trout)
+1660096155424:ggplot(data = mc_trout) +
+1660096155424:geom_point(mapping = aes(x = length1, y = weight)) +
+1660096155425:labs(x = "Snoot Lenth in mm",
+1660096155425:y = "Wight in grams",
+1660096155425:title = "Trout Snoot by Weight")
+1660096182172:ggplot(data = mc_trout) +
+1660096182172:geom_point(mapping = aes(x = length1, y = weight), color = reach) +
+1660096182173:labs(x = "Snoot Lenth in mm",
+1660096182173:y = "Wight in grams",
+1660096182173:title = "Trout Snoot by Weight")
+1660096204303:ggplot(data = mc_trout) +
+1660096204303:geom_point(mapping = aes(x = length1, y = weight, color = reach)) +
+1660096204304:labs(x = "Snoot Lenth in mm",
+1660096204304:y = "Wight in grams",
+1660096204304:title = "Trout Snoot by Weight")
+1660096327674:library(janitor)
+1660096340366:install.packages("RColorBrewer")
+1660096348212:library("RColorBrewer")
+1660096352794:library("RColorBrewer")
+1660096376908:ggplot(data = mc_trout) +
+1660096376910:geom_point(mapping = aes(x = length1, y = weight, color = reach)) +
+1660096376910:labs(x = "Snoot Lenth in mm",
+1660096376910:y = "Wight in grams",
+1660096376910:title = "Trout Snoot by Weight") +
+1660096376910:scale_colour_brewer(palette = 1)
+1660096385306:ggplot(data = mc_trout) +
+1660096385307:geom_point(mapping = aes(x = length1, y = weight, color = reach)) +
+1660096385307:labs(x = "Snoot Lenth in mm",
+1660096385307:y = "Wight in grams",
+1660096385307:title = "Trout Snoot by Weight") +
+1660096385307:scale_colour_brewer(palette = 2)
+1660096397691:ggplot(data = mc_trout) +
+1660096397692:geom_point(mapping = aes(x = length1, y = weight, color = reach)) +
+1660096397693:labs(x = "Snoot Lenth in mm",
+1660096397693:y = "Wight in grams",
+1660096397693:title = "Trout Snoot by Weight") +
+1660096397693:scale_colour_brewer(palette = "qual")
+1660096456174:ggplot(data = mc_trout) +
+1660096456182:geom_point(mapping = aes(x = length1, y = weight, color = reach)) +
+1660096456182:labs(x = "Snoot Lenth in mm",
+1660096456182:y = "Wight in grams",
+1660096456182:title = "Trout Snoot by Weight") +
+1660096456182:scale_colour_brewer(palette = "5")
+1660096472210:ggplot(data = mc_trout) +
+1660096472211:geom_point(mapping = aes(x = length1, y = weight, color = reach)) +
+1660096472211:labs(x = "Snoot Lenth in mm",
+1660096472211:y = "Wight in grams",
+1660096472212:title = "Trout Snoot by Weight") +
+1660096472212:scale_colour_brewer(palette = 5)
+1660155969461:usethis::use_git
+1660155989546:usethis::usethis(use_git)
+1660156013979:usethis::use_git()
+1660156034332:usethis::use_github()
+1660156070833:usethis::use_git
+1660156089214:usethis::use_git
+1660156104324:usethis::use_git()
+1660156370623:burrito <- 2.4
+1660156466928:if (burrito > 2) {
+1660156466928:print("I love burritos!")
+1660156466929:}
+1660156534527:burrito <- 1
+1660156535938:if (burrito > 2) {
+1660156535938:print("I love burritos!")
+1660156535938:}
+1660156589568:burrito <- 1
+1660156589568:if (burrito > 2) {
+1660156589568:print("I love burritos!")
+1660156589568:}
+1660156597400:burrito <- 2
+1660156597401:if (burrito > 2) {
+1660156597401:print("I love burritos!")
+1660156597401:}
+1660156603408:burrito <- 3
+1660156603408:if (burrito > 2) {
+1660156603409:print("I love burritos!")
+1660156603409:}
+1660156659410:my_ships <- c("Mellenium Falcon", "X-wing", "Tie-Fighter", "Death Star")
+1660156699008:library(tidy)
+1660156704023:library(tidyverse)
+1660156749567:str_detect(my_ships, pattern = "r")
+1660156782002:str_detect(my_ships, pattern = "f")
+1660156787454:str_detect(my_ships, pattern = "F")
+1660156882980:view(starwars)
+1660156894303:glimpse(starwars)
+1660157145876:tatooine_characters <- starwars |>
+1660157145876:filter(homeworld == "Tatooine")
+1660157153110:tatooine_characters
+1660157265695:view(starwars)
+1660157270563:glimpse(starwars)
+1660157436549:filter(homeworld %in% c("Tatooine", "Naboo", "Endor")
+1660157462613:filter(homeworld %in% c("Tatooine", "Naboo", "Endor")
+1660157476758:characters_homeworld_3 <- starwars |>
+1660157476759:filter(homeworld %in% c("Tatooine", "Naboo", "Endor"))
+1660157508984:characters_homeworld_3 <- starwars |>
+1660157508984:filter(homeworld == "Tatooine" |
+1660157508984:homeworld == "Naboo" |
+1660157508984:homeworld == "Endor")
+1660157517262:characters_homeworld_2 <- starwars |>
+1660157517262:filter(homeworld == "Tatooine" |
+1660157517262:homeworld == "Naboo" |
+1660157517262:homeworld == "Endor")
+1660157519872:characters_homeworld_3 <- starwars |>
+1660157519872:filter(homeworld %in% c("Tatooine", "Naboo", "Endor"))
+1660157534697:characters_homeworld_2 == characters_homeworld_3
+1660157613841:if (str_detect(phrase, "love")) {
+1660157613842:print("I am a burrito fan")
+1660157613842:}
+1660157724127:pika <- 89.1
+1660157785680:if (pika > 60) {
+1660157785681:print("mega pika")
+1660157785681:} else {
+1660157785681:print("normal pika")
+1660157785681:}
+1660157798801:pika <- 20
+1660157801241:if (pika > 60) {
+1660157801241:print("mega pika")
+1660157801241:} else {
+1660157801241:print("normal pika")
+1660157801241:}
+1660157953264:marmot <- 2.8
+1660158001157:if (marmot < 0.5) {
+1660158001157:print("this is a small marmot")
+1660158001158:} elseif (marmot >= 0.5 & marmot < 3) {
+1660158095489:if (marmot < 0.5) {
+1660158095489:print("this is a small marmot")
+1660158095489:} elseif (marmot >= 0.5 & marmot < 3) {
+1660158095736:if (marmot < 0.5) {
+1660158095736:print("this is a small marmot")
+1660158095736:} elseif (marmot >= 0.5 & marmot < 3) {
+1660158118041:if (marmot < 0.5) {
+1660158118042:print("this is a small marmot")
+1660158118042:} else if (marmot >= 0.5 & marmot < 3) {
+1660158118042:print("this is a medium marmot")
+1660158118042:} else {
+1660158118042:print("big O marmot")
+1660158118042:}
+1660163321153:mtcars
+1660163330607:glimpse(mtcars)
+1660163537003:mtcars[[1]]
+1660163581755:na.rm = True
+1660163626626:mean_mtcars <- vector(mode = "numeric", length = ncol(mtcars))
+1660163627037:mean_mtcars <- vector(mode = "numeric", length = ncol(mtcars))
+1660163702949:for (i in seq_along(mtcars)) {
+1660163702949:mean_val <- mean(mtcars[[i]], na.rm = TRUE)
+1660163702949:mean_mtcars[i] <- mean_val
+1660163702949:}
+1660163712371:mean_mtcars
+1660163801292:mean_mtcars
+1660163805592:for (i in seq_along(mtcars)) {
+1660163805593:mean_val <- mean(mtcars[[i]])
+1660163805593:mean_mtcars[i] <- mean_val
+1660163805593:}
+1660163808036:mean_mtcars
+1660163884005:mtcars[1]
+1660163923663:view(mtcars)
+1660163972607:library(palmerpenguins)
+1660163974929:library(palmerpenguins)
+1660164005930:glimpse(penguins)
+1660164157642:for (i in seq_along(penguins)) {
+1660164157642:if (is.numeric(penguins[[i]])) {
+1660164157642:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660164157642:print(penguin_median)
+1660164157643:}
+1660164157643:}
+1660164258184:for (i in seq_along(penguins)) {
+1660164258185:if (is.numeric(penguins[[i]])) {
+1660164258185:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660164258185:print(penguin_median)
+1660164258185:} else {
+1660164258185:print("NA")
+1660164258185:}
+1660164258185:}
+1660164338544:for (i in seq_along(penguins)) {
+1660164338544:if (is.numeric(penguins[[i]])) {
+1660164338544:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660164338544:print(penguin_median)
+1660164338545:} else {
+1660164338545:print("NA")
+1660164338545:}
+1660164338545:}
+1660164342714:for (i in seq_along(penguins)) {
+1660164342714:if (is.numeric(penguins[[i]])) {
+1660164342714:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660164342714:print(penguin_median)
+1660164342714:} else {
+1660164342714:print("NA")
+1660164342714:}
+1660164342714:}
+1660164383157:for (i in seq_along(penguins)) {
+1660164383158:if (is.numeric(penguins[[i]])) {
+1660164383158:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660164383158:print(penguin_median)
+1660164383158:} else {
+1660164383158:print(NA)
+1660164383158:}
+1660164383159:}
+1660164551466:tapply()
+1660164607925:apply(mtcars, 2, mean)
+1660164681379:apply(mtcars, 1, mean)
+1660164898950:penguins
+1660164947318:mutate(across(c(species, island), toupper)
+1660164962640:mutate(across(c(species, island), toupper)
+1660164975516:example_1 <- penguins |>
+1660164975517:mutate(across(c(species, island), toupper))
+1660164983052:example_1
+1660165060976:view(example1)
+1660165070743:view(example_1)
+1660165082317:?across
+1660165392863:penguins |>
+1660165392864:group_by(species)
+1660165397498:penguins |>
+1660165397498:group_by(species)
+1660165478395:penguins |>
+1660165478396:group_by(species) |>
+1660165478396:summarize(mean(body_mass_g))
+1660165554387:penguins |>
+1660165554387:group_by(species) |>
+1660165554387:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE))
+1660165582663:penguins |>
+1660165582663:group_by(species) |>
+1660165582663:summarize(mean(bill_length_mm, na.rm = TRUE))
+1660165591338:penguins |>
+1660165591338:group_by(species) |>
+1660165591338:summarize(mean(bill_length_mm, na.rm = TRUE))
+1660165657745:penguins |>
+1660165657746:group_by(species) |>
+1660165657746:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165657746:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE))
+1660165677059:penguins |>
+1660165677060:group_by(island) |>
+1660165677060:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165677060:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE))
+1660165682803:penguins |>
+1660165682803:group_by(species) |>
+1660165682803:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165682803:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE))
+1660165696091:penguins |>
+1660165696092:group_by(species, island) |>
+1660165696092:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165696092:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE))
+1660165915963:penguins |>
+1660165915964:group_by(species, island) |>
+1660165915964:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165915964:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE)
+1660165915964:n = n)
+1660165922716:penguins |>
+1660165922717:group_by(species, island) |>
+1660165922717:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165922717:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE)
+1660165922717:n = n())
+1660165929917:penguins |>
+1660165929917:group_by(species, island) |>
+1660165929917:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165929918:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE),
+1660165929918:n = n())
+1660165951010:penguins |>
+1660165951010:group_by(species, island) |>
+1660165951010:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660165951010:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE),
+1660165951010:n = count(),
+1660165951011:n = n())
+1660166010910:penguins |>
+1660166010911:group_by(species, island) |>
+1660166010911:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660166010911:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE)
+1660166010911:observations = n())
+1660166016708:penguins |>
+1660166016709:group_by(species, island) |>
+1660166016709:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660166016709:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE),
+1660166016709:observations = n())
+1660166031829:penguins |>
+1660166031829:group_by(species, island) |>
+1660166031829:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660166031829:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE),
+1660166031830:observations = count())
+1660166036518:penguins |>
+1660166036518:group_by(species, island) |>
+1660166036518:summarize(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+1660166036518:sd_bill_lenth = sd(bill_length_mm, na.rm = TRUE),
+1660166036518:observations = n())
+1660166080266:unique(penguins$species)
+1660166098876:unique(starwars$eye_color)
+1660166186172:starwars
+1660166192442:view(starwars)
+1660166595635:starwars |>
+1660166595635:group_by(homeworld) |>
+1660166595635:summarise(mean_character_height = mean(height, na.rm = TRUE),
+1660166595635:standard_deviation_height = sd(height, na.rm = TRUE))
+1660166700350:starwars |>
+1660166700350:group_by(homeworld) |>
+1660166700350:summarise(max(height, na.rm = TRUE),
+1660166700350:min(height, na.rm = TRUE)
+1660166700351:mean_character_height = mean(height, na.rm = TRUE),
+1660166706601:starwars |>
+1660166706602:group_by(homeworld) |>
+1660166706602:summarise(max(height, na.rm = TRUE),
+1660166706602:min(height, na.rm = TRUE),
+1660166706603:mean_character_height = mean(height, na.rm = TRUE),
+1660166706603:standard_deviation_height = sd(height, na.rm = TRUE))
+1660166734718:starwars |>
+1660166734718:group_by(homeworld) |>
+1660166734718:summarise(max_height = max(height, na.rm = TRUE),
+1660166734718:min_height = min(height, na.rm = TRUE),
+1660166734719:mean_character_height = mean(height, na.rm = TRUE),
+1660166734719:standard_deviation_height = sd(height, na.rm = TRUE))
+1660166776961:starwars |>
+1660166776962:group_by(homeworld) |>
+1660166776962:summarise(max_height = max(height, na.rm = TRUE),
+1660166776962:min_height = min(height, na.rm = TRUE),
+1660166776962:mean_character_height = mean(height, na.rm = TRUE),
+1660166776962:standard_deviation_height = sd(height, na.rm = TRUE)
+1660166776962:n = n())
+1660166787979:starwars |>
+1660166787980:group_by(homeworld) |>
+1660166787980:summarise(max_height = max(height, na.rm = TRUE),
+1660166787980:min_height = min(height, na.rm = TRUE),
+1660166787980:mean_character_height = mean(height, na.rm = TRUE),
+1660166787980:standard_deviation_height = sd(height, na.rm = TRUE)
+1660166787980:n = n(height))
+1660166799989:starwars |>
+1660166799989:group_by(homeworld) |>
+1660166799989:summarise(max_height = max(height, na.rm = TRUE),
+1660166799990:min_height = min(height, na.rm = TRUE),
+1660166799990:mean_character_height = mean(height, na.rm = TRUE),
+1660166799990:standard_deviation_height = sd(height, na.rm = TRUE),
+1660166799990:n = n())
+1660166832671:starwars |>
+1660166832672:group_by(homeworld, sex) |>
+1660166832672:summarise(max_height = max(height, na.rm = TRUE),
+1660166832672:min_height = min(height, na.rm = TRUE),
+1660166832672:mean_character_height = mean(height, na.rm = TRUE),
+1660166832672:standard_deviation_height = sd(height, na.rm = TRUE),
+1660166832672:n = n())
+1660166845622:starwars |>
+1660166845623:group_by(homeworld, sex) |>
+1660166845623:summarise(max_height = max(height, na.rm = TRUE),
+1660166845623:min_height = min(height, na.rm = TRUE),
+1660166845623:mean_character_height = mean(height, na.rm = TRUE),
+1660166845623:standard_deviation_height = sd(height, na.rm = TRUE),
+1660166845623:n = n())
+1660166899849:starwars |>
+1660166899849:group_by(sex, homeworld) |>
+1660166899849:summarise(max_height = max(height, na.rm = TRUE),
+1660166899849:min_height = min(height, na.rm = TRUE),
+1660166899849:mean_character_height = mean(height, na.rm = TRUE),
+1660166899849:standard_deviation_height = sd(height, na.rm = TRUE),
+1660166899850:n = n())
+1660167993282:penguins |>
+1660167993283:group_by(species) |>
+1660167993283:summarize(across(where(is.numeric), mean, na.rm = TRUE))
+1660168105368:penguins |>
+1660168105368:group_by(species) |>
+1660168105368:summarize(across(where(is.numeric), c(mean,sd), na.rm = TRUE))
+1660168135389:ex_3
+1660168137783:ex_3
+1660168140565:ex_3 <- penguins |>
+1660168140565:group_by(species) |>
+1660168140565:summarize(across(where(is.numeric), c(mean,sd), na.rm = TRUE))
+1660168142352:ex_3
+1660168153782:names(ex_3)
+1660168365090:ex_3 <- penguins |>
+1660168365090:group_by(species) |>
+1660168365090:summarize(across(is.numeric, c(mean,sd), na.rm = TRUE))
+1660168381534:ex_3 <- penguins |>
+1660168381535:group_by(species) |>
+1660168381535:summarize(across(where(is.numeric), c(mean,sd), na.rm = TRUE))
+1660168393086:ex_3 <- penguins |>
+1660168393086:group_by(species) |>
+1660168393086:summarize(across(where(is.numeric), c(mean,sd), na.rm = TRUE))
+1660168399397:ex_3 <- penguins |>
+1660168399398:group_by(species) |>
+1660168399398:summarize(across((is.numeric), c(mean,sd), na.rm = TRUE))
+1660168401223:ex_3
+1660168422451:ex_3 <- penguins |>
+1660168422452:group_by(species) |>
+1660168422452:summarize(across(is.numeric, c(mean,sd), na.rm = TRUE))
+1660168425274:ex_3 <- penguins |>
+1660168425275:group_by(species) |>
+1660168425275:summarize(across(is.numeric, c(mean,sd), na.rm = TRUE))
+1660168444699:ex_3 <- penguins |>
+1660168444699:group_by(species) |>
+1660168444699:summarize(across(is.numeric, c(mean,sd), na.rm = TRUE))
+1660168456074:ex_3 <- penguins |>
+1660168456074:group_by(species) |>
+1660168456074:summarize(across(where(is.numeric), c(mean,sd), na.rm = TRUE))
+1660168589460:length(tree_height)
+1660168596861:count(tree_height)
+1660168603413:tree_height <- c(1, 2, 6, 10)
+1660168605585:count(tree_height)
+1660168618756:length(tree_height)
+1660168673269:for (i in seq_along(tree_height)) {
+1660168673270:val = tree_height[i] + tree_height[i + 1]
+1660168673270:}
+1660168699253:tree_height_2 <-for (i in seq_along(tree_height)) {
+1660168699254:val = tree_height[i] + tree_height[i + 1]
+1660168699254:}
+1660168707257:tree_height_2
+1660168752044:tree_height_2 <-for (i in seq_along(tree_height)) {
+1660168752044:val = tree_height[i] + tree_height[i + 1]
+1660168752045:}
+1660168756004:tree_height_2
+1660168776256:print(val)
+1660168779314:tree_height_2 <-for (i in seq_along(tree_height)) {
+1660168779315:val = tree_height[i] + tree_height[i + 1]
+1660168779315:print(val)
+1660168779315:}
+1660168790508:tree_height <- c(1, 2, 6, 10, 14, 20)
+1660168793625:tree_height_2 <-for (i in seq_along(tree_height)) {
+1660168793625:val = tree_height[i] + tree_height[i + 1]
+1660168793626:print(val)
+1660168793626:}
+1660169064026:species <- c("dog", "elephant", "goat", "dog", "dog", "elephant")
+1660169092767:age_human <- c(3, 8, 4, 6, 12, 18)
+1660169460880:for (i in seq(species)) {
+1660169460881:if (species[i] == "dog") {
+1660169460881:animal_age <- age_human[i] * 7
+1660169460881:} else if (species[i] == "elephant") {
+1660169460881:animal_age <- age_human[i] * 0.88
+1660169460881:} else if (species[i] == "goat") {
+1660169460881:animal_age <- age_human[i] * 4.7
+1660169460881:}
+1660169460882:print(animal_age)
+1660169460882:}
+1660169624882:animal_age_true <- vector(mode = "numeric", length = length(species))
+1660169777727:animal_age_true <- vector(mode = "numeric", length = length(species))
+1660169780224:for (i in seq(species)) {
+1660169780224:if (species[i] == "dog") {
+1660169780224:animal_age <- age_human[i] * 7
+1660169780225:} else if (species[i] == "elephant") {
+1660169780225:animal_age <- age_human[i] * 0.88
+1660169780225:} else if (species[i] == "goat") {
+1660169780225:animal_age <- age_human[i] * 4.7
+1660169780225:}
+1660169780225:animal_age_true[i] <- animal_age
+1660169780225:}
+1660169787782:animal_age_true
+1660169930456:view(cars)
+1660169944584:view(mtcars)
+1660170008688:mean_mtcars <-vector(mode = "numeric", length = ncol(mtcars))
+1660170029808:dim(mtcars)
+1660170200199:mean_mtcars[i] <- mean_val
+1660170228302:mean_mtcars
+1660170288866:mean_mtcars <-vector(mode = "numeric", length = ncol(mtcars))
+1660170290880:for (i in 1:ncol(mtcars)) {
+1660170290880:mean_val <- mean(mtcars[[i]], na.rm = TRUE)
+1660170290880:mean_mtcars[i] <- mean_val
+1660170290880:}
+1660170292744:mean_mtcars
+1660170370933:apply(X = mtcars, MARGIN = 2, FUN = mean)
+1660170398781:# margin means you go by columns instead of rows
+1660170398781:apply(X = mtcars, MARGIN = 2, FUN = mean)
+1660170443927:# margin means you go by columns instead of rows
+1660170443927:apply(mtcars, MARGIN = 2, FUN = mean)
+1660170445728:# margin means you go by columns instead of rows
+1660170445728:apply(mtcars, MARGIN = 2, FUN = mean)
+1660170454143:# margin means you go by columns instead of rows
+1660170454143:apply(data = mtcars, MARGIN = 2, FUN = mean)
+1660170460453:# margin means you go by columns instead of rows
+1660170460453:apply(mtcars, MARGIN = 2, FUN = mean)
+1660170513076:map(.x = mtcars, .f = mean)
+1660170543456:map_df(.x = mtcars, .f = mean)
+1660170842941:pm2_5 <- 48
+1660171006674:if(pm2_5 > 100) {
+1660171006675:print("Low to moderate risk")
+1660171006675:}
+1660171021094:if(pm2_5 < 100) {
+1660171021095:print("Low to moderate risk")
+1660171021095:}
+1660171239077:if(pm2_5 < 100) {
+1660171239077:print("Low to moderate risk")
+1660171239077:} else if(100 <= pm2_5 < 150 )  {
+1660171251023:if(pm2_5 < 100) {
+1660171251023:print("Low to moderate risk")
+1660171251023:} else if(100 <= pm2_5 < 150)  {
+1660171274413:if(pm2_5 < 100) {
+1660171274414:print("Low to moderate risk")
+1660171274414:} else if(100 <= pm2_5 & pm2_5 < 150)  {
+1660171274414:print("Unhealthy for sensitive groups")
+1660171274414:} else (pm2_5 >= 150) {
+1660171312955:if(pm2_5 < 100) {
+1660171312955:print("Low to moderate risk")
+1660171312955:} else if(pm2_5 >= 100  & pm2_5 < 150)  {
+1660171312955:print("Unhealthy for sensitive groups")
+1660171312955:} else (pm2_5 >= 150) {
+1660171343187:if(pm2_5 < 100) {
+1660171343187:print("Low to moderate risk")
+1660171343188:} else if(pm2_5 >= 100  & pm2_5 < 150)  {
+1660171343188:print("Unhealthy for sensitive groups")
+1660171343188:} else (pm2_5 >= 150) {
+1660171361922:if(pm2_5 < 100) {
+1660171361923:print("Low to moderate risk")
+1660171361923:} else if(pm2_5 >= 100  & pm2_5 < 150) {
+1660171361923:print("Unhealthy for sensitive groups")
+1660171361923:} else (pm2_5 >= 150) {
+1660171411647:else (pm2_5 >= 150) {
+1660171422390:else if (pm2_5 >= 150) {
+1660171437323:if(pm2_5 < 100) {
+1660171437323:print("Low to moderate risk")
+1660171437323:} else if(pm2_5 >= 100  & pm2_5 < 150) {
+1660171437323:print("Unhealthy for sensitive groups")
+1660171437323:} else if (pm2_5 >= 150) {
+1660171437323:print("Health risk present")
+1660171437323:}
+1660171447328:if(pm2_5 < 100) {
+1660171447329:print("Low to moderate risk")
+1660171447329:} else if(pm2_5 >= 100  & pm2_5 < 150) {
+1660171447329:print("Unhealthy for sensitive groups")
+1660171447329:} else if (pm2_5 >= 150) {
+1660171447329:print("Health risk present")
+1660171447329:}
+1660171454507:pm2_5 <- 120
+1660171456626:if(pm2_5 < 100) {
+1660171456627:print("Low to moderate risk")
+1660171456627:} else if(pm2_5 >= 100  & pm2_5 < 150) {
+1660171456627:print("Unhealthy for sensitive groups")
+1660171456627:} else if (pm2_5 >= 150) {
+1660171456627:print("Health risk present")
+1660171456627:}
+1660171520706:species <- "blue whale"
+1660171573263:}
+1660171591140:print("You found a whale!")}
+1660171598145:if (species == "whale") {
+1660171598145:print("You found a whale!")
+1660171598145:}
+1660171600072:if (species == "whale") {
+1660171600072:print("You found a whale!")
+1660171600072:}
+1660171612456:if (species == "blue whale") {
+1660171612456:print("You found a whale!")
+1660171612456:}
+1660171643222:if (species == "blue whale") {
+1660171643223:str_detect("You found a whale!")
+1660171643223:}
+1660171662047:library(palmerpenguins)
+1660171663644:library(tidyverse)
+1660171668572:if (species == "blue whale") {
+1660171668573:str_detect("You found a whale!")
+1660171668573:}
+1660171754918:if (str_detect(phrase, "love")) {
+1660171754919:print("I am a burrito fan")
+1660171754919:}
+1660171776189:}
+1660171780842:}
+1660171786262:}
+1660171812306:}
+1660171837141:str_detect(species, pattern = "whale")
+1660171838328:str_detect(species, pattern = "whale")
+1660171868383:}
+1660171872588:}
+1660171879909:print("You found a whale!")}
+1660171883499:print("You found a whale!")
+1660171890225:print("You found a whale!")
+1660171896611:print("You found a whale!")
+1660171902158:print("You found a whale!")
+1660171903976:species <- "blue gale"
+1660171905429:print("You found a whale!")
+1660171906591:print("You found a whale!")
+1660171907048:print("You found a whale!")
+1660171911868:species <- "blue gale"
+1660171917883:print("You found a whale!")
+1660171935328:print("You found a whale!")}
+1660171939652:print("You found a whale!")}
+1660171945941:}
+1660171954685:}
+1660171988463:}
+1660172018589:if(str_detect(species, pattern = "whale")) {
+1660172018590:print("You found a whale!")
+1660172018590:}
+1660172027812:if(str_detect(species, pattern = "whale")) {
+1660172027812:print("You found a whale!")
+1660172027812:}
+1660172043394:}
+1660172376017:max_airtemp_c <- 24.1
+1660172488043:if(str_detect(species, phrase = "whale")) {
+1660172488043:print("You found a whale!")
+1660172488043:}
+1660172499176:if(str_detect(species, pattern = "whale")) {
+1660172499176:print("You found a whale!")
+1660172499176:}
+1660172533161:str_detect(my_ships, pattern = "r")
+1660172538824:my_ships <- c("Mellenium Falcon", "X-wing", "Tie-Fighter", "Death Star")
+1660172540747:str_detect(my_ships, pattern = "r")
+1660172549008:library(tidyverse)
+1660172552075:library(palmerpenguins)
+1660172556681:str_detect(my_ships, pattern = "r")
+1660172589174:if (str_detect(my_ships, phrase, "X-wing")) {
+1660172589175:print("I am a burrito fan")
+1660172589175:}
+1660172604735:if (str_detect(my_ships, phrase = "X-wing")) {
+1660172604735:print("I am a burrito fan")
+1660172604736:}
+1660172622926:if (str_detect(my_ships, pattern = "X-wing")) {
+1660172622926:print("I am a burrito fan")
+1660172622926:}
+1660172652360:if (str_detect(my_ships, pattern = "dd")) {
+1660172652361:print("I am a burrito fan")
+1660172652361:}
+1660172656419:if (str_detect(my_ships, pattern = "d")) {
+1660172656419:print("I am a burrito fan")
+1660172656420:}
+1660172665618:str_detect(my_ships, pattern = "r")
+1660172778726:if(max_airtemp_c > 27) {
+1660172778727:print("Temperature too high")
+1660172778727:}
+1660172859667:if(max_airtemp_c > 27) {
+1660172859668:print("Temperature too high")
+1660172859668:} else if(max_airtemp_c <= 27) {
+1660172859668:print("Temperature OK")
+1660172859668:}
+1660172866661:max_airtemp_c <- 100
+1660172868838:if(max_airtemp_c > 27) {
+1660172868838:print("Temperature too high")
+1660172868838:} else if(max_airtemp_c <= 27) {
+1660172868838:print("Temperature OK")
+1660172868838:}
+1660172892461:base_burrito <- 6.50
+1660172975043:main_ingredent <- c("veggie", "chicken", "steak")
+1660173066201:if(main_ingredent == "veggie") {
+1660173066202:print(base_burrito)
+1660173066202:}
+1660173091602:if(main_ingredent = "veggie") {
+1660173107328:if(main_ingredent == veggie) {
+1660173107328:print(base_burrito)
+1660173107328:}
+1660173144246:if(str_detect(main_ingredent, veggie)) {
+1660173144247:print(base_burrito)
+1660173144247:}
+1660173154538:if(str_detect(main_ingredent, paturn = veggie)) {
+1660173154538:print(base_burrito)
+1660173154538:}
+1660173164185:if(str_detect(main_ingredent, pattern = veggie)) {
+1660173164186:print(base_burrito)
+1660173164186:}
+1660173174896:if(str_detect(main_ingredent, pattern = "veggie")) {
+1660173174897:print(base_burrito)
+1660173174897:}
+1660173188257:main_ingredent <- "veggie"
+1660173192622:(str_detect(main_ingredent, pattern = "veggie")
+1660173197480:(str_detect(main_ingredent, pattern = "veggie")
+1660173201819:str_detect(main_ingredent, pattern = "veggie")
+1660173221535:str_detect(main_ingredent, pattern = "veggie")
+1660173237239:if(str_detect(main_ingredent, pattern = "veggie")) {
+1660173237239:print(base_burrito)
+1660173237239:}
+1660173334605:}
+1660173343655:if(str_detect(main_ingredent, pattern = "veggie")) {
+1660173343657:print(base_burrito)
+1660173343657:else if(str_detect(main_ingredent, pattern = "chicken")) {
+1660173394717:if(str_detect(main_ingredent, pattern = "veggie")) {
+1660173394718:print(base_burrito)
+1660173394718:} else if(str_detect(main_ingredent, pattern = "chicken")) {
+1660173394718:print(base_burrito + 3.00)
+1660173394718:}
+1660173405358:main_ingredent <- "chicken"
+1660173407939:if(str_detect(main_ingredent, pattern = "veggie")) {
+1660173407939:print(base_burrito)
+1660173407939:} else if(str_detect(main_ingredent, pattern = "chicken")) {
+1660173407939:print(base_burrito + 3.00)
+1660173407939:}
+1660173449023:fish <- c(8, 10, 12, 23)
+1660173494183:mean_fish <- mean(fish)
+1660173512564:total_fish <- sum(fish)
+1660173519578:total_fish
+1660173675455:proportion_population <- vector(length(fish))
+1660173711906:proportion_population <- vector(length = lenth(fish))
+1660173718345:proportion_population <- vector(length = length(fish))
+1660173819881:for (i in 1:col(fish)) {
+1660173819882:proportion_population <- fish[i] / total_fish
+1660173819882:proportion_population[i] <- proportion_population
+1660173819882:}
+1660173850474:for (i in seq_along(fish)) {
+1660173850475:proportion_population <- fish[i] / total_fish
+1660173850475:proportion_population[i] <- proportion_population
+1660173850475:}
+1660173856737:proportion_population
+1660173883270:total_fish <- sum(fish)
+1660173889029:total_fish
+1660173909625:proportion_population[i] <- prop_pop
+1660173912519:for (i in seq_along(fish)) {
+1660173912519:prop_pop <- fish[i] / total_fish
+1660173912519:proportion_population[i] <- prop_pop
+1660173912519:}
+1660173916588:proportion_population
+1660173940948:month.name
+1660174032399:month_number <- vector(lenth = length(month.name))
+1660174039864:month_number <- vector(length = length(month.name))
+1660174206108:for (i in seq_along(month.name)) {
+1660174206109:mon_num <- print(month_number[i] & "is the" & [i] & "st month")
+1660174238555:for (i in seq_along(month.name)) {
+1660174238556:mon_num <- month_number[i] & "is the" & [i] & "st month"
+1660174368019:proportion_population
+1660174522378:mon_num <- paste(month_number[i], "is the", [i], "st month")
+1660174538945:for (i in seq_along(month.name)) {
+1660174538945:mon_num <- paste(month_number, "is the", [i], "st month")
+1660174550578:?paste
+1660174582965:?paste()
+1660174626254:for (i in seq_along(month.name)) {
+1660174626255:mon_num <- paste(month_number)
+1660174626255:}
+1660174635000:month_number
+1660174650649:month_number <- vector(length = length(month.name))
+1660174653870:for (i in seq_along(month.name)) {
+1660174653870:mon_num <- paste(month_number)
+1660174653871:}
+1660174655738:month_number
+1660174663612:for (i in seq_along(month.name)) {
+1660174663612:mon_num <- paste(month.name)
+1660174663612:}
+1660174665346:month_number
+1660174714167:for (i in seq_along(month.name)) {
+1660174714167:mon_num <- paste(month.name[i])
+1660174714167:}
+1660174715864:month_number
+1660174719250:for (i in seq_along(month.name)) {
+1660174719250:mon_num <- paste(month.name[i])
+1660174719250:}
+1660174743736:for (i in seq_along(month.name)) {
+1660174743736:mon_num <- paste(month.name[i])
+1660174743737:month_number <- mon_num
+1660174743737:}
+1660174745470:month_number
+1660174746925:month_number
+1660174748110:month_number
+1660174769777:length(month.name)
+1660174772642:month_number
+1660174850870:month_number
+1660174906056:for (i in seq_along(month.name)) {
+1660174906056:mon_num <- paste(month.name[[i]])
+1660174906056:month_number <- mon_num
+1660174906057:}
+1660174908599:month_number
+1660174909637:month_number
+1660174910165:month_number
+1660174910484:month_number
+1660174910748:month_number
+1660174910989:month_number
+1660174911203:month_number
+1660174911395:month_number
+1660174911578:month_number
+1660174911756:month_number
+1660174911934:month_number
+1660174912107:month_number
+1660174912285:month_number
+1660174912467:month_number
+1660175288388:library(tidyverse) here, and janitor
+1660175308796:library(janitor)
+1660175314407:library(here)
+1660175323257:library(tidyverse)
+1660175402001:read(here::here("data", "2011_Kling_Akchem.csv"))
+1660175414714:read.csv(here::here("data", "2011_Kling_Akchem.csv"))
+1660175654971:read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175682884:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175699554:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175699913:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175713133:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175713791:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175784322:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175785032:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175793745:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA")
+1660175817037:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA"))
+1660175818948:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA"))
+1660175876152:month.name
+1660175881104:length(month.name)
+1660175973794:mon_num <- paste(month.name[[i]], "is the", i, "st month")
+1660175977475:month_number <- mon_num
+1660175979880:month_number
+1660176016866:month_number
+1660176025766:month_number <- vector(length = length(month.name))
+1660176029017:length(month.name)
+1660176052523:for (i in seq_along(month.name)) {
+1660176052523:mon_num <- paste(month.name[[i]], "is the", i, "st month")
+1660176052523:month_number[i] <- mon_num
+1660176052524:}
+1660176054149:month_number
+1660176204178:clean_names(toolik_biochem)
+1660176217761:toolik_biochem <- clean_names(toolik_biochem)
+1660176225898:toolik_biochem
+1660176237578:glimpse(toolik_biochem)
+1660176262508:view(toolik_biochem)
+1660176380116:for (i in seq_along(month.name)) {
+1660176380116:mon_num <- paste(month.name[[i]], "is the", i, "st month")
+1660176380116:month_number[i] <- mon_num
+1660176380116:}
+1660176381754:month_number
+1660176617372:?filter
+1660176956690:toolik_intel_site <- toolik_biochem |>
+1660176956691:filter(site == "Toolik Inlet")
+1660176973754:view(toolik_intel_site)
+1660177017624:view(toolik_biochem)
+1660177305051:toolik_intel_site <- toolik_biochem |>
+1660177305051:filter(site == "Toolik Inlet") |>
+1660177305051:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660177307691:view(toolik_intel_site)
+1660177332438:mean(toolik_intel_site)
+1660177470359:mean_toolik <- vector(length = ncol(toolik_intel_site))
+1660177666928:for (i in seq_along(toolik_intel_site)) {
+1660177666928:mean_values <- mean()
+1660177666928:}
+1660177676383:seq_along(toolik_intel_site)
+1660177713882:toolik_intel_site[1]
+1660177753450:toolik_intel_site[1]
+1660177779139:for (i in seq_along(toolik_intel_site)) {
+1660177779140:mean_values <- mean(toolik_intel_site[1])
+1660177779140:mean_toolik <- mean_values
+1660177779140:}
+1660177808620:for (i in seq_along(toolik_intel_site)) {
+1660177808620:mean_values <- mean(toolik_intel_site[1], na.rm = TRUE)
+1660177808620:mean_toolik <- mean_values
+1660177808620:}
+1660177817577:for (i in seq_along(toolik_intel_site)) {
+1660177817577:mean_values <- mean(toolik_intel_site[1], na.rm = TRUE)
+1660177817577:mean_toolik <- mean_values
+1660177817577:}
+1660177820330:for (i in seq_along(toolik_intel_site)) {
+1660177820330:mean_values <- mean(toolik_intel_site[1], na.rm = TRUE)
+1660177820330:mean_toolik <- mean_values
+1660177820330:}
+1660177821914:toolik_intel_site
+1660177836546:mean_toolik
+1660177845312:mean_toolik[1] <- mean_values
+1660177846605:for (i in seq_along(toolik_intel_site)) {
+1660177846605:mean_values <- mean(toolik_intel_site[1], na.rm = TRUE)
+1660177846605:mean_toolik[1] <- mean_values
+1660177846606:}
+1660177855667:mean_toolik
+1660177858456:mean_toolik
+1660177867770:for (i in seq_along(toolik_intel_site)) {
+1660177867771:mean_values <- mean(toolik_intel_site[[1]], na.rm = TRUE)
+1660177867771:mean_toolik[1] <- mean_values
+1660177867771:}
+1660177871873:mean_toolik
+1660177919889:mean_toolik <- vector(mode = "numeric", length = ncol(toolik_intel_site))
+1660177927486:mean_toolik
+1660177941756:for (i in seq_along(toolik_intel_site)) {
+1660177941757:mean_values <- mean(toolik_intel_site[[i]], na.rm = TRUE)
+1660177941757:mean_toolik[i] <- mean_values
+1660177941757:}
+1660177943702:mean_toolik
+1660177953495:toolik_intel_site[1]
+1660177961325:toolik_intel_site[[1]]
+1660178011083:mean(toolik_intel_site[1])
+1660178029451:mean(toolik_intel_site$)
+1660178054103:mean(toolik_intel_site$p_h, na.rm = TRUE)
+1660178085956:mean(toolik_intel_site$tdn_u_m, na.rm = TRUE)
+1660178087254:mean(toolik_intel_site$doc_u_m, na.rm = TRUE)
+1660178127037:?apply
+1660178154454:apply(mean_toolik, 2, FUN = mean)
+1660178185194:apply(toolik_intel_site, 2, FUN = mean)
+1660178203156:apply(toolik_intel_site, 2, FUN = mean, na.rm = TRUE)
+1660178640377:glimpse(toolik_biochem)
+1660179052294:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA"))
+1660179055918:glimpse(toolik_biochem)
+1660179070520:view(toolik_biochem)
+1660179215080:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179219900:toolik_intel_site <- toolik_biochem |>
+1660179219900:filter("site" == "Toolik Inlet") |>
+1660179219900:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179223762:toolik_intel_site <- toolik_biochem |>
+1660179223762:filter("site" == "Toolik Inlet") |>
+1660179223762:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179232799:toolik_intel_site <- toolik_biochem |>
+1660179232799:filter(site == "Toolik Inlet") |>
+1660179232799:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179238057:toolik_intel_site <- toolik_biochem |>
+1660179238057:filter(site == "Toolik Inlet") |>
+1660179238057:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179267697:toolik_intel_site <- toolik_biochem |>
+1660179267698:filter(site == "Toolik Inlet") |>
+1660179267698:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179290838:toolik_intel_site <- toolik_biochem |>
+1660179290838:filter(site == "Toolik Inlet") |>
+1660179290838:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179297662:toolik_biochem <- read_csv(here::here("data", "2011_Kling_Akchem.csv"), na = c(".", "NA"))
+1660179297726:toolik_biochem <- clean_names(toolik_biochem)
+1660179297770:glimpse(toolik_biochem)
+1660179297785:view(toolik_biochem)
+1660179304443:toolik_intel_site <- toolik_biochem |>
+1660179304444:filter(site == "Toolik Inlet") |>
+1660179304444:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179390085:toolik_intel_site <- toolik_biochem |>
+1660179390086:filter(site == "Toolik Inlet") |>
+1660179390086:dplyr::select(p_h, doc_u_m, tdn_u_m)
+1660179393563:view(toolik_intel_site)
+1660179840916:for (i in seq_along(toolik_intel_site)) {
+1660179840917:mean_values <- mean(toolik_intel_site[[i]], na.rm = TRUE)
+1660179840917:mean_toolik[i] <- mean_values
+1660179840917:}
+1660179854587:mean_toolik
+1660179881388:mean(toolik_intel_site[[]])
+1660179885263:mean(toolik_intel_site[[i]])
+1660179896229:mean(toolik_intel_site[[1]])
+1660179908117:mean(toolik_intel_site[[1]], na.rm = TRUE)
+1660179914738:mean(toolik_intel_site[[i]], na.rm = TRUE)
+1660179918212:mean(toolik_intel_site[[i]], na.rm = TRUE)
+1660179922417:mean(toolik_intel_site[[2]], na.rm = TRUE)
+1660179969717:mean(toolik_intel_site[2], na.rm = TRUE)
+1660225492514:burrito <- 3
+1660225497929:if (burrito > 2) {
+1660225497930:print("I love burritos!")
+1660225497930:}
+1660225516367:str_detect(my_ships, pattern = "r")
+1660225526513:?str_detect
+1660225542398:str_detect(my_ships, pattern = "ing")
+1660225552606:glimpse(starwars)
+1660225569568:tatooine_characters
+1660225572730:view(starwars)
+1660225576746:glimpse(starwars)
+1660225580291:tatooine_characters <- starwars |>
+1660225580291:filter(homeworld == "Tatooine")
+1660225582035:tatooine_characters
+1660225611015:characters_homeworld_2 <- starwars |>
+1660225611016:filter(homeworld == "Tatooine" |
+1660225611016:homeworld == "Naboo" |
+1660225611016:homeworld == "Endor")
+1660225637408:characters_homeworld_2 <- starwars |>
+1660225637408:filter(homeworld == "Tatooine" |
+1660225637408:homeworld == "Naboo" |
+1660225637408:homeworld == "Endor")
+1660225659063:characters_homeworld_2
+1660225691986:pika <- 20
+1660226114558:glimpse(mtcars)
+1660226118475:view(mtcars)
+1660226122746:mtcars[[1]]
+1660226126275:mtcars[1]
+1660226156807:for (i in seq_along(mtcars)) {
+1660226156808:mean_val <- mean(mtcars[[i]], na.rm = TRUE)
+1660226156808:mean_mtcars[i] <- mean_val
+1660226156809:}
+1660226160619:mean_mtcars <- vector(mode = "numeric", length = ncol(mtcars))
+1660226163216:for (i in seq_along(mtcars)) {
+1660226163217:mean_val <- mean(mtcars[[i]], na.rm = TRUE)
+1660226163217:mean_mtcars[i] <- mean_val
+1660226163217:}
+1660226166000:mean_mtcars
+1660226173597:for (i in seq_along(mtcars)) {
+1660226173597:mean_val <- mean(mtcars[i], na.rm = TRUE)
+1660226173597:mean_mtcars[i] <- mean_val
+1660226173597:}
+1660226189225:mean_mtcars
+1660226199611:for (i in seq_along(mtcars)) {
+1660226199612:mean_val <- mean(mtcars[[i]], na.rm = TRUE)
+1660226199612:mean_mtcars[i] <- mean_val
+1660226199612:}
+1660226224711:glimpse(penguins)
+1660226264280:(penguins)
+1660226266300:for (i in seq_along(penguins)) {
+1660226266300:if (is.numeric(penguins[[i]])) {
+1660226266300:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660226266300:print(penguin_median)
+1660226266300:} else {
+1660226266300:print(NA)
+1660226266300:}
+1660226266300:}
+1660226574233:glimpse(penguins)
+1660226577878:for (i in seq_along(penguins)) {
+1660226577878:if (is.numeric(penguins[[i]])) {
+1660226577879:penguin_median <- median(penguins[[i]], na.rm = TRUE)
+1660226577879:print(penguin_median)
+1660226577879:} else {
+1660226577879:print(NA)
+1660226577879:}
+1660226577879:}
+1660226586454:# 2 is for columbs and 1 is for rows
+1660226586454:apply(mtcars, 2, mean)
+1660226591606:apply(mtcars, 1, mean)
+1660226606203:example_1 <- penguins |>
+1660226606203:mutate(across(c(species, island), toupper))
+1660226613059:example_1
+1660226631750:view(example_1)
+1660226669315:example_1 <- penguins |>
+1660226669316:mutate(across(c(species, island, sex), toupper))
+1660226672253:view(example_1)
+1660226687421:warnings()
+1660226697323:example_1 <- penguins |>
+1660226697323:mutate(across(c(species, island, sex), toupper))
+1660226698305:example_1
+1660226701987:view(example_1)
+1660226740388:example_1 <- penguins |>
+1660226740388:mutate(across(c(sex, islands), toupper))
+1660226766135:example_1 <- penguins |>
+1660226766135:mutate(across(c(sex), toupper))
+1660226769045:view(example_1)
+1660226790727:?mutate
+1660226838828:example_1 <- penguins |>
+1660226838828:mutate(across(c(sex), toupper))
+1660226845728:?accross
+1660226851493:?across
+1660226879461:example_2 <- penguins |>
+1660226879461:group_by(sex)
+1660226895421:view(example_2)
+1660226915257:example_2 <- penguins |>
+1660226915257:group_by(sex)
+1660226917718:view(example_2)
+1660227105513:view(starwars)
+1660227159541:example_3 <- starwars |>
+1660227159541:mutate(across(c(hair_color), toupper))
+1660227169787:view(example_3)
+1660227191299:toupper
+1660227196894:?toupper
+1660227252943:example_3 <- starwars |>
+1660227252944:mutate(across(c(name), toupper))
+1660227254970:view(example_3)
+1660233716575:unique(starwars$eye_color)
+1660233719548:unique(penguins$species)
+1660234380775:file_prefix <- c("temp", "ph", "salinity")
+1660234396553:file_suffix <- c(1, 2, 3, 4, 5)
+1660234440324:1:length(file_suffix) == in seq_along(file_suffix)
+1660234454524:file_suffix <- c(1, 2, 3, 4, 5)
+1660234456713:1:length(file_suffix) == seq_along(file_suffix)
+1660234480913:1:length(file_suffix[1]) == seq_along(file_suffix[1])
+1660234487355:1:length(file_suffix[i]) == seq_along(file_suffix[i])
+1660234494583:1:length(file_suffix) == seq_along(file_suffix)
+1660234601447:for (i in seq_along(file_prefix)) {
+1660234601448:for (j in seq_along(file_suffix)) {
+1660234601448:print(paste0(file_prefix[1], "_", file_suffix[j]))
+1660234601448:}
+1660234601448:}
+1660234679837:for (i in seq_along(file_prefix)) {
+1660234679838:for (j in seq_along(file_suffix)) {
+1660234679838:print(paste0(file_prefix[1], "_", file_suffix[j]))
+1660234679838:}
+1660234679838:}
+1660234689806:for (i in seq_along(file_prefix)) {
+1660234689806:for (j in seq_along(file_suffix)) {
+1660234689807:print(paste0(file_prefix[i], "_", file_suffix[j]))
+1660234689807:}
+1660234689807:}
+1660234698554:for (i in seq_along(file_prefix)) {
+1660234698555:for (j in seq_along(file_suffix)) {
+1660234698555:print(paste0(file_prefix[j], "_", file_suffix[i]))
+1660234698556:}
+1660234698556:}
+1660234714755:for (j in seq_along(file_prefix)) {
+1660234714755:for (i in seq_along(file_suffix)) {
+1660234714756:print(paste0(file_prefix[i], "_", file_suffix[j]))
+1660234714756:}
+1660234714756:}
+1660234728577:for (i in seq_along(file_prefix)) {
+1660234728578:for (j in seq_along(file_suffix)) {
+1660234728578:print(paste0(file_prefix[i], "_", file_suffix[j]))
+1660234728578:}
+1660234728578:}
+1660235457041:# Chunk 1
+1660235457802:# Chunk 1
+1660235559522:exclaim_age <- function(age) {
+1660235559523:print(paste("I am", age, "years old!"))
+1660235559523:}
+1660235589796:exclaim_age <- (age = 5)
+1660235598445:exclaim_age <- (age = 5)
+1660235606057:exclaim_age(age = 5)
+1660235612216:exclaim_age <- function(age) {
+1660235612217:print(paste("I am", age, "years old!"))
+1660235612217:}
+1660235619833:exclaim_age(age = 5)
+1660236025064:usethis::use_git
+1660236035472:usethis::use_git
+1660236043302:usethis::use_git()
+1660236078609:usethis::use_github()
+1660236099746:usethis::use_git()
+1660236204843:quarter_splits <- c(1.0, 1.1, 1.2, 1.1, 1.4, 1.5, 1.6, 1.4)
+1660236210455:splits <- vector(mode = “numeric”, length = seq_along(quarter_splits))
+1660236229973:splits <- vector(length = seq_along(quarter_splits))
+1660236232779:splits <- vector(length = seq_along(quarter_splits)
+1660236255817:splits <- vector(length = seq_along(quarter_splits)
+1660236263298:splits <- vector(length = seq_along(quarter_splits))
+1660236277260:splits <- vector(length = seq_along(quarter_splits))
+1660236401115:for (i in seq_along(quarter_splits)) {
+1660236401116:half_time <- quarter_splits[i] + quarter_splits[i+1]
+1660236401116:print(half_time)
+1660236401116:}
+1660236409796:splits <- vector(length = seq_along(quarter_splits))
+1660236421714:splits <- vector(length = length(quarter_splits))
+1660236441996:half_splits <- vector(length = length(quarter_splits))
+1660236457389:half_splits <- half_time
+1660236459333:for (i in seq_along(quarter_splits)) {
+1660236459333:half_time <- quarter_splits[i] + quarter_splits[i+1]
+1660236459333:half_splits <- half_time
+1660236459333:}
+1660236465454:for (i in seq_along(quarter_splits)) {
+1660236465454:half_time <- quarter_splits[i] + quarter_splits[i+1]
+1660236465454:half_splits <- half_time
+1660236465454:}
+1660236476316:half_splits
+1660236491763:for (i in seq_along(quarter_splits)) {
+1660236491763:half_time <- quarter_splits[i] + quarter_splits[i+1]
+1660236491763:half_splits <- half_time
+1660236491763:}
+1660236495687:half_splits
+1660236499673:half_splits <- vector(length = length(quarter_splits))
+1660236502068:for (i in seq_along(quarter_splits)) {
+1660236502069:half_time <- quarter_splits[i] + quarter_splits[i+1]
+1660236502069:half_splits <- half_time
+1660236502069:}
+1660236503549:half_splits
+1660236697858:for (i in seq_along(quarter_splits)) {
+1660236697859:half_time <- quarter_splits[i] + quarter_splits[i+1]
+1660236697860:print(half_time)
+1660236697860:}
+1660236719618:for (i in seq_along(quarter_splits)) {
+1660236719620:half_splits <- quarter_splits[i] + quarter_splits[i+1]
+1660236719620:print(half_splits)
+1660236719620:}
+1660236724095:half_splits
+1660236732198:half_splits
+1660236735860:for (i in seq_along(quarter_splits)) {
+1660236735860:half_splits <- quarter_splits[i] + quarter_splits[i+1]
+1660236735860:print(half_splits)
+1660236735860:}
+1660236738145:half_splits <- vector(length = length(quarter_splits))
+1660236740883:half_splits
+1660236795671:quarter_splits <- c(1.0, 1.1, 1.2, 1.1, 1.4, 1.5, 1.6, 1.4)
+1660236815850:half_splits <- vector(mode = "numeric", length = length(quarter_splits))
+1660236820795:half_splits <- vector(mode = "numeric",
+1660236820795:length = length(quarter_splits))
+1660236845571:print(half_splits)
+1660236847334:for (i in seq_along(quarter_splits)) {
+1660236847335:half_splits <- quarter_splits[i] + quarter_splits[i+1]
+1660236847335:print(half_splits)
+1660236847335:}
+1660236849937:for (i in seq_along(quarter_splits)) {
+1660236849939:half_splits <- quarter_splits[i] + quarter_splits[i+1]
+1660236849939:print(half_splits)
+1660236849939:}
+1660236855789:half_splits
+1660236935132:print(half_splits)
+1660236937865:for (i in seq_along(quarter_splits)) {
+1660236937866:half_splits_1 <- quarter_splits[i] + quarter_splits[i+1]
+1660236937866:half_splits <- half_splits_1
+1660236937866:print(half_splits)
+1660236937866:}
+1660236940137:half_splits
+1660236976129:for (i in seq_along(quarter_splits)) {
+1660236976130:half_splits <- quarter_splits[i] + quarter_splits[i+1]
+1660236976130:half_splits
+1660236976131:}
+1660236978486:half_splits
+1660236989682:for (i in seq_along(quarter_splits)) {
+1660236989683:half_splits <- quarter_splits[i] + quarter_splits[i+1]
+1660236989684:print(half_splits)
+1660236989684:}
+1660237091088:for (i in seq_along(quarter_splits)) {
+1660237091089:half_splits[i] <- quarter_splits[i] + quarter_splits[i+1]
+1660237091089:}
+1660237096533:half_splits
+1660237575971:print(2 * my_value)
+1660237577567:double_this <- function(my_value) {
+1660237577568:print(2 * my_value)
+1660237577568:}
+1660237600639:double_this(2)
+1660237615027:double_this(2) == 4
+1660237713987:mutliply_this <- function(value_1, value_2) {
+1660237713988:print(value_1 * value_2)
+1660237713988:}
+1660237726840:mutliply_this(2,3)
+1660237745884:double_this(c(1,2,3,4,5,6))
+1660237845119:]
+1660237850555:name_age <- function(name, age) {
+1660237850555:print(paste0("I'm ", name, " and I am ", age, " years old!"))
+1660237850555:}
+1660237862127:name_age(carlo,28)
+1660237881230:name_age("carlo",28)
+1660237910118:name_age("carlo",28)
+1660237912504:name_age <- function(name = numeric, age) {
+1660237912504:print(paste0("I'm ", name, " and I am ", age, " years old!"))
+1660237912505:}
+1660237914252:name_age("carlo",28)
+1660237931810:name_age <- function(name, age) {
+1660237931810:print(paste0("I'm ", name, " and I am ", age, " years old!"))
+1660237931810:}
+1660238059709:name_age
+1660238065420:?name_age
+1660238717639:calc_animal_age <- function(animal, human_age) {
+1660238717640:if (animal == "dog") {
+1660238717640:print(human_age * 7)
+1660238717640:} else if (animal == "goat") {
+1660238717640:print(human_age * 4.7)
+1660238717641:}
+1660238717641:}
+1660238769054:calc_animal_age(animal = "dog", human_age = 12)
+1660238797006:calc_animal_age(animal = "goat", human_age = 22)
+1660238806154:calc_animal_age(animal = "booo", human_age = 22)
+1660238860708:calc_animal_age <- function(animal, human_age) {
+1660238860709:if (animal == "dog") {
+1660238860710:print(human_age * 7)
+1660238860710:} else if (animal == "goat") {
+1660238860710:print(human_age * 4.7)
+1660238860710:} else {
+1660238860710:print(animal, "is not a valid input")
+1660238860710:}
+1660238860710:}
+1660238863285:calc_animal_age(animal = "booo", human_age = 22)
+1660238877984:calc_animal_age <- function(animal, human_age) {
+1660238877986:if (animal == "dog") {
+1660238877986:print(human_age * 7)
+1660238877986:} else if (animal == "goat") {
+1660238877986:print(human_age * 4.7)
+1660238877986:} else {
+1660238877986:print(paste(animal, "is not a valid input"))
+1660238877987:}
+1660238877987:}
+1660238880495:calc_animal_age(animal = "booo", human_age = 22)
+1660238920953:calc_animal_age(animal = "jelly", human_age = 22)
+1660239008563:calc_animal_age <- function(animal, human_age) {
+1660239008564:if (animal == "*dog") {
+1660239008564:print(human_age * 7)
+1660239008565:} else if (animal == "goat") {
+1660239008565:print(human_age * 4.7)
+1660239008565:} else {
+1660239008565:print(paste(animal, "is not a valid input"))
+1660239008565:}
+1660239008565:}
+1660239010212:calc_animal_age(animal = "dog", human_age = 12)
+1660239017419:calc_animal_age <- function(animal, human_age) {
+1660239017419:if (animal == "dog") {
+1660239017419:print(human_age * 7)
+1660239017420:} else if (animal == "goat") {
+1660239017420:print(human_age * 4.7)
+1660239017420:} else {
+1660239017420:print(paste(animal, "is not a valid input"))
+1660239017420:}
+1660239017420:}
+1660239019534:calc_animal_age(animal = "jelly", human_age = 22)
+1660239053804:library(tidyverse)
+1660239066593:?tribble
+1660239193942:dog_choice <- tribble(
+1660239193943:~dog_name, ~food,
+1660239193943:"Khora", "everything",
+1660239193943:"Teddy", "salmon",
+1660239193944:"Waffle", "pancakes",
+1660239193944:"Banjo", "Chicken"
+1660239193944:)
+1660239200080:dog_choice
+1660239603746:dog_menu <- function(name) {
+1660239603747:my_sub <- filter(dog_choice, dog_name == name)
+1660239603748:print(my_sub)
+1660239603748:}
+1660239612283:dog_menu(Khora)
+1660239622552:dog_menu("Khora")
+1660239757583:}
+1660239763155:}
+1660239814137:}
+1660239816511:dog_menu("Khora")
+1660239846429:}
+1660239859112:dog_menu <- function(name) {
+1660239859112:my_sub <- filter(dog_choice, dog_name == name)
+1660239859112:print(paste("My name is", my_sub$dog_name, "and my favorite food is:", my_sub$food))
+1660239859112:}
+1660239870884:dog_menu("Teddy")
+1660239888773:dog_menu <- function(name) {
+1660239888774:my_sub <- filter(dog_choice, dog_name == name)
+1660239888774:print(paste("My name is", my_sub$dog_name, "and my favorite food is:", my_sub$food))
+1660239888774:}
+1660239890225:dog_menu("Teddy")
+1660239938178:dog_menu(name = "Teddy")
+1660240276076:means_over_columns <- function(df) {
+1660240276077:for (i in seq_along(df)) {
+1660240276077:col_mean <- mean(dr[[i]], na.rm = TRUE)
+1660240276077:column_name <- colnames(df[i])
+1660240276078:print(paste("the mean value of", column_name, "is", col_mean))
+1660240276078:}
+1660240276078:}
+1660240306920:means_over_columns(df = mtcars)
+1660240321150:means_over_columns <- function(df) {
+1660240321151:for (i in seq_along(df)) {
+1660240321151:col_mean <- mean(df[[i]], na.rm = TRUE)
+1660240321151:column_name <- colnames(df[i])
+1660240321151:print(paste("the mean value of", column_name, "is", col_mean))
+1660240321151:}
+1660240321151:}
+1660240322836:means_over_columns(df = mtcars)
+1660240350924:means_over_columns(starwars)
+1660240384455:means_over_columns(df = faithful)

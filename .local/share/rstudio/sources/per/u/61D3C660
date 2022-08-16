@@ -1,0 +1,32 @@
+{
+    "id": "61D3C660",
+    "path": null,
+    "project_path": null,
+    "type": "quarto_markdown",
+    "hash": "3885656936",
+    "contents": "",
+    "dirty": true,
+    "created": 1659991336988.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "20,0",
+        "scrollLine": "0",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 4343058269,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1659991904031,
+    "read_only": false,
+    "read_only_alternatives": []
+}

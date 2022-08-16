@@ -1,0 +1,21 @@
+{
+    "quarto-new-proj": {
+        "type": "website",
+        "engine": "knitr",
+        "kernel": "python3",
+        "venv": "",
+        "condaenv": "",
+        "packages": "matplotlib pandas",
+        "editor": "visual"
+    },
+    "new-document": {
+        "title": "Day 3 - COnditional & Loops",
+        "author": "",
+        "format": "html",
+        "engine": "knitr",
+        "kernel": "python3",
+        "language": "r",
+        "editor": "visual",
+        "empty": false
+    }
+}

@@ -1,0 +1,14 @@
+]0;~/Desktop/MEDS/EDS 212/2022-8-5/git-collab-demo[?1034h(base) Carlos-MacBook-Air:git-collab-demo User$ get[K[Kit commit m[K-m :[K"this is an update"
+[main 39d080f] this is an update
+ 1 file changed, 9 insertions(+)
+]0;~/Desktop/MEDS/EDS 212/2022-8-5/git-collab-demo(base) Carlos-MacBook-Air:git-collab-demo User$ git push
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 457 bytes | 457.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/javipatron/git-collab-demo.git
+   b332916..39d080f  main -> main
+]0;~/Desktop/MEDS/EDS 212/2022-8-5/git-collab-demo(base) Carlos-MacBook-Air:git-collab-demo User$ 

@@ -1,0 +1,15 @@
+help/library/base/html/data.frame.html,R: Data Frames
+help/library/ggplot2/html/geom_bar.html,R: Bar charts
+help/library/ggplot2/html/ggsave.html,R: Save a ggplot (or other grid object) with sensible defaults
+help/library/NULL/help/paste,R: help
+help/library/backports/html/paste.html,R: Backport of paste for R < 4.0.1
+help/library/backports/Example/paste,R: Examples for 'backports::paste'
+help/doc/html/Search?category=internal,R: Search Results
+help/library/NULL/help/filter,R: help
+help/library/dplyr/html/filter.html,R: Subset rows using column values
+help/library/base/html/apply.html,R: Apply Functions Over Array Margins
+help/library/stringr/html/str_detect.html,R: Detect the presence or absence of a pattern in a string.
+help/library/dplyr/html/mutate.html,"R: Create, modify, and delete columns"
+help/library/dplyr/html/across.html,R: Apply a function (or functions) across multiple columns
+help/library/base/html/chartr.html,R: Character Translation and Casefolding
+help/library/NULL/help/tribble,R: help

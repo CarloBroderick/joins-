@@ -1,0 +1,42 @@
+]0;~/Desktop/EDS 222/git_scratch[?1034h(base) Carlos-MacBook-Air:git_scratch User$ git add-[K -A
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git add a[K-A
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git commit -m "init commit"
+[main (root-commit) 23234a7] init commit
+ 3 files changed, 25 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 git branch testing.qmd
+ create mode 100644 git_scratch.Rproj
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git puss[K[K[Kull
+Your configuration specifies to merge with the ref 'refs/heads/main'
+from the remote, but no such ref was fetched.
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git push
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 589 bytes | 589.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CarloBroderick/git_scratch.git
+ * [new branch]      main -> main
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git commi[K[K[K[K[Kco[K[Ks[Kcomm[K[K[K[Kstage -A
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ [K(base) Carlos-MacBook-Air:git_scratch User$ git commit -m "realy[Kly new"
+[Really_Really_Really_New_Branch 11eaa40] really new
+ 1 file changed, 2 insertions(+)
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git_push
+bash: git_push: command not found
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ git o[Kpush
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 380 bytes | 380.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CarloBroderick/git_scratch.git
+   971a674..11eaa40  Really_Really_Really_New_Branch -> Really_Really_Really_New_Branch
+]0;~/Desktop/EDS 222/git_scratch(base) Carlos-MacBook-Air:git_scratch User$ 

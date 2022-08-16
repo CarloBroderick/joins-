@@ -1,0 +1,25 @@
+{
+    "id": "E8CD87B6",
+    "path": null,
+    "project_path": null,
+    "type": "r_code_browser",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1659380393496.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "context": ".GlobalEnv:::convert_units"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 46,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1659380393496,
+    "read_only": false,
+    "read_only_alternatives": []
+}

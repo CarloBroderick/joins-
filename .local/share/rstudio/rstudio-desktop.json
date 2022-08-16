@@ -1,0 +1,10 @@
+{
+    "context_id": "1D30FDCC",
+    "theme": {
+        "name": "Cobalt",
+        "url": "theme/default/cobalt.rstheme",
+        "isDark": true
+    },
+    "visual_mode_confirmed": true,
+    "document_outline_width": 135
+}
